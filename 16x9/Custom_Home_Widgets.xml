@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="1105">
+	<defaultcontrol>10</defaultcontrol>
+	<controls>
+		<!-- List 100 Control -->
+		<control type="button" id="10">
+			<include>HiddenControl</include>
+			<onleft>noop</onleft>
+			<onright>20</onright>
+			<onup>Control.Move(100,-1)</onup>
+			<onup>Control.Move(200,-1)</onup>
+			<onup>Control.Move(300,-1)</onup>
+			<onup>SetFocus(11)</onup>
+			<ondown>Control.Move(100,1)</ondown>
+			<ondown>Control.Move(200,1)</ondown>
+			<ondown>Control.Move(300,1)</ondown>
+			<ondown>SetFocus(11)</ondown>
+			<onclick>SetFocus(100)</onclick>
+			<onclick>Select</onclick>
+			<onclick>SetFocus(10)</onclick>
+		</control>
+		<!-- List 200 Control -->
+		<control type="button" id="20">
+			<include>HiddenControl</include>
+			<onleft>10</onleft>
+			<onright>30</onright>
+			<onup>Control.Move(100,-1)</onup>
+			<onup>Control.Move(200,-1)</onup>
+			<onup>Control.Move(300,-1)</onup>
+			<onup>SetFocus(21)</onup>
+			<ondown>Control.Move(100,1)</ondown>
+			<ondown>Control.Move(200,1)</ondown>
+			<ondown>Control.Move(300,1)</ondown>
+			<ondown>SetFocus(21)</ondown>
+			<onclick>SetFocus(200)</onclick>
+			<onclick>Select</onclick>
+			<onclick>SetFocus(20)</onclick>
+		</control>
+		<!-- List 300 Control -->
+		<control type="button" id="30">
+			<include>HiddenControl</include>
+			<onleft>20</onleft>
+			<onright>noop</onright>
+			<onup>Control.Move(100,-1)</onup>
+			<onup>Control.Move(200,-1)</onup>
+			<onup>Control.Move(300,-1)</onup>
+			<onup>SetFocus(31)</onup>
+			<ondown>Control.Move(300,1)</ondown>
+			<ondown>Control.Move(100,1)</ondown>
+			<ondown>Control.Move(200,1)</ondown>
+			<ondown>SetFocus(31)</ondown>
+			<onclick>SetFocus(300)</onclick>
+			<onclick>Select</onclick>
+			<onclick>SetFocus(30)</onclick>
+		</control>
+		<!-- Button to fix movement problem  -->
+		<control type="button" id="11">
+			<include>HiddenControl</include>
+			<onfocus>SetFocus(10)</onfocus>
+		</control>
+		<!-- Button to fix movement problem  -->
+		<control type="button" id="21">
+			<include>HiddenControl</include>
+			<onfocus>SetFocus(20)</onfocus>
+		</control>
+		<!-- Button to fix movement problem  -->
+		<control type="button" id="31">
+			<include>HiddenControl</include>
+			<onfocus>SetFocus(30)</onfocus>
+		</control>
+		<!-- Background -->
+		<include>DialogTextBackgroundImage</include>
+		<control type="group">
+			<animation reversible="true" type="WindowOpen">
+				<effect center="auto" easing="inout" end="100" start="92" time="120" tween="sine" type="zoom" />
+				<effect easing="inout" end="100" start="0" time="120" tween="sine" type="fade" />
+			</animation>
+			<animation reversible="true" type="WindowClose">
+				<effect center="auto" easing="inout" end="92" start="100" time="120" tween="sine" type="zoom" />
+				<effect easing="inout" end="0" start="100" time="120" tween="sine" type="fade" />
+			</animation>
+			<!-- Main group -->
+			<control type="group">
+				<visible>StringCompare(Window(home).Property(WidgetType),movies) | StringCompare(Window(home).Property(WidgetType),tvshows) | StringCompare(Window(home).Property(WidgetType),music)</visible>
+				<include>DialogZoomAnimation</include>
+				<left>90</left>
+				<centertop>50%</centertop>
+				<width>1740</width>
+				<height>732</height>
+				<control type="image">
+					<width>1740</width>
+					<height>732</height>
+					<texture border="1,61,1,1">dialogs/file_manager_back.png</texture>
+				</control>
+				<!-- Widget type -->
+				<control type="label">
+					<left>40</left>
+					<top>14</top>
+					<height>30</height>
+					<width>270</width>
+					<aligny>center</aligny>
+					<font>Bold30</font>
+					<label>Widget Type</label>
+					<textcolor>ffdadada</textcolor>
+				</control>
+				<!-- Widget name -->
+				<control type="label">
+					<left>390</left>
+					<top>14</top>
+					<height>30</height>
+					<width>460</width>
+					<aligny>center</aligny>
+					<font>Bold30</font>
+					<label>Widget Name</label>
+					<textcolor>ffdadada</textcolor>
+				</control>
+				<!-- Widget path -->
+				<control type="label">
+					<left>890</left>
+					<top>14</top>
+					<height>30</height>
+					<width>810</width>
+					<aligny>center</aligny>
+					<font>Bold30</font>
+					<label>Widget Path</label>
+					<textcolor>ffdadada</textcolor>
+				</control>
+				<!-- Widget -->
+				<control type="list" id="100">
+					<top>60</top>
+					<width>1740</width>
+					<height>672</height>
+					<scrolltime>0</scrolltime>
+					<itemlayout height="84" width="1740">
+						<control type="image">
+							<width>1740</width>
+							<height>84</height>
+							<texture border="3">settings/button_no_focus.png</texture>
+						</control>
+						<control type="label">
+							<left>40</left>
+							<width>270</width>
+							<height>84</height>
+							<font>Light32</font>
+							<textcolor>ff505153</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</itemlayout>
+					<focusedlayout height="84" width="1740">
+						<control type="image">
+							<width>1740</width>
+							<height>84</height>
+							<texture border="3">settings/button_focus.png</texture>
+						</control>
+						<control type="label">
+							<left>40</left>
+							<width>270</width>
+							<height>84</height>
+							<font>Light32</font>
+							<textcolor>ffffaf37</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>Control.HasFocus(10)</visible>
+						</control>
+						<control type="label">
+							<left>40</left>
+							<width>270</width>
+							<height>84</height>
+							<font>Light32</font>
+							<textcolor>ffffffff</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>!Control.HasFocus(10)</visible>
+						</control>
+					</focusedlayout>
+					<include condition="StringCompare(Window(home).Property(WidgetType),movies)">MovieWidgetType</include>
+					<include condition="StringCompare(Window(home).Property(WidgetType),tvshows)">TVWidgetType</include>
+					<include condition="StringCompare(Window(home).Property(WidgetType),music)">MusicWidgetType</include>
+				</control>
+				<!-- Widget label -->
+				<control type="list" id="200">
+					<top>60</top>
+					<width>1740</width>
+					<height>672</height>
+					<scrolltime>0</scrolltime>
+					<itemlayout height="84" width="1740">
+						<control type="label">
+							<left>390</left>
+							<width>460</width>
+							<height>84</height>
+							<font>Light32</font>
+							<textcolor>ff505153</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</itemlayout>
+					<focusedlayout height="84" width="1740">
+						<control type="label">
+							<left>390</left>
+							<width>460</width>
+							<height>84</height>
+							<font>Light32</font>
+							<textcolor>ffffaf37</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>Control.HasFocus(20)</visible>
+						</control>
+						<control type="label">
+							<left>390</left>
+							<width>460</width>
+							<height>84</height>
+							<font>Light32</font>
+							<textcolor>ffffffff</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>!Control.HasFocus(20)</visible>
+						</control>
+					</focusedlayout>
+					<include condition="StringCompare(Window(home).Property(WidgetType),movies)">MovieWidgetLabel</include>
+					<include condition="StringCompare(Window(home).Property(WidgetType),tvshows)">TVWidgetLabel</include>
+					<include condition="StringCompare(Window(home).Property(WidgetType),music)">MusicWidgetLabel</include>
+				</control>
+				<!-- Widget path -->
+				<control type="list" id="300">
+					<top>60</top>
+					<width>1740</width>
+					<height>672</height>
+					<scrolltime>0</scrolltime>
+					<itemlayout height="84" width="1740">
+						<control type="label">
+							<left>890</left>
+							<width>810</width>
+							<height>84</height>
+							<font>Light32</font>
+							<textcolor>ff505153</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</itemlayout>
+					<focusedlayout height="84" width="1740">
+						<control type="label">
+							<left>890</left>
+							<width>810</width>
+							<height>84</height>
+							<font>Light32</font>
+							<textcolor>ffffaf37</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>Control.HasFocus(30)</visible>
+						</control>
+						<control type="label">
+							<left>890</left>
+							<width>810</width>
+							<height>84</height>
+							<font>Light32</font>
+							<textcolor>ffffffff</textcolor>
+							<label>$INFO[ListItem.Label]</label>
+							<visible>!Control.HasFocus(30)</visible>
+						</control>
+					</focusedlayout>
+					<include condition="StringCompare(Window(home).Property(WidgetType),movies)">MovieWidgetList</include>
+					<include condition="StringCompare(Window(home).Property(WidgetType),tvshows)">TVWidgetList</include>
+					<include condition="StringCompare(Window(home).Property(WidgetType),music)">MusicWidgetList</include>
+				</control>
+			</control>
+		</control>
+		<!-- Main group -->
+		<control type="group">
+			<visible>!StringCompare(Window(home).Property(WidgetType),movies) + !StringCompare(Window(home).Property(WidgetType),tvshows) + !StringCompare(Window(home).Property(WidgetType),music)</visible>
+			<include>DialogZoomAnimation</include>
+			<left>90</left>
+			<centertop>50%</centertop>
+			<width>1740</width>
+			<height>144</height>
+			<control type="image">
+				<width>1740</width>
+				<height>144</height>
+				<texture border="1,61,1,1">dialogs/file_manager_back.png</texture>
+			</control>
+			<!-- Widget type -->
+			<control type="label">
+				<left>40</left>
+				<top>14</top>
+				<height>30</height>
+				<width>270</width>
+				<aligny>center</aligny>
+				<font>Bold30</font>
+				<label>Widget Type</label>
+				<textcolor>ffdadada</textcolor>
+			</control>
+			<!-- Widget name -->
+			<control type="label">
+				<left>390</left>
+				<top>14</top>
+				<height>30</height>
+				<width>460</width>
+				<aligny>center</aligny>
+				<font>Bold30</font>
+				<label>Widget Name</label>
+				<textcolor>ffdadada</textcolor>
+			</control>
+			<!-- Widget path -->
+			<control type="label">
+				<left>890</left>
+				<top>14</top>
+				<height>30</height>
+				<width>810</width>
+				<aligny>center</aligny>
+				<font>Bold30</font>
+				<label>Widget Path</label>
+				<textcolor>ffdadada</textcolor>
+			</control>
+			<!-- Widget -->
+			<control type="list" id="100">
+				<top>60</top>
+				<width>1740</width>
+				<height>672</height>
+				<scrolltime>0</scrolltime>
+				<itemlayout height="84" width="1740">
+					<control type="image">
+						<width>1740</width>
+						<height>84</height>
+						<texture border="3">settings/button_no_focus.png</texture>
+					</control>
+					<control type="label">
+						<left>40</left>
+						<width>270</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textcolor>ff505153</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="84" width="1740">
+					<control type="image">
+						<width>1740</width>
+						<height>84</height>
+						<texture border="3">settings/button_focus.png</texture>
+					</control>
+					<control type="label">
+						<left>40</left>
+						<width>270</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textcolor>ffffaf37</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+						<visible>Control.HasFocus(10)</visible>
+					</control>
+					<control type="label">
+						<left>40</left>
+						<width>270</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textcolor>ffffffff</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+						<visible>!Control.HasFocus(10)</visible>
+					</control>
+				</focusedlayout>
+				<include condition="StringCompare(Window(home).Property(WidgetType),videos)">VideosWidgetType</include>
+				<include condition="StringCompare(Window(home).Property(WidgetType),programs)">ProgramsWidgetType</include>
+				<include condition="StringCompare(Window(home).Property(WidgetType),pictures)">PicturesWidgetType</include>
+			</control>
+			<!-- Widget label -->
+			<control type="list" id="200">
+				<top>60</top>
+				<width>1740</width>
+				<height>672</height>
+				<scrolltime>0</scrolltime>
+				<itemlayout height="84" width="1740">
+					<control type="label">
+						<left>390</left>
+						<width>460</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textcolor>ff505153</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="84" width="1740">
+					<control type="label">
+						<left>390</left>
+						<width>460</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textcolor>ffffaf37</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+						<visible>Control.HasFocus(20)</visible>
+					</control>
+					<control type="label">
+						<left>390</left>
+						<width>460</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textcolor>ffffffff</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+						<visible>!Control.HasFocus(20)</visible>
+					</control>
+				</focusedlayout>
+				<include condition="StringCompare(Window(home).Property(WidgetType),videos)">VideosWidgetLabel</include>
+				<include condition="StringCompare(Window(home).Property(WidgetType),programs)">ProgramsWidgetLabel</include>
+				<include condition="StringCompare(Window(home).Property(WidgetType),pictures)">PicturesWidgetLabel</include>
+			</control>
+			<!-- Widget path -->
+			<control type="list" id="300">
+				<top>60</top>
+				<width>1740</width>
+				<height>672</height>
+				<scrolltime>0</scrolltime>
+				<itemlayout height="84" width="1740">
+					<control type="label">
+						<left>890</left>
+						<width>810</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textcolor>ff505153</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="84" width="1740">
+					<control type="label">
+						<left>890</left>
+						<width>810</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textcolor>ffffaf37</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+						<visible>Control.HasFocus(30)</visible>
+					</control>
+					<control type="label">
+						<left>890</left>
+						<width>810</width>
+						<height>84</height>
+						<font>Light32</font>
+						<textcolor>ffffffff</textcolor>
+						<label>$INFO[ListItem.Label]</label>
+						<visible>!Control.HasFocus(30)</visible>
+					</control>
+				</focusedlayout>
+				<include condition="StringCompare(Window(home).Property(WidgetType),videos)">VideosWidgetList</include>
+				<include condition="StringCompare(Window(home).Property(WidgetType),programs)">ProgramsWidgetList</include>
+				<include condition="StringCompare(Window(home).Property(WidgetType),pictures)">PicturesWidgetList</include>
+			</control>
+		</control>
+	</controls>
+</window>

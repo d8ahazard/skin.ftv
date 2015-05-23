@@ -14,101 +14,101 @@
 		<!-- Movie widgets -->
 		<control id="101" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[MovieWidget1]</content>
+			<content limit="6" target="video">$INFO[Skin.String(MovieWidget1.List)]</content>
 		</control>
 		<control id="102" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[MovieWidget2]</content>
+			<content limit="6" target="video">$INFO[Skin.String(MovieWidget2.List)]</content>
 		</control>
 		<control id="103" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[MovieWidget3]</content>
+			<content limit="6" target="video">$INFO[Skin.String(MovieWidget3.List)]</content>
 		</control>
 		<control id="104" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[MovieWidget4]</content>
+			<content limit="6" target="video">$INFO[Skin.String(MovieWidget4.List)]</content>
 		</control>
 		<control id="105" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[MovieWidget5]</content>
+			<content limit="6" target="video">$INFO[Skin.String(MovieWidget5.List)]</content>
 		</control>
 		<control id="106" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[MovieWidget6]</content>
+			<content limit="6" target="video">$INFO[Skin.String(MovieWidget6.List)]</content>
 		</control>
 		<control id="107" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[MovieWidget7]</content>
+			<content limit="6" target="video">$INFO[Skin.String(MovieWidget7.List)]</content>
 		</control>
 		<control id="108" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[MovieWidget8]</content>
+			<content limit="6" target="video">$INFO[Skin.String(MovieWidget8.List)]</content>
 		</control>
 		<!-- TV widgets -->
 		<control id="201" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[TVWidget1]</content>
+			<content limit="6" target="video">$INFO[Skin.String(TVWidget1.List)]</content>
 		</control>
 		<control id="202" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[TVWidget2]</content>
+			<content limit="6" target="video">$INFO[Skin.String(TVWidget2.List)]</content>
 		</control>
 		<control id="203" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[TVWidget3]</content>
+			<content limit="6" target="video">$INFO[Skin.String(TVWidget3.List)]</content>
 		</control>
 		<control id="204" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[TVWidget4]</content>
+			<content limit="6" target="video">$INFO[Skin.String(TVWidget4.List)]</content>
 		</control>
 		<control id="205" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[TVWidget5]</content>
+			<content limit="6" target="video">$INFO[Skin.String(TVWidget5.List)]</content>
 		</control>
 		<control id="206" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[TVWidget6]</content>
+			<content limit="6" target="video">$INFO[Skin.String(TVWidget6.List)]</content>
 		</control>
 		<control id="207" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[TVWidget7]</content>
+			<content limit="6" target="video">$INFO[Skin.String(TVWidget7.List)]</content>
 		</control>
 		<control id="208" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="video">$VAR[TVWidget8]</content>
+			<content limit="6" target="video">$INFO[Skin.String(TVWidget8.List)]</content>
 		</control>
 		<!-- Music widgets -->
 		<control id="301" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="music">$VAR[MusicWidget1]</content>
+			<content limit="6" target="music">$INFO[Skin.String(MusicWidget1.List)]</content>
 		</control>
 		<control id="302" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="music">$VAR[MusicWidget2]</content>
+			<content limit="6" target="music">$INFO[Skin.String(MusicWidget2.List)]</content>
 		</control>
 		<control id="303" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="music">$VAR[MusicWidget3]</content>
+			<content limit="6" target="music">$INFO[Skin.String(MusicWidget3.List)]</content>
 		</control>
 		<control id="304" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="music">$VAR[MusicWidget4]</content>
+			<content limit="6" target="music">$INFO[Skin.String(MusicWidget4.List)]</content>
 		</control>
 		<control id="305" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="music">$VAR[MusicWidget5]</content>
+			<content limit="6" target="music">$INFO[Skin.String(MusicWidget5.List)]</content>
 		</control>
 		<control id="306" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="music">$VAR[MusicWidget6]</content>
+			<content limit="6" target="music">$INFO[Skin.String(MusicWidget6.List)]</content>
 		</control>
 		<control id="307" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="music">$VAR[MusicWidget7]</content>
+			<content limit="6" target="music">$INFO[Skin.String(MusicWidget7.List)]</content>
 		</control>
 		<control id="308" type="list">
 			<include>HiddenHomeList</include>
-			<content limit="6" target="music">$VAR[MusicWidget8]</content>
+			<content limit="6" target="music">$INFO[Skin.String(MusicWidget8.List)]</content>
 		</control>
 		<!-- Main list -->
 		<control id="9000" type="list">
@@ -120,16 +120,16 @@
 			<ondown>noop</ondown>
 			<onleft>noop</onleft>
 			<onright>ClearProperty(MainMenuFocus,home)</onright>
-			<onright condition="StringCompare(Container(9000).ListItem.Label,$LOCALIZE[342]) + IntegerGreaterThan(Container(100).NumItems,1)">SetFocus(100)</onright>
-			<onright condition="StringCompare(Container(9000).ListItem.Label,$LOCALIZE[342]) + StringCompare(Container(100).NumItems,1)">ActivateWindow(Videos,$VAR[MovieWidget1],return)</onright>
-			<onright condition="StringCompare(Container(9000).ListItem.Label,$LOCALIZE[20343]) + IntegerGreaterThan(Container(200).NumItems,1)">SetFocus(200)</onright>
-			<onright condition="StringCompare(Container(9000).ListItem.Label,$LOCALIZE[20343]) + StringCompare(Container(200).NumItems,1)">ActivateWindow(Videos,$VAR[TVWidget1],return)</onright>
-			<onright condition="StringCompare(Container(9000).ListItem.Label,$LOCALIZE[2]) + IntegerGreaterThan(Container(300).NumItems,1)">SetFocus(300)</onright>
-			<onright condition="StringCompare(Container(9000).ListItem.Label,$LOCALIZE[2]) + StringCompare(Container(300).NumItems,1)">ActivateWindow(MusicLibrary,$VAR[MusicWidget1],return)</onright>
-			<onright condition="StringCompare(Container(9000).ListItem.Label,$LOCALIZE[3])">ActivateWindow(Videos,$VAR[VideoWidget],return)</onright>
-			<onright condition="StringCompare(Container(9000).ListItem.Label,$LOCALIZE[24001])">ActivateWindow(Programs,$VAR[AddonWidget],return)</onright>
-			<onright condition="StringCompare(Container(9000).ListItem.Label,$LOCALIZE[1])">ActivateWindow(Pictures,$VAR[PictureWidget],return)</onright>
-			<onright condition="!StringCompare(Container(9000).ListItem.Label,$LOCALIZE[342]) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[20343]) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[2]) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[24001]) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[1]) + !StringCompare(Container(9000).ListItem.Label,$LOCALIZE[3])">Select</onright>
+			<onright condition="StringCompare(Container(9000).ListItem.Property(defaultID),movies) + IntegerGreaterThan(Container(100).NumItems,1)">SetFocus(100)</onright>
+			<onright condition="StringCompare(Container(9000).ListItem.Property(defaultID),movies) + !IntegerGreaterThan(Container(100).NumItems,1)">ActivateWindow(Videos,$INFO[Skin.String(MovieWidget1.List)],return)</onright>
+			<onright condition="StringCompare(Container(9000).ListItem.Property(defaultID),tvshows) + IntegerGreaterThan(Container(200).NumItems,1)">SetFocus(200)</onright>
+			<onright condition="StringCompare(Container(9000).ListItem.Property(defaultID),tvshows) + StringCompare(Container(200).NumItems,1)">ActivateWindow(Videos,$INFO[Skin.String(TVWidget1.List)],return)</onright>
+			<onright condition="StringCompare(Container(9000).ListItem.Property(defaultID),music) + IntegerGreaterThan(Container(300).NumItems,1)">SetFocus(300)</onright>
+			<onright condition="StringCompare(Container(9000).ListItem.Property(defaultID),music) + StringCompare(Container(300).NumItems,1)">ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget1.List)],return)</onright>
+			<onright condition="StringCompare(Container(9000).ListItem.Property(defaultID),videos)">ActivateWindow(Videos,$INFO[Skin.String(VideosWidget.List)],return)</onright>
+			<onright condition="StringCompare(Container(9000).ListItem.Property(defaultID),programs)">ActivateWindow(Programs,$INFO[Skin.String(ProgramsWidget.List)],return)</onright>
+			<onright condition="StringCompare(Container(9000).ListItem.Property(defaultID),pictures)">ActivateWindow(Pictures,$INFO[Skin.String(PicturesWidget.List)],return)</onright>
+			<onright condition="!StringCompare(Container(9000).ListItem.Property(defaultID),movies) + !StringCompare(Container(9000).ListItem.Property(defaultID),tvshows) + !StringCompare(Container(9000).ListItem.Property(defaultID),music) + !StringCompare(Container(9000).ListItem.Property(defaultID),programs) + !StringCompare(Container(9000).ListItem.Property(defaultID),pictures) + !StringCompare(Container(9000).ListItem.Property(defaultID),videos)">Select</onright>
 			<orientation>vertical</orientation>
 			<scrolltime easing="out" tween="sine">180</scrolltime>
 			<include>WindowHomeFadeAnimation</include>
@@ -150,8 +150,8 @@
 					<texturefocus>-</texturefocus>
 					<texturenofocus>-</texturenofocus>
 					<onfocus>SetProperty(MainMenuFocus,1,home)</onfocus>
-					<onfocus condition="!StringCompare(Container(9000).ListItem.Label,Window(home).Property(MainFocus))">ClearProperty(MainFocus)</onfocus>
-					<onfocus condition="!StringCompare(Container(9000).ListItem.Label,Window(home).Property(MainFocus))">ClearProperty(FocusRow)</onfocus>
+					<onfocus condition="!StringCompare(Container(9000).ListItem.Property(defaultID),Window(home).Property(MainFocus))">ClearProperty(MainFocus)</onfocus>
+					<onfocus condition="!StringCompare(Container(9000).ListItem.Property(defaultID),Window(home).Property(MainFocus))">ClearProperty(FocusRow)</onfocus>
 					<onfocus condition="!Control.IsVisible(100) + StringCompare(Container(100).CurrentItem,2)">Control.Move(100,-1)</onfocus>
 					<onfocus condition="!Control.IsVisible(100) + StringCompare(Container(100).CurrentItem,3)">Control.Move(100,-2)</onfocus>
 					<onfocus condition="!Control.IsVisible(100) + StringCompare(Container(100).CurrentItem,4)">Control.Move(100,-3)</onfocus>
@@ -272,7 +272,7 @@
 			<scrolltime easing="inout" tween="sine">300</scrolltime>
 			<include>HomeWidgetsAnimation</include>
 			<include>WindowHomeFadeAnimation</include>
-			<visible>StringCompare(Container(9000).ListItem.Label,$LOCALIZE[342])</visible>
+			<visible>StringCompare(Container(9000).ListItem.Property(defaultID),movies)</visible>
 			<animation condition="StringCompare(Container(100).NumItems,1)" effect="slide" end="-304,0">Conditional</animation>
 			<animation condition="StringCompare(Container(100).NumItems,2)" effect="slide" end="0,-185">Conditional</animation>
 			<animation condition="IntegerGreaterThan(Container(100).NumItems,2) + Container(100).Row(1)" easing="inout" effect="slide" end="0,114" time="220" tween="sine">Conditional</animation>
@@ -769,7 +769,7 @@
 			</focusedlayout>
 			<content>
 				<item>
-					<label>$VAR[MovieWidgetName1]</label>
+					<label>$INFO[Skin.String(MovieWidget1.Label)]</label>
 					<visible>!IsEmpty(Container(101).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(101).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(101).ListItemNoWrap(1).Icon]</property>
@@ -789,10 +789,10 @@
 					<property name="VideoResolution4">$INFO[Container(101).ListItemNoWrap(3).VideoResolution]</property>
 					<property name="VideoResolution5">$INFO[Container(101).ListItemNoWrap(4).VideoResolution]</property>
 					<property name="VideoResolution6">$INFO[Container(101).ListItemNoWrap(5).VideoResolution]</property>
-					<onclick>ActivateWindow(Videos,$VAR[MovieWidget1],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(MovieWidget1.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MovieWidgetName2]</label>
+					<label>$INFO[Skin.String(MovieWidget2.Label)]</label>
 					<visible>!IsEmpty(Container(102).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(102).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(102).ListItemNoWrap(1).Icon]</property>
@@ -812,10 +812,10 @@
 					<property name="VideoResolution4">$INFO[Container(102).ListItemNoWrap(3).VideoResolution]</property>
 					<property name="VideoResolution5">$INFO[Container(102).ListItemNoWrap(4).VideoResolution]</property>
 					<property name="VideoResolution6">$INFO[Container(102).ListItemNoWrap(5).VideoResolution]</property>
-					<onclick>ActivateWindow(Videos,$VAR[MovieWidget2],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(MovieWidget2.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MovieWidgetName3]</label>
+					<label>$INFO[Skin.String(MovieWidget3.Label)]</label>
 					<visible>!IsEmpty(Container(103).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(103).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(103).ListItemNoWrap(1).Icon]</property>
@@ -835,10 +835,10 @@
 					<property name="VideoResolution4">$INFO[Container(103).ListItemNoWrap(3).VideoResolution]</property>
 					<property name="VideoResolution5">$INFO[Container(103).ListItemNoWrap(4).VideoResolution]</property>
 					<property name="VideoResolution6">$INFO[Container(103).ListItemNoWrap(5).VideoResolution]</property>
-					<onclick>ActivateWindow(Videos,$VAR[MovieWidget3],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(MovieWidget3.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MovieWidgetName4]</label>
+					<label>$INFO[Skin.String(MovieWidget4.Label)]</label>
 					<visible>!IsEmpty(Container(104).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(104).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(104).ListItemNoWrap(1).Icon]</property>
@@ -858,10 +858,10 @@
 					<property name="VideoResolution4">$INFO[Container(104).ListItemNoWrap(3).VideoResolution]</property>
 					<property name="VideoResolution5">$INFO[Container(104).ListItemNoWrap(4).VideoResolution]</property>
 					<property name="VideoResolution6">$INFO[Container(104).ListItemNoWrap(5).VideoResolution]</property>
-					<onclick>ActivateWindow(Videos,$VAR[MovieWidget4],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(MovieWidget4.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MovieWidgetName5]</label>
+					<label>$INFO[Skin.String(MovieWidget5.Label)]</label>
 					<visible>!IsEmpty(Container(105).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(105).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(105).ListItemNoWrap(1).Icon]</property>
@@ -881,10 +881,10 @@
 					<property name="VideoResolution4">$INFO[Container(105).ListItemNoWrap(3).VideoResolution]</property>
 					<property name="VideoResolution5">$INFO[Container(105).ListItemNoWrap(4).VideoResolution]</property>
 					<property name="VideoResolution6">$INFO[Container(105).ListItemNoWrap(5).VideoResolution]</property>
-					<onclick>ActivateWindow(Videos,$VAR[MovieWidget5],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(MovieWidget5.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MovieWidgetName6]</label>
+					<label>$INFO[Skin.String(MovieWidget6.Label)]</label>
 					<visible>!IsEmpty(Container(106).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(106).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(106).ListItemNoWrap(1).Icon]</property>
@@ -904,10 +904,10 @@
 					<property name="VideoResolution4">$INFO[Container(106).ListItemNoWrap(3).VideoResolution]</property>
 					<property name="VideoResolution5">$INFO[Container(106).ListItemNoWrap(4).VideoResolution]</property>
 					<property name="VideoResolution6">$INFO[Container(106).ListItemNoWrap(5).VideoResolution]</property>
-					<onclick>ActivateWindow(Videos,$VAR[MovieWidget6],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(MovieWidget6.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MovieWidgetName7]</label>
+					<label>$INFO[Skin.String(MovieWidget7.Label)]</label>
 					<visible>!IsEmpty(Container(107).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(107).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(107).ListItemNoWrap(1).Icon]</property>
@@ -927,10 +927,10 @@
 					<property name="VideoResolution4">$INFO[Container(107).ListItemNoWrap(3).VideoResolution]</property>
 					<property name="VideoResolution5">$INFO[Container(107).ListItemNoWrap(4).VideoResolution]</property>
 					<property name="VideoResolution6">$INFO[Container(107).ListItemNoWrap(5).VideoResolution]</property>
-					<onclick>ActivateWindow(Videos,$VAR[MovieWidget7],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(MovieWidget7.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MovieWidgetName8]</label>
+					<label>$INFO[Skin.String(MovieWidget8.Label)]</label>
 					<visible>!IsEmpty(Container(108).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(108).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(108).ListItemNoWrap(1).Icon]</property>
@@ -950,7 +950,7 @@
 					<property name="VideoResolution4">$INFO[Container(108).ListItemNoWrap(3).VideoResolution]</property>
 					<property name="VideoResolution5">$INFO[Container(108).ListItemNoWrap(4).VideoResolution]</property>
 					<property name="VideoResolution6">$INFO[Container(108).ListItemNoWrap(5).VideoResolution]</property>
-					<onclick>ActivateWindow(Videos,$VAR[MovieWidget8],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(MovieWidget8.List)],return)</onclick>
 				</item>
 			</content>
 		</control>
@@ -976,7 +976,7 @@
 			<scrolltime easing="inout" tween="sine">300</scrolltime>
 			<include>HomeWidgetsAnimation</include>
 			<include>WindowHomeFadeAnimation</include>
-			<visible>StringCompare(Container(9000).ListItem.Label,$LOCALIZE[20343])</visible>
+			<visible>StringCompare(Container(9000).ListItem.Property(defaultID),tvshows)</visible>
 			<animation condition="StringCompare(Container(200).NumItems,1)" effect="slide" end="-304,0">Conditional</animation>
 			<animation condition="StringCompare(Container(200).NumItems,2)" effect="slide" end="0,-185">Conditional</animation>
 			<animation condition="IntegerGreaterThan(Container(200).NumItems,2) + Container(200).Row(1)" easing="inout" effect="slide" end="0,114" time="220" tween="sine">Conditional</animation>
@@ -985,7 +985,7 @@
 			<include condition="Skin.HasSetting(WideTVShowArt)">HomeTVShowList</include>
 			<content>
 				<item>
-					<label>$VAR[TVWidgetName1]</label>
+					<label>$INFO[Skin.String(TVWidget1.Label)]</label>
 					<visible>!IsEmpty(Container(201).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(201).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(201).ListItemNoWrap(1).Icon]</property>
@@ -1014,10 +1014,10 @@
 					<property name="ArtLogo1">$INFO[Container(201).ListItemNoWrap(0).Art(clearlogo)]</property>
 					<property name="ArtLogo2">$INFO[Container(201).ListItemNoWrap(1).Art(clearlogo)]</property>
 					<property name="ArtLogo3">$INFO[Container(201).ListItemNoWrap(2).Art(clearlogo)]</property>
-					<onclick>ActivateWindow(Videos,$VAR[TVWidget1],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(TVWidget1.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[TVWidgetName2]</label>
+					<label>$INFO[Skin.String(TVWidget2.Label)]</label>
 					<visible>!IsEmpty(Container(202).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(202).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(202).ListItemNoWrap(1).Icon]</property>
@@ -1046,10 +1046,10 @@
 					<property name="ArtLogo1">$INFO[Container(202).ListItemNoWrap(0).Art(clearlogo)]</property>
 					<property name="ArtLogo2">$INFO[Container(202).ListItemNoWrap(1).Art(clearlogo)]</property>
 					<property name="ArtLogo3">$INFO[Container(202).ListItemNoWrap(2).Art(clearlogo)]</property>
-					<onclick>ActivateWindow(Videos,$VAR[TVWidget2],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(TVWidget2.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[TVWidgetName3]</label>
+					<label>$INFO[Skin.String(TVWidget3.Label)]</label>
 					<visible>!IsEmpty(Container(203).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(203).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(203).ListItemNoWrap(1).Icon]</property>
@@ -1078,10 +1078,10 @@
 					<property name="ArtLogo1">$INFO[Container(203).ListItemNoWrap(0).Art(clearlogo)]</property>
 					<property name="ArtLogo2">$INFO[Container(203).ListItemNoWrap(1).Art(clearlogo)]</property>
 					<property name="ArtLogo3">$INFO[Container(203).ListItemNoWrap(2).Art(clearlogo)]</property>
-					<onclick>ActivateWindow(Videos,$VAR[TVWidget3],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(TVWidget3.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[TVWidgetName4]</label>
+					<label>$INFO[Skin.String(TVWidget4.Label)]</label>
 					<visible>!IsEmpty(Container(204).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(204).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(204).ListItemNoWrap(1).Icon]</property>
@@ -1110,10 +1110,10 @@
 					<property name="ArtLogo1">$INFO[Container(204).ListItemNoWrap(0).Art(clearlogo)]</property>
 					<property name="ArtLogo2">$INFO[Container(204).ListItemNoWrap(1).Art(clearlogo)]</property>
 					<property name="ArtLogo3">$INFO[Container(204).ListItemNoWrap(2).Art(clearlogo)]</property>
-					<onclick>ActivateWindow(Videos,$VAR[TVWidget4],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(TVWidget4.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[TVWidgetName5]</label>
+					<label>$INFO[Skin.String(TVWidget5.Label)]</label>
 					<visible>!IsEmpty(Container(205).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(205).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(205).ListItemNoWrap(1).Icon]</property>
@@ -1142,10 +1142,10 @@
 					<property name="ArtLogo1">$INFO[Container(205).ListItemNoWrap(0).Art(clearlogo)]</property>
 					<property name="ArtLogo2">$INFO[Container(205).ListItemNoWrap(1).Art(clearlogo)]</property>
 					<property name="ArtLogo3">$INFO[Container(205).ListItemNoWrap(2).Art(clearlogo)]</property>
-					<onclick>ActivateWindow(Videos,$VAR[TVWidget5],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(TVWidget5.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[TVWidgetName6]</label>
+					<label>$INFO[Skin.String(TVWidget6.Label)]</label>
 					<visible>!IsEmpty(Container(206).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(206).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(206).ListItemNoWrap(1).Icon]</property>
@@ -1174,10 +1174,10 @@
 					<property name="ArtLogo1">$INFO[Container(206).ListItemNoWrap(0).Art(clearlogo)]</property>
 					<property name="ArtLogo2">$INFO[Container(206).ListItemNoWrap(1).Art(clearlogo)]</property>
 					<property name="ArtLogo3">$INFO[Container(206).ListItemNoWrap(2).Art(clearlogo)]</property>
-					<onclick>ActivateWindow(Videos,$VAR[TVWidget6],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(TVWidget6.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[TVWidgetName7]</label>
+					<label>$INFO[Skin.String(TVWidget7.Label)]</label>
 					<visible>!IsEmpty(Container(207).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(207).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(207).ListItemNoWrap(1).Icon]</property>
@@ -1206,10 +1206,10 @@
 					<property name="ArtLogo1">$INFO[Container(207).ListItemNoWrap(0).Art(clearlogo)]</property>
 					<property name="ArtLogo2">$INFO[Container(207).ListItemNoWrap(1).Art(clearlogo)]</property>
 					<property name="ArtLogo3">$INFO[Container(207).ListItemNoWrap(2).Art(clearlogo)]</property>
-					<onclick>ActivateWindow(Videos,$VAR[TVWidget7],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(TVWidget7.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[TVWidgetName8]</label>
+					<label>$INFO[Skin.String(TVWidget8.Label)]</label>
 					<visible>!IsEmpty(Container(208).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(208).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(208).ListItemNoWrap(1).Icon]</property>
@@ -1238,7 +1238,7 @@
 					<property name="ArtLogo1">$INFO[Container(208).ListItemNoWrap(0).Art(clearlogo)]</property>
 					<property name="ArtLogo2">$INFO[Container(208).ListItemNoWrap(1).Art(clearlogo)]</property>
 					<property name="ArtLogo3">$INFO[Container(208).ListItemNoWrap(2).Art(clearlogo)]</property>
-					<onclick>ActivateWindow(Videos,$VAR[TVWidget8],return)</onclick>
+					<onclick>ActivateWindow(Videos,$INFO[Skin.String(TVWidget8.List)],return)</onclick>
 				</item>
 			</content>
 		</control>
@@ -1264,7 +1264,7 @@
 			<scrolltime easing="inout" tween="sine">300</scrolltime>
 			<include>HomeWidgetsAnimation</include>
 			<include>WindowHomeFadeAnimation</include>
-			<visible>StringCompare(Container(9000).ListItem.Label,$LOCALIZE[2])</visible>
+			<visible>StringCompare(Container(9000).ListItem.Property(defaultID),music)</visible>
 			<animation condition="StringCompare(Container(300).NumItems,1)" effect="slide" end="-304,0">Conditional</animation>
 			<animation condition="StringCompare(Container(300).NumItems,2)" effect="slide" end="0,-185">Conditional</animation>
 			<animation condition="IntegerGreaterThan(Container(300).NumItems,2) + Container(300).Row(1)" easing="inout" effect="slide" end="0,114" time="220" tween="sine">Conditional</animation>
@@ -1823,7 +1823,7 @@
 			</focusedlayout>
 			<content>
 				<item>
-					<label>$VAR[MusicWidgetName1]</label>
+					<label>$INFO[Skin.String(MusicWidget1.Label)]</label>
 					<visible>!IsEmpty(Container(301).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(301).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(301).ListItemNoWrap(1).Icon]</property>
@@ -1837,10 +1837,10 @@
 					<property name="Album1_2">$INFO[Container(301).ListItemNoWrap(1).Album]</property>
 					<property name="Album1_3">$INFO[Container(301).ListItemNoWrap(2).Album]</property>
 					<property name="Album1_4">$INFO[Container(301).ListItemNoWrap(3).Album]</property>
-					<onclick>ActivateWindow(MusicLibrary,$VAR[MusicWidget1],return)</onclick>
+					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget1.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MusicWidgetName2]</label>
+					<label>$INFO[Skin.String(MusicWidget2.Label)]</label>
 					<visible>!IsEmpty(Container(302).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(302).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(302).ListItemNoWrap(1).Icon]</property>
@@ -1854,10 +1854,10 @@
 					<property name="Album1_2">$INFO[Container(302).ListItemNoWrap(1).Album]</property>
 					<property name="Album1_3">$INFO[Container(302).ListItemNoWrap(2).Album]</property>
 					<property name="Album1_4">$INFO[Container(302).ListItemNoWrap(3).Album]</property>
-					<onclick>ActivateWindow(MusicLibrary,$VAR[MusicWidget2],return)</onclick>
+					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget2.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MusicWidgetName3]</label>
+					<label>$INFO[Skin.String(MusicWidget3.Label)]</label>
 					<visible>!IsEmpty(Container(303).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(303).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(303).ListItemNoWrap(1).Icon]</property>
@@ -1871,10 +1871,10 @@
 					<property name="Album1_2">$INFO[Container(303).ListItemNoWrap(1).Album]</property>
 					<property name="Album1_3">$INFO[Container(303).ListItemNoWrap(2).Album]</property>
 					<property name="Album1_4">$INFO[Container(303).ListItemNoWrap(3).Album]</property>
-					<onclick>ActivateWindow(MusicLibrary,$VAR[MusicWidget3],return)</onclick>
+					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget3.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MusicWidgetName4]</label>
+					<label>$INFO[Skin.String(MusicWidget4.Label)]</label>
 					<visible>!IsEmpty(Container(304).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(304).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(304).ListItemNoWrap(1).Icon]</property>
@@ -1888,10 +1888,10 @@
 					<property name="Album1_2">$INFO[Container(304).ListItemNoWrap(1).Album]</property>
 					<property name="Album1_3">$INFO[Container(304).ListItemNoWrap(2).Album]</property>
 					<property name="Album1_4">$INFO[Container(304).ListItemNoWrap(3).Album]</property>
-					<onclick>ActivateWindow(MusicLibrary,$VAR[MusicWidget4],return)</onclick>
+					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget4.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MusicWidgetName5]</label>
+					<label>$INFO[Skin.String(MusicWidget5.Label)]</label>
 					<visible>!IsEmpty(Container(305).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(305).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(305).ListItemNoWrap(1).Icon]</property>
@@ -1905,10 +1905,10 @@
 					<property name="Album1_2">$INFO[Container(305).ListItemNoWrap(1).Album]</property>
 					<property name="Album1_3">$INFO[Container(305).ListItemNoWrap(2).Album]</property>
 					<property name="Album1_4">$INFO[Container(305).ListItemNoWrap(3).Album]</property>
-					<onclick>ActivateWindow(MusicLibrary,$VAR[MusicWidget5],return)</onclick>
+					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget5.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MusicWidgetName6]</label>
+					<label>$INFO[Skin.String(MusicWidget6.Label)]</label>
 					<visible>!IsEmpty(Container(306).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(306).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(306).ListItemNoWrap(1).Icon]</property>
@@ -1922,10 +1922,10 @@
 					<property name="Album1_2">$INFO[Container(306).ListItemNoWrap(1).Album]</property>
 					<property name="Album1_3">$INFO[Container(306).ListItemNoWrap(2).Album]</property>
 					<property name="Album1_4">$INFO[Container(306).ListItemNoWrap(3).Album]</property>
-					<onclick>ActivateWindow(MusicLibrary,$VAR[MusicWidget6],return)</onclick>
+					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget6.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MusicWidgetName7]</label>
+					<label>$INFO[Skin.String(MusicWidget7.Label)]</label>
 					<visible>!IsEmpty(Container(307).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(307).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(307).ListItemNoWrap(1).Icon]</property>
@@ -1939,10 +1939,10 @@
 					<property name="Album1_2">$INFO[Container(307).ListItemNoWrap(1).Album]</property>
 					<property name="Album1_3">$INFO[Container(307).ListItemNoWrap(2).Album]</property>
 					<property name="Album1_4">$INFO[Container(307).ListItemNoWrap(3).Album]</property>
-					<onclick>ActivateWindow(MusicLibrary,$VAR[MusicWidget7],return)</onclick>
+					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget7.List)],return)</onclick>
 				</item>
 				<item>
-					<label>$VAR[MusicWidgetName8]</label>
+					<label>$INFO[Skin.String(MusicWidget8.Label)]</label>
 					<visible>!IsEmpty(Container(308).ListItemNoWrap(0).Icon)</visible>
 					<property name="Icon1">$INFO[Container(308).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(308).ListItemNoWrap(1).Icon]</property>
@@ -1956,7 +1956,7 @@
 					<property name="Album1_2">$INFO[Container(308).ListItemNoWrap(1).Album]</property>
 					<property name="Album1_3">$INFO[Container(308).ListItemNoWrap(2).Album]</property>
 					<property name="Album1_4">$INFO[Container(308).ListItemNoWrap(3).Album]</property>
-					<onclick>ActivateWindow(MusicLibrary,$VAR[MusicWidget8],return)</onclick>
+					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget8.List)],return)</onclick>
 				</item>
 			</content>
 		</control>
@@ -1971,7 +1971,7 @@
 			<orientation>horizontal</orientation>
 			<include>WindowHomeFadeAnimation</include>
 			<include>HomeWidgetsAnimation</include>
-			<visible>StringCompare(Container(9000).ListItem.Label,favourites)</visible>
+			<visible>StringCompare(Container(9000).ListItem.Property(defaultID),favourites)</visible>
 			<itemlayout height="576" width="436">
 				<control type="image">
 					<top>83</top>
@@ -2095,7 +2095,7 @@
 			<orientation>horizontal</orientation>
 			<include>WindowHomeFadeAnimation</include>
 			<include>HomeWidgetsAnimation</include>
-			<visible>StringCompare(Container(9000).ListItem.Label,videos)</visible>
+			<visible>StringCompare(Container(9000).ListItem.Property(defaultID),videos)</visible>
 			<itemlayout height="576" width="436">
 				<control type="image">
 					<top>68</top>
@@ -2103,7 +2103,7 @@
 					<height>440</height>
 					<bordersize>0,17,13,17</bordersize>
 					<aspectratio align="center" aligny="top">scale</aspectratio>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
+					<texture background="true" fallback="DefaultVideo.png">$INFO[ListItem.Icon]</texture>
 					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
 				</control>
 				<control type="image">
@@ -2132,7 +2132,7 @@
 					<height>440</height>
 					<bordersize>0,17,13,17</bordersize>
 					<aspectratio align="center" aligny="top">scale</aspectratio>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
+					<texture background="true" fallback="DefaultVideo.png">$INFO[ListItem.Icon]</texture>
 					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
 				</control>
 				<control type="image">
@@ -2154,7 +2154,7 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 			</focusedlayout>
-			<content limit="4">$VAR[VideoWidget]</content>
+			<content limit="4">$INFO[Skin.String(VideosWidget.List)]</content>
 		</control>
 		<!-- Apps widget -->
 		<control id="900" type="fixedlist">
@@ -2167,7 +2167,7 @@
 			<orientation>horizontal</orientation>
 			<include>WindowHomeFadeAnimation</include>
 			<include>HomeWidgetsAnimation</include>
-			<visible>StringCompare(Container(9000).ListItem.Label,$LOCALIZE[24001])</visible>
+			<visible>StringCompare(Container(9000).ListItem.Property(defaultID),programs)</visible>
 			<itemlayout height="576" width="436">
 				<control type="image">
 					<top>68</top>
@@ -2190,7 +2190,7 @@
 					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
 				</control>
 			</focusedlayout>
-			<content limit="4">$VAR[AddonWidget]</content>
+			<content limit="4">$INFO[Skin.String(ProgramsWidget.List)]</content>
 		</control>
 		<!-- Photos widget -->
 		<control id="900" type="fixedlist">
@@ -2203,7 +2203,7 @@
 			<orientation>horizontal</orientation>
 			<include>WindowHomeFadeAnimation</include>
 			<include>HomeWidgetsAnimation</include>
-			<visible>StringCompare(Container(9000).ListItem.Label,$LOCALIZE[1])</visible>
+			<visible>StringCompare(Container(9000).ListItem.Property(defaultID),pictures)</visible>
 			<itemlayout height="576" width="436">
 				<control type="image">
 					<top>68</top>
@@ -2226,7 +2226,7 @@
 					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
 				</control>
 			</focusedlayout>
-			<content target="pictures">$VAR[PictureWidget]</content>
+			<content target="pictures">$INFO[Skin.String(PicturesWidget.List)]</content>
 		</control>
 		<!-- Weather widget -->
 		<control type="fixedlist">
@@ -2238,7 +2238,7 @@
 			<orientation>horizontal</orientation>
 			<include>WindowHomeFadeAnimation</include>
 			<include>HomeWidgetsAnimation</include>
-			<visible>StringCompare(Container(9000).ListItem.Label,weather)</visible>
+			<visible>StringCompare(Container(9000).ListItem.Property(defaultID),weather)</visible>
 			<itemlayout height="914" width="304">
 				<control type="image">
 					<width>304</width>
@@ -2394,7 +2394,7 @@
 			<orientation>horizontal</orientation>
 			<include>WindowHomeFadeAnimation</include>
 			<include>HomeWidgetsAnimation</include>
-			<visible>StringCompare(Container(9000).ListItem.Label,settings)</visible>
+			<visible>StringCompare(Container(9000).ListItem.Property(defaultID),settings)</visible>
 			<itemlayout height="497" width="300">
 				<control type="group">
 					<animation center="134,240" condition="True" effect="zoom" end="84.5" start="84.5">Conditional</animation>

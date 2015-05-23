@@ -1,3 +1,7 @@
+0.9.4
+
+Added Home Widgets customisation
+
 0.9.3
 
 Fixed unwatched episode thumbs for non-library items

@@ -49,7 +49,7 @@
 		<action>ActivateWindow(Music,root)</action>
 	</shortcut>
 	<shortcut>
-		<defaultID>addons</defaultID>
+		<defaultID>programs</defaultID>
 		<label>24001</label>
 		<label2>Custom shortcut</label2>
 		<icon>DefaultProgram.png</icon>

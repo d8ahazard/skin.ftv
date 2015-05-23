@@ -25,11 +25,11 @@
 			<left>190</left>
 			<top>174</top>
 			<width>1540</width>
-			<height>732</height>
+			<height>664</height>
 			<include>DialogZoomAnimation</include>
 			<control type="image">
 				<width>1540</width>
-				<height>732</height>
+				<height>664</height>
 				<texture>dialogs/skin_shortcuts_back.png</texture>
 			</control>
 			<!-- Heading -->
@@ -59,37 +59,37 @@
 			<control type="list" id="211">
 				<top>60</top>
 				<width>670</width>
-				<height>672</height>
+				<height>504</height>
 				<onleft>noop</onleft>
 				<onright>304</onright>
 				<onup>noop</onup>
 				<ondown>9001</ondown>
-				<scrolltime tween="sine" easing="out">240</scrolltime>
-				<itemlayout height="112" width="670">
+				<scrolltime>0</scrolltime>
+				<itemlayout height="84" width="670">
 					<control type="image">
 						<width>670</width>
-						<height>112</height>
+						<height>84</height>
 						<texture border="3">settings/button_no_focus.png</texture>
 					</control>
 					<control type="label">
 						<left>40</left>
 						<width>590</width>
-						<height>112</height>
+						<height>84</height>
 						<font>Light32</font>
 						<textcolor>ff505153</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</itemlayout>
-				<focusedlayout height="112" width="670">
+				<focusedlayout height="84" width="670">
 					<control type="image">
 						<width>670</width>
-						<height>112</height>
+						<height>84</height>
 						<texture border="3">settings/button_focus.png</texture>
 					</control>
 					<control type="label">
 						<left>40</left>
 						<width>590</width>
-						<height>112</height>
+						<height>84</height>
 						<font>Light32</font>
 						<textcolor>ffffaf37</textcolor>
 						<label>$INFO[ListItem.Label]</label>
@@ -98,14 +98,14 @@
 					<control type="label">
 						<left>40</left>
 						<width>590</width>
-						<height>112</height>
+						<height>84</height>
 						<font>Light32</font>
 						<textcolor>ffffffff</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>!Control.HasFocus(303) + !Control.HasFocus(304)</visible>
 					</control>
 					<control type="image">
-						<top>45</top>
+						<top>31</top>
 						<left>566</left>
 						<width>32</width>
 						<height>21</height>
@@ -113,7 +113,7 @@
 						<visible>!Control.HasFocus(304)</visible>
 					</control>
 					<control type="image">
-						<top>45</top>
+						<top>31</top>
 						<left>598</left>
 						<width>32</width>
 						<height>21</height>
@@ -121,7 +121,7 @@
 						<visible>!Control.HasFocus(303)</visible>
 					</control>
 					<control type="image">
-						<top>45</top>
+						<top>31</top>
 						<left>566</left>
 						<width>32</width>
 						<height>21</height>
@@ -129,7 +129,7 @@
 						<visible>Control.HasFocus(304)</visible>
 					</control>
 					<control type="image">
-						<top>45</top>
+						<top>31</top>
 						<left>598</left>
 						<width>32</width>
 						<height>21</height>
@@ -193,6 +193,52 @@
 					<label>$ADDON[script.skinshortcuts 32027]</label>
 					<label2>$INFO[Container(211).ListItem.Property(displaypath)]</label2>
 				</control>
+				<!-- Manage widgets -->
+				<control id="996" type="image">
+					<width>870</width>
+					<height>84</height>
+					<texture border="3">settings/button_no_focus.png</texture>
+					<visible>!StringCompare(Container(211).ListItem.Property(defaultID),movies) + !StringCompare(Container(211).ListItem.Property(defaultID),tvshows) + !StringCompare(Container(211).ListItem.Property(defaultID),music) + !StringCompare(Container(211).ListItem.Property(defaultID),videos) + !StringCompare(Container(211).ListItem.Property(defaultID),programs) + !StringCompare(Container(211).ListItem.Property(defaultID),pictures)</visible>
+				</control>
+				<!-- Manage widgets -->
+				<control id="997" type="label">
+					<top>-84</top>
+					<width>870</width>
+					<height>84</height>
+					<font>Light32</font>
+					<textwidth>790</textwidth>
+					<textoffsetx>40</textoffsetx>
+					<textcolor>DisabledColor</textcolor>
+					<focusedcolor>DisabledColor</focusedcolor>
+					<texturefocus border="3">settings/button_focus.png</texturefocus>
+					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
+					<label>$ADDON[script.skinshortcuts 32044]</label>
+					<label2>$INFO[Container(211).ListItem.Property(defaultID)]</label2>
+					<onclick>noop</onclick>
+					<visible>!StringCompare(Container(211).ListItem.Property(defaultID),movies) + !StringCompare(Container(211).ListItem.Property(defaultID),tvshows) + !StringCompare(Container(211).ListItem.Property(defaultID),music) + !StringCompare(Container(211).ListItem.Property(defaultID),videos) + !StringCompare(Container(211).ListItem.Property(defaultID),programs) + !StringCompare(Container(211).ListItem.Property(defaultID),pictures)</visible>
+				</control>
+				<!-- Manage widgets -->
+				<control id="998" type="button">
+					<width>870</width>
+					<height>84</height>
+					<font>Light32</font>
+					<textwidth>790</textwidth>
+					<textoffsetx>40</textoffsetx>
+					<textcolor>ff505153</textcolor>
+					<focusedcolor>ffffaf37</focusedcolor>
+					<texturefocus border="3">settings/button_focus.png</texturefocus>
+					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
+					<label>$ADDON[script.skinshortcuts 32044]</label>
+					<label2>$INFO[Container(211).ListItem.Property(defaultID)]</label2>
+					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),movies)">SetProperty(WidgetType,movies,home)</onclick>
+					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),tvshows)">SetProperty(WidgetType,tvshows,home)</onclick>
+					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),music)">SetProperty(WidgetType,music,home)</onclick>
+					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),videos)">SetProperty(WidgetType,videos,home)</onclick>
+					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),programs)">SetProperty(WidgetType,programs,home)</onclick>
+					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),pictures)">SetProperty(WidgetType,pictures,home)</onclick>
+					<onclick>ActivateWindow(1105)</onclick>
+					<visible>StringCompare(Container(211).ListItem.Property(defaultID),movies) | StringCompare(Container(211).ListItem.Property(defaultID),tvshows) | StringCompare(Container(211).ListItem.Property(defaultID),music) | StringCompare(Container(211).ListItem.Property(defaultID),videos) | StringCompare(Container(211).ListItem.Property(defaultID),programs) | StringCompare(Container(211).ListItem.Property(defaultID),pictures)</visible>
+				</control>
 				<!-- Remove -->
 				<control type="button" id="302">
 					<width>870</width>
@@ -219,49 +265,48 @@
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>$ADDON[script.skinshortcuts 32000]</label>
 				</control>
-				<!-- Reset -->
-				<control type="button" id="308">
-					<width>870</width>
-					<height>84</height>
-					<font>Light32</font>
-					<textwidth>790</textwidth>
-					<textoffsetx>40</textoffsetx>
-					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
-					<texturefocus border="3">settings/button_focus.png</texturefocus>
-					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
-					<label>$ADDON[script.skinshortcuts 32028]</label>
-				</control>
-				<!-- Reset all -->
-				<control type="button" id="999">
-					<width>870</width>
-					<height>84</height>
-					<font>Light32</font>
-					<textwidth>790</textwidth>
-					<textoffsetx>40</textoffsetx>
-					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
-					<texturefocus border="3">settings/button_focus.png</texturefocus>
-					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
-					<onclick>RunScript(script.skinshortcuts,type=resetall)</onclick>
-					<label>$ADDON[script.skinshortcuts 32037]</label>
-				</control>
 			</control>
 			<!-- Button grouplist -->
 			<control type="grouplist" id="9001">
-				<left>670</left>
-				<top>651</top>
-				<width>870</width>
+				<left>0</left>
+				<bottom>12</bottom>
+				<width>1540</width>
+				<height>76</height>
 				<itemgap>0</itemgap>
-				<onleft>303</onleft>
+				<onleft>noop</onleft>
 				<onright>noop</onright>
 				<onup>9000</onup>
 				<ondown>noop</ondown>
 				<align>center</align>
 				<orientation>horizontal</orientation>
+				<!-- Reset -->
+				<control type="button" id="308">
+					<width>320</width>
+					<height>76</height>
+					<align>center</align>
+					<aligny>top</aligny>
+					<font>Med24</font>
+					<onup>303</onup>
+					<textoffsetx>23</textoffsetx>
+					<textoffsety>27</textoffsety>
+					<label>$ADDON[script.skinshortcuts 32028]</label>
+				</control>
+				<!-- Reset all -->
+				<control type="button" id="999">
+					<width>320</width>
+					<height>76</height>
+					<align>center</align>
+					<aligny>top</aligny>
+					<font>Med24</font>
+					<onup>303</onup>
+					<textoffsetx>23</textoffsetx>
+					<textoffsety>27</textoffsety>
+					<onclick>RunScript(script.skinshortcuts,type=resetall)</onclick>
+					<label>$ADDON[script.skinshortcuts 32037]</label>
+				</control>
 				<!-- Cancel Button -->
 				<control type="button" id="21">
-					<width>311</width>
+					<width>320</width>
 					<height>76</height>
 					<align>center</align>
 					<aligny>top</aligny>
@@ -273,7 +318,7 @@
 				</control>
 				<!-- OK Button -->
 				<control type="button" id="10">
-					<width>311</width>
+					<width>320</width>
 					<height>76</height>
 					<align>center</align>
 					<aligny>top</aligny>
