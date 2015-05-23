@@ -5,7 +5,7 @@
 		<content>
 			<item>
 				<label>Movie Widget 1</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget1.Label,Recently Added Movies))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
@@ -22,15 +22,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget1.Label,Sci-Fi Movies))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget1.Label,Top Rated Movies))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MovieWidget1))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MovieWidget1.Label)||Skin.Reset(MovieWidget1.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget1.List,,special://videoplaylists/)||Skin.SetString(MovieWidget1.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget1))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MovieWidget1.Label)||Skin.Reset(MovieWidget1.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 1)</onclick>
 			</item>
 			<item>
 				<label>Movie Widget 2</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget2.Label,Recently Added Movies))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
@@ -47,15 +49,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget2.Label,Sci-Fi Movies))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget2.Label,Top Rated Movies))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MovieWidget2))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MovieWidget2.Label)||Skin.Reset(MovieWidget2.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget2.List,,special://videoplaylists/)||Skin.SetString(MovieWidget2.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget2))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MovieWidget2.Label)||Skin.Reset(MovieWidget2.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 2)</onclick>
 			</item>
 			<item>
 				<label>Movie Widget 3</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget3.Label,Recently Added Movies))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
@@ -72,15 +76,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget3.Label,Sci-Fi Movies))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget3.Label,Top Rated Movies))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MovieWidget3))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MovieWidget3.Label)||Skin.Reset(MovieWidget3.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget3.List,,special://videoplaylists/)||Skin.SetString(MovieWidget3.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget3))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MovieWidget3.Label)||Skin.Reset(MovieWidget3.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 3)</onclick>
 			</item>
 			<item>
 				<label>Movie Widget 4</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget4.Label,Recently Added Movies))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
@@ -97,15 +103,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget4.Label,Sci-Fi Movies))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget4.Label,Top Rated Movies))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MovieWidget4))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MovieWidget4.Label)||Skin.Reset(MovieWidget4.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget4.List,,special://videoplaylists/)||Skin.SetString(MovieWidget4.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget4))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MovieWidget4.Label)||Skin.Reset(MovieWidget4.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 4)</onclick>
 			</item>
 			<item>
 				<label>Movie Widget 5</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget5.Label,Recently Added Movies))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
@@ -122,15 +130,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget5.Label,Sci-Fi Movies))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget5.Label,Top Rated Movies))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MovieWidget5))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MovieWidget5.Label)||Skin.Reset(MovieWidget5.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget5.List,,special://videoplaylists/)||Skin.SetString(MovieWidget5.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget5))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MovieWidget5.Label)||Skin.Reset(MovieWidget5.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 5)</onclick>
 			</item>
 			<item>
 				<label>Movie Widget 6</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget6.Label,Recently Added Movies))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
@@ -147,15 +157,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget6.Label,Sci-Fi Movies))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget6.Label,Top Rated Movies))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MovieWidget6))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MovieWidget6.Label)||Skin.Reset(MovieWidget6.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget6.List,,special://videoplaylists/)||Skin.SetString(MovieWidget6.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget6))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MovieWidget6.Label)||Skin.Reset(MovieWidget6.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 6)</onclick>
 			</item>
 			<item>
 				<label>Movie Widget 7</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget7.Label,Recently Added Movies))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
@@ -172,15 +184,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget7.Label,Sci-Fi Movies))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget7.Label,Top Rated Movies))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MovieWidget7))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MovieWidget7.Label)||Skin.Reset(MovieWidget7.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget7.List,,special://videoplaylists/)||Skin.SetString(MovieWidget7.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget7))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MovieWidget7.Label)||Skin.Reset(MovieWidget7.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 7)</onclick>
 			</item>
 			<item>
 				<label>Movie Widget 8</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget8.Label,Recently Added Movies))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
@@ -197,10 +211,12 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget8.Label,Sci-Fi Movies))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget8.Label,Top Rated Movies))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MovieWidget8))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MovieWidget8.Label)||Skin.Reset(MovieWidget8.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget8.List,,special://videoplaylists/)||Skin.SetString(MovieWidget8.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget8))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MovieWidget8.Label)||Skin.Reset(MovieWidget8.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 8)</onclick>
 			</item>
 		</content>
@@ -284,7 +300,7 @@
 		<content>
 			<item>
 				<label>TV Show Widget 1</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget1.Label,Recently Updated TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
@@ -301,15 +317,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget1.Label,Sci-Fi TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget1.Label,Top Rated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=TVWidget1))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(TVWidget1.Label)||Skin.Reset(TVWidget1.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget1.List,,special://videoplaylists/)||Skin.SetString(TVWidget1.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget1))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(TVWidget1.Label)||Skin.Reset(TVWidget1.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 1)</onclick>
 			</item>
 			<item>
 				<label>TV Show Widget 2</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget2.Label,Recently Updated TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
@@ -326,15 +344,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget2.Label,Sci-Fi TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget2.Label,Top Rated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=TVWidget2))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(TVWidget2.Label)||Skin.Reset(TVWidget2.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget2.List,,special://videoplaylists/)||Skin.SetString(TVWidget2.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget2))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(TVWidget2.Label)||Skin.Reset(TVWidget2.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 2)</onclick>
 			</item>
 			<item>
 				<label>TV Show Widget 3</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget3.Label,Recently Updated TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
@@ -351,15 +371,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget3.Label,Sci-Fi TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget3.Label,Top Rated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=TVWidget3))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(TVWidget3.Label)||Skin.Reset(TVWidget3.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget3.List,,special://videoplaylists/)||Skin.SetString(TVWidget3.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget3))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(TVWidget3.Label)||Skin.Reset(TVWidget3.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 3)</onclick>
 			</item>
 			<item>
 				<label>TV Show Widget 4</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget4.Label,Recently Updated TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
@@ -376,15 +398,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget4.Label,Sci-Fi TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget4.Label,Top Rated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=TVWidget4))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(TVWidget4.Label)||Skin.Reset(TVWidget4.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget4.List,,special://videoplaylists/)||Skin.SetString(TVWidget4.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget4))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(TVWidget4.Label)||Skin.Reset(TVWidget4.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 4)</onclick>
 			</item>
 			<item>
 				<label>TV Show Widget 5</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget5.Label,Recently Updated TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
@@ -401,15 +425,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget5.Label,Sci-Fi TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget5.Label,Top Rated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=TVWidget5))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(TVWidget5.Label)||Skin.Reset(TVWidget5.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget5.List,,special://videoplaylists/)||Skin.SetString(TVWidget5.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget5))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(TVWidget5.Label)||Skin.Reset(TVWidget5.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 5)</onclick>
 			</item>
 			<item>
 				<label>TV Show Widget 6</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget6.Label,Recently Updated TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
@@ -426,15 +452,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget6.Label,Sci-Fi TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget6.Label,Top Rated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=TVWidget6))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(TVWidget6.Label)||Skin.Reset(TVWidget6.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget6.List,,special://videoplaylists/)||Skin.SetString(TVWidget6.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget6))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(TVWidget6.Label)||Skin.Reset(TVWidget6.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 6)</onclick>
 			</item>
 			<item>
 				<label>TV Show Widget 7</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget7.Label,Recently Updated TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
@@ -451,15 +479,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget7.Label,Sci-Fi TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget7.Label,Top Rated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=TVWidget7))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(TVWidget7.Label)||Skin.Reset(TVWidget7.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget7.List,,special://videoplaylists/)||Skin.SetString(TVWidget7.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget7))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(TVWidget7.Label)||Skin.Reset(TVWidget7.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 7)</onclick>
 			</item>
 			<item>
 				<label>TV Show Widget 8</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget8.Label,Recently Updated TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
@@ -476,10 +506,12 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget8.Label,Sci-Fi TV Shows))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget8.Label,Top Rated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=TVWidget8))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(TVWidget8.Label)||Skin.Reset(TVWidget8.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget8.List,,special://videoplaylists/)||Skin.SetString(TVWidget8.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget8))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(TVWidget8.Label)||Skin.Reset(TVWidget8.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 8)</onclick>
 			</item>
 		</content>
@@ -563,7 +595,7 @@
 		<content>
 			<item>
 				<label>Music Widget 1</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget1.Label,Recently Played Albums))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
@@ -580,15 +612,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget1.Label,Top Rated Songs))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://songs/)||Skin.SetString(MusicWidget1.Label,Your Songs))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MusicWidget1))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MusicWidget1.Label)||Skin.Reset(MusicWidget1.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget1.List,,special://musicplaylists/)||Skin.SetString(MusicWidget1.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget1))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MusicWidget1.Label)||Skin.Reset(MusicWidget1.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 1)</onclick>
 			</item>
 			<item>
 				<label>Music Widget 2</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget2.Label,Recently Played Albums))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
@@ -605,15 +639,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget2.Label,Top Rated Songs))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://songs/)||Skin.SetString(MusicWidget2.Label,Your Songs))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MusicWidget2))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MusicWidget2.Label)||Skin.Reset(MusicWidget2.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget2.List,,special://musicplaylists/)||Skin.SetString(MusicWidget2.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget2))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MusicWidget2.Label)||Skin.Reset(MusicWidget2.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 2)</onclick>
 			</item>
 			<item>
 				<label>Music Widget 3</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget3.Label,Recently Played Albums))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
@@ -630,15 +666,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget3.Label,Top Rated Songs))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://songs/)||Skin.SetString(MusicWidget3.Label,Your Songs))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MusicWidget3))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MusicWidget3.Label)||Skin.Reset(MusicWidget3.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget3.List,,special://musicplaylists/)||Skin.SetString(MusicWidget3.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget3))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MusicWidget3.Label)||Skin.Reset(MusicWidget3.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 3)</onclick>
 			</item>
 			<item>
 				<label>Music Widget 4</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget4.Label,Recently Played Albums))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
@@ -655,15 +693,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget4.Label,Top Rated Songs))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://songs/)||Skin.SetString(MusicWidget4.Label,Your Songs))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MusicWidget4))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MusicWidget4.Label)||Skin.Reset(MusicWidget4.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget4.List,,special://musicplaylists/)||Skin.SetString(MusicWidget4.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget4))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MusicWidget4.Label)||Skin.Reset(MusicWidget4.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 4)</onclick>
 			</item>
 			<item>
 				<label>Music Widget 5</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget5.Label,Recently Played Albums))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
@@ -680,15 +720,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget5.Label,Top Rated Songs))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://songs/)||Skin.SetString(MusicWidget5.Label,Your Songs))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MusicWidget5))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MusicWidget5.Label)||Skin.Reset(MusicWidget5.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget5.List,,special://musicplaylists/)||Skin.SetString(MusicWidget5.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget5))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MusicWidget5.Label)||Skin.Reset(MusicWidget5.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 5)</onclick>
 			</item>
 			<item>
 				<label>Music Widget 6</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget6.Label,Recently Played Albums))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
@@ -705,15 +747,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget6.Label,Top Rated Songs))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://songs/)||Skin.SetString(MusicWidget6.Label,Your Songs))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MusicWidget6))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MusicWidget6.Label)||Skin.Reset(MusicWidget6.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget6.List,,special://musicplaylists/)||Skin.SetString(MusicWidget6.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget6))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MusicWidget6.Label)||Skin.Reset(MusicWidget6.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 6)</onclick>
 			</item>
 			<item>
 				<label>Music Widget 7</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget7.Label,Recently Played Albums))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
@@ -730,15 +774,17 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget7.Label,Top Rated Songs))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://songs/)||Skin.SetString(MusicWidget7.Label,Your Songs))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MusicWidget7))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MusicWidget7.Label)||Skin.Reset(MusicWidget7.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget7.List,,special://musicplaylists/)||Skin.SetString(MusicWidget7.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget7))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MusicWidget7.Label)||Skin.Reset(MusicWidget7.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 7)</onclick>
 			</item>
 			<item>
 				<label>Music Widget 8</label>
-				<onclick>SetProperty(Dialog.NumItems,10)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget8.Label,Recently Played Albums))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
@@ -755,10 +801,12 @@
 				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget8.Label,Top Rated Songs))</onclick>
 				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
 				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://songs/)||Skin.SetString(MusicWidget8.Label,Your Songs))</onclick>
-				<onclick>SetProperty(Dialog.9.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,RunScript(script.favourites,property=MusicWidget8))</onclick>
-				<onclick>SetProperty(Dialog.10.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.10.BuiltIn,Skin.Reset(MusicWidget8.Label)||Skin.Reset(MusicWidget8.List))</onclick>
+				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget8.List,,special://musicplaylists/)||Skin.SetString(MusicWidget8.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget8))</onclick>
+				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.11.BuiltIn,Skin.Reset(MusicWidget8.Label)||Skin.Reset(MusicWidget8.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 8)</onclick>
 			</item>
 		</content>
@@ -842,17 +890,19 @@
 		<content>
 			<item>
 				<label>Videos Widget</label>
-				<onclick>SetProperty(Dialog.NumItems,5)</onclick>
+				<onclick>SetProperty(Dialog.NumItems,6)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Videos root)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(VideosWidget.List,library://video/)||Skin.SetString(VideosWidget.Label,Videos root))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Your Music Videos)</onclick>
 				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(VideosWidget.List,videodb://musicvideos/titles/)||Skin.SetString(VideosWidget.Label,Your Music Videos))</onclick>
 				<onclick>SetProperty(Dialog.3.Label,Your Video Add-ons)</onclick>
 				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(VideosWidget.List,addons://sources/video/)||Skin.SetString(VideosWidget.Label,Your Video Add-ons))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,RunScript(script.favourites,property=VideosWidget))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Clear)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.Reset(VideosWidget.Label)||Skin.Reset(VideosWidget.List))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,Video Playlist)</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetFile(VideosWidget.List,,special://videoplaylists/)||Skin.SetString(VideosWidget.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,Favourite)</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,RunScript(script.favourites,property=VideosWidget))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,Clear)</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.Reset(VideosWidget.Label)||Skin.Reset(VideosWidget.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Videos Widget)</onclick>
 			</item>
 		</content>
