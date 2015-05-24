@@ -1,3 +1,13 @@
+0.9.8
+
+More localisation
+
+0.9.7
+
+Added 'Season...' label at season level
+Fixed Global Search star rating and rating
+More cleanup work
+
 0.9.61
 
 Removed unused strings

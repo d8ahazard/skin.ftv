@@ -193,14 +193,14 @@
 								<width>47</width>
 								<height>23</height>
 								<texture>views/tvdb.png</texture>
-								<visible>[Control.IsVisible(121) | Control.IsVisible(141)] + !IsEmpty(ListItem.Property(Rating))</visible>
+								<visible>[Control.IsVisible(121) + !IsEmpty(Container(121).ListItem.Property(Rating))] | [Control.IsVisible(141) + !IsEmpty(Container(141).ListItem.Property(Rating))]</visible>
 							</control>
 							<control type="image">
 								<top>3</top>
 								<width>48</width>
 								<height>23</height>
 								<texture>views/imdb.png</texture>
-								<visible>Control.IsVisible(111) + !IsEmpty(ListItem.Property(Rating))</visible>
+								<visible>[Control.IsVisible(111) + !IsEmpty(Container(111).ListItem.Property(Rating))]</visible>
 							</control>
 							<control type="label">
 								<left>-8</left>
@@ -210,8 +210,30 @@
 								<font>Bold30</font>
 								<aligny>bottom</aligny>
 								<textcolor>ffdadada</textcolor>
-								<label>$INFO[ListItem.Property(Rating),,/10]</label>
-								<visible>!IsEmpty(ListItem.Property(Rating))</visible>
+								<label>$INFO[Container(111).ListItem.Property(Rating),,/10]</label>
+								<visible>Control.IsVisible(111) + !IsEmpty(Container(111).ListItem.Property(Rating))</visible>
+							</control>
+							<control type="label">
+								<left>-8</left>
+								<top>-13</top>
+								<width>auto</width>
+								<height>34</height>
+								<font>Bold30</font>
+								<aligny>bottom</aligny>
+								<textcolor>ffdadada</textcolor>
+								<label>$INFO[Container(121).ListItem.Property(Rating),,/10]</label>
+								<visible>Control.IsVisible(121) + !IsEmpty(Container(121).ListItem.Property(Rating))</visible>
+							</control>
+							<control type="label">
+								<left>-8</left>
+								<top>-13</top>
+								<width>auto</width>
+								<height>34</height>
+								<font>Bold30</font>
+								<aligny>bottom</aligny>
+								<textcolor>ffdadada</textcolor>
+								<label>$INFO[Container(141).ListItem.Property(Rating),,/10]</label>
+								<visible>Control.IsVisible(141) + !IsEmpty(Container(141).ListItem.Property(Rating))</visible>
 							</control>
 						</control>
 						<!-- Details -->

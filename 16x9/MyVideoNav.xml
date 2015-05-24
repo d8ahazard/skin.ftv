@@ -501,7 +501,7 @@
 						<pagecontrol>97</pagecontrol>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbcbcbc</textcolor>
-						<label>[COLOR 00ffffff][B]$INFO[ListItem.TVShowTitle,,--][/B][/COLOR]$VAR[Plot]</label>
+						<label>[COLOR 00ffffff][B]$INFO[ListItem.TVShowTitle] - $VAR[SeasonValue]--[/B][/COLOR]$VAR[Plot]</label>
 					</control>
 					<control type="label">
 						<top>110</top>
@@ -510,7 +510,7 @@
 						<align>left</align>
 						<font>Bold32</font>
 						<textcolor>ffbcbcbc</textcolor>
-						<label>$INFO[ListItem.TVShowTitle]</label>
+						<label>$INFO[ListItem.TVShowTitle] - $VAR[SeasonValue]</label>
 					</control>
 					<control id="97" type="scrollbar">
 						<top>105</top>
@@ -529,7 +529,7 @@
 						<ondown>noop</ondown>
 						<onleft>50</onleft>
 						<onright>50</onright>
-						<onclick>RunScript(script.toolbox,info=textviewer,header=$INFO[ListItem.TVShowTitle],text='"$VAR[Plot]"')</onclick>
+						<onclick>RunScript(script.toolbox,info=textviewer,header=$INFO[ListItem.TVShowTitle] - $VAR[SeasonValue],text='"$VAR[Plot]"')</onclick>
 						<visible>Control.IsVisible(97)</visible>
 						<texturefocus>views/more_fo.png</texturefocus>
 						<texturenofocus>views/more_nf.png</texturenofocus>

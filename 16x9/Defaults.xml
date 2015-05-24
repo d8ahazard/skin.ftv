@@ -4,7 +4,6 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Reg27</font>
-		<textcolor>DialogColor1</textcolor>
 		<disabledcolor>DisabledColor</disabledcolor>
 		<selectedcolor>ffffffff</selectedcolor>
 		<scrollsuffix>         |         </scrollsuffix>
@@ -14,7 +13,6 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Reg27</font>
-		<textcolor>DialogColor1</textcolor>
 		<scrollout>false</scrollout>
 		<scrollspeed>80</scrollspeed>
 		<pauseatend>2000</pauseatend>
@@ -149,7 +147,6 @@
 	</default>
 	<default type="textbox">
 		<font>Reg27</font>
-		<textcolor>TextColor2</textcolor>
 		<autoscroll delay="8000" repeat="12000" time="4000">True</autoscroll>
 	</default>
 	<default type="edit">

@@ -1,6 +1,6 @@
 # XBMC Media Center language file
-# Addon Name: Conq
-# Addon id: skin.conq
+# Addon Name: fTV
+# Addon id: skin.ftv
 # Addon Provider: Hitcher
 msgid ""
 msgstr ""
@@ -18,6 +18,30 @@ msgstr ""
 
 msgctxt "#31100"
 msgid "Photos"
+msgstr ""
+
+msgctxt "#31001"
+msgid "US"
+msgstr ""
+
+msgctxt "#31002"
+msgid "UK"
+msgstr ""
+
+msgctxt "#31003"
+msgid "Germany"
+msgstr ""
+
+msgctxt "#31004"
+msgid "minute"
+msgstr ""
+
+msgctxt "#31005"
+msgid "hour"
+msgstr ""
+
+msgctxt "#31006"
+msgid "Starts at"
 msgstr ""
 
 msgctxt "#31101"
@@ -48,8 +72,38 @@ msgctxt "#31008"
 msgid "Current selection"
 msgstr ""
 
+msgctxt "#31014"
+msgid "Next Movie"
+msgstr ""
+
+msgctxt "#31015"
+msgid "Next Video"
+msgstr ""
+
 msgctxt "#31009"
 msgid "Open playlist"
+msgstr ""
+
+msgctxt "#31017"
+msgid "View all of your enabled and disabled add-ons."
+msgstr ""
+
+msgctxt "#31018"
+msgid "View add-ons that have updates available."
+msgstr ""
+
+msgctxt "#31019"
+msgid "View add-ons that are currently being downloaded."
+msgstr ""
+
+msgctxt "#31020"
+msgid ""
+"View all the system add-ons including Dependencies, Orphaned Dependencies, "
+"and Running add-ons."
+msgstr ""
+
+msgctxt "#31021"
+msgid "Download add-ons from your installed repos."
 msgstr ""
 
 msgctxt "#31010"
@@ -72,16 +126,64 @@ msgctxt "#31016"
 msgid "Settings level"
 msgstr ""
 
+msgctxt "#31027"
+msgid "Install add-ons using the file browser."
+msgstr ""
+
+msgctxt "#31028"
+msgid "Search for an add-on from your installed repos."
+msgstr ""
+
 msgctxt "#31022"
 msgid "Update[CR]Now"
+msgstr ""
+
+msgctxt "#31030"
+msgid "Customise the home menu to your liking with the Skin Shortcuts script."
+msgstr ""
+
+msgctxt "#31031"
+msgid "Customise the shutdown menu to include your favourite actions."
+msgstr ""
+
+msgctxt "#31032"
+msgid "Hide thumbnails for unwatched episodes to avoid possible spoilers."
 msgstr ""
 
 msgctxt "#31023"
 msgid "Widget Type"
 msgstr ""
 
+msgctxt "#31034"
+msgid ""
+"Uses a combination of Fanart and Logo to display wide "
+"icons.[CR]Alternatively create and add your own as 'ftv' artwork."
+msgstr ""
+
+msgctxt "#31035"
+msgid ""
+"Runs Artwork Downloader in the background to fetch TV Show logos needed for "
+"wide icons."
+msgstr ""
+
+msgctxt "#31036"
+msgid "Displays fanart for your media in the background."
+msgstr ""
+
 msgctxt "#31024"
 msgid "Widget Name"
+msgstr ""
+
+msgctxt "#31038"
+msgid "Select your scrapers preferred certification county."
+msgstr ""
+
+msgctxt "#31039"
+msgid "Enable debug grid.[CR]Useful when skinning."
+msgstr ""
+
+msgctxt "#31040"
+msgid "Enable debug info.[CR]Useful for bug reporting."
 msgstr ""
 
 msgctxt "#31025"
@@ -92,8 +194,20 @@ msgctxt "#31026"
 msgid "Overview"
 msgstr ""
 
+msgctxt "#31043"
+msgid "Turn Off[CR]Randomise"
+msgstr ""
+
 msgctxt "#31029"
 msgid "Addon Details"
+msgstr ""
+
+msgctxt "#31045"
+msgid "Turn On[CR]Randomise"
+msgstr ""
+
+msgctxt "#31046"
+msgid "Turn Off[CR]Shuffle All"
 msgstr ""
 
 msgctxt "#31033"
@@ -114,6 +228,42 @@ msgstr ""
 
 msgctxt "#31044"
 msgid "Local subtitle found!"
+msgstr ""
+
+msgctxt "#31052"
+msgid "Turn On[CR]Shuffle All"
+msgstr ""
+
+msgctxt "#31053"
+msgid "Turn Off[CR]Repeat"
+msgstr ""
+
+msgctxt "#31054"
+msgid "Repeat[CR]This Item"
+msgstr ""
+
+msgctxt "#31055"
+msgid "Turn On[CR]Repeat All"
+msgstr ""
+
+msgctxt "#31056"
+msgid "Move, copy and delete your files with KODI's built-in file manager."
+msgstr ""
+
+msgctxt "#31057"
+msgid "Watch[CR]Again"
+msgstr ""
+
+msgctxt "#31058"
+msgid "Today's weather:"
+msgstr ""
+
+msgctxt "#31059"
+msgid "Tonight's weather:"
+msgstr ""
+
+msgctxt "#31060"
+msgid "Play Now"
 msgstr ""
 
 msgctxt "#31050"
@@ -465,4 +615,12 @@ msgstr ""
 
 msgctxt "#31144"
 msgid "Clear all[CR]Bookmarks"
+msgstr ""
+
+msgctxt "#31145"
+msgid "percent remaining"
+msgstr ""
+
+msgctxt "#31146"
+msgid "Special"
 msgstr ""
