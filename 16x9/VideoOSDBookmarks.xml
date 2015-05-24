@@ -251,7 +251,7 @@
 						<onup>11</onup>
 						<ondown>noop</ondown>
 						<font>Med24</font>
-						<label>$LOCALIZE[31144]</label>
+						<label>$LOCALIZE[31102]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>

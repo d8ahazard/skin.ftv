@@ -1,3 +1,7 @@
+0.9.61
+
+Removed unused strings
+
 0.9.6
 
 Strings moved to language file

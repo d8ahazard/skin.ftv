@@ -237,7 +237,7 @@
 					<height>58</height>
 					<font>Light32</font>
 					<align>right</align>
-					<label>$LOCALIZE[481]</label>
+					<label>$LOCALIZE[31000]</label>
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
