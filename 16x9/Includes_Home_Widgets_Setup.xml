@@ -4,7 +4,7 @@
 	<include name="MovieWidgetType">
 		<content>
 			<item>
-				<label>Movie Widget 1</label>
+				<label>$LOCALIZE[31079] 1</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget1.Label,Recently Added Movies))</onclick>
@@ -31,7 +31,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 1)</onclick>
 			</item>
 			<item>
-				<label>Movie Widget 2</label>
+				<label>$LOCALIZE[31079] 2</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget2.Label,Recently Added Movies))</onclick>
@@ -58,7 +58,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 2)</onclick>
 			</item>
 			<item>
-				<label>Movie Widget 3</label>
+				<label>$LOCALIZE[31079] 3</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget3.Label,Recently Added Movies))</onclick>
@@ -85,7 +85,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 3)</onclick>
 			</item>
 			<item>
-				<label>Movie Widget 4</label>
+				<label>$LOCALIZE[31079] 4</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget4.Label,Recently Added Movies))</onclick>
@@ -112,7 +112,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 4)</onclick>
 			</item>
 			<item>
-				<label>Movie Widget 5</label>
+				<label>$LOCALIZE[31079] 5</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget5.Label,Recently Added Movies))</onclick>
@@ -139,7 +139,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 5)</onclick>
 			</item>
 			<item>
-				<label>Movie Widget 6</label>
+				<label>$LOCALIZE[31079] 6</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget6.Label,Recently Added Movies))</onclick>
@@ -166,7 +166,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 6)</onclick>
 			</item>
 			<item>
-				<label>Movie Widget 7</label>
+				<label>$LOCALIZE[31079] 7</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget7.Label,Recently Added Movies))</onclick>
@@ -193,7 +193,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Movie Widget 7)</onclick>
 			</item>
 			<item>
-				<label>Movie Widget 8</label>
+				<label>$LOCALIZE[31079] 8</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget8.Label,Recently Added Movies))</onclick>
@@ -299,7 +299,7 @@
 	<include name="TVWidgetType">
 		<content>
 			<item>
-				<label>TV Show Widget 1</label>
+				<label>$LOCALIZE[31080] 1</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget1.Label,Recently Updated TV Shows))</onclick>
@@ -326,7 +326,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 1)</onclick>
 			</item>
 			<item>
-				<label>TV Show Widget 2</label>
+				<label>$LOCALIZE[31080] 2</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget2.Label,Recently Updated TV Shows))</onclick>
@@ -353,7 +353,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 2)</onclick>
 			</item>
 			<item>
-				<label>TV Show Widget 3</label>
+				<label>$LOCALIZE[31080] 3</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget3.Label,Recently Updated TV Shows))</onclick>
@@ -380,7 +380,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 3)</onclick>
 			</item>
 			<item>
-				<label>TV Show Widget 4</label>
+				<label>$LOCALIZE[31080] 4</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget4.Label,Recently Updated TV Shows))</onclick>
@@ -407,7 +407,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 4)</onclick>
 			</item>
 			<item>
-				<label>TV Show Widget 5</label>
+				<label>$LOCALIZE[31080] 5</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget5.Label,Recently Updated TV Shows))</onclick>
@@ -434,7 +434,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 5)</onclick>
 			</item>
 			<item>
-				<label>TV Show Widget 6</label>
+				<label>$LOCALIZE[31080] 6</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget6.Label,Recently Updated TV Shows))</onclick>
@@ -461,7 +461,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 6)</onclick>
 			</item>
 			<item>
-				<label>TV Show Widget 7</label>
+				<label>$LOCALIZE[31080] 7</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget7.Label,Recently Updated TV Shows))</onclick>
@@ -488,7 +488,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=TV Show Widget 7)</onclick>
 			</item>
 			<item>
-				<label>TV Show Widget 8</label>
+				<label>$LOCALIZE[31080] 8</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget8.Label,Recently Updated TV Shows))</onclick>
@@ -594,7 +594,7 @@
 	<include name="MusicWidgetType">
 		<content>
 			<item>
-				<label>Music Widget 1</label>
+				<label>$LOCALIZE[31081] 1</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget1.Label,Recently Played Albums))</onclick>
@@ -621,7 +621,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 1)</onclick>
 			</item>
 			<item>
-				<label>Music Widget 2</label>
+				<label>$LOCALIZE[31081] 2</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget2.Label,Recently Played Albums))</onclick>
@@ -648,7 +648,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 2)</onclick>
 			</item>
 			<item>
-				<label>Music Widget 3</label>
+				<label>$LOCALIZE[31081] 3</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget3.Label,Recently Played Albums))</onclick>
@@ -675,7 +675,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 3)</onclick>
 			</item>
 			<item>
-				<label>Music Widget 4</label>
+				<label>$LOCALIZE[31081] 4</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget4.Label,Recently Played Albums))</onclick>
@@ -702,7 +702,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 4)</onclick>
 			</item>
 			<item>
-				<label>Music Widget 5</label>
+				<label>$LOCALIZE[31081] 5</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget5.Label,Recently Played Albums))</onclick>
@@ -729,7 +729,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 5)</onclick>
 			</item>
 			<item>
-				<label>Music Widget 6</label>
+				<label>$LOCALIZE[31081] 6</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget6.Label,Recently Played Albums))</onclick>
@@ -756,7 +756,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 6)</onclick>
 			</item>
 			<item>
-				<label>Music Widget 7</label>
+				<label>$LOCALIZE[31081] 7</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget7.Label,Recently Played Albums))</onclick>
@@ -783,7 +783,7 @@
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Music Widget 7)</onclick>
 			</item>
 			<item>
-				<label>Music Widget 8</label>
+				<label>$LOCALIZE[31081] 8</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget8.Label,Recently Played Albums))</onclick>
@@ -889,7 +889,7 @@
 	<include name="VideosWidgetType">
 		<content>
 			<item>
-				<label>Videos Widget</label>
+				<label>$LOCALIZE[31082]</label>
 				<onclick>SetProperty(Dialog.NumItems,6)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Videos root)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(VideosWidget.List,library://video/)||Skin.SetString(VideosWidget.Label,Videos root))</onclick>
@@ -929,7 +929,7 @@
 	<include name="ProgramsWidgetType">
 		<content>
 			<item>
-				<label>Programs Widget</label>
+				<label>$LOCALIZE[31083]</label>
 				<onclick>SetProperty(Dialog.NumItems,4)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Your Add-ons)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(ProgramsWidget.List,addons://sources/executable/)||Skin.SetString(ProgramsWidget.Label,Your Add-ons))</onclick>
@@ -965,7 +965,7 @@
 	<include name="PicturesWidgetType">
 		<content>
 			<item>
-				<label>Pictures Widget</label>
+				<label>$LOCALIZE[31084]</label>
 				<onclick>SetProperty(Dialog.NumItems,3)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Your Picture Add-ons)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(PicturesWidget.List,addons://sources/image/)||Skin.SetString(PicturesWidget.Label,Your Picture Add-ons))</onclick>

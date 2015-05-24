@@ -6,6 +6,10 @@ Desktop.ini# Windows image file caches
 Thumbs.db
 ehthumbs.db
 
+# Folder Sublime Text files
+ftv.sublime-project
+ftv.sublime-workspace
+
 # Folder config file
 Desktop.ini
 

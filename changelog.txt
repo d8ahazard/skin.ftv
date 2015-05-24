@@ -1,3 +1,12 @@
+0.9.6
+
+Strings moved to language file
+Added Next Aired info to TV show info
+
+0.9.5
+
+Added playlists to home widgets
+
 0.9.4
 
 Added Home Widgets customisation

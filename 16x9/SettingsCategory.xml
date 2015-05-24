@@ -473,7 +473,7 @@
 					<width>558</width>
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
-					<label>Settings level</label>
+					<label>$LOCALIZE[31016]</label>
 					<textcolor>ff505153</textcolor>
 					<visible>!Control.HasFocus(20)</visible>
 				</control>
@@ -484,7 +484,7 @@
 					<width>558</width>
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
-					<label>Settings level</label>
+					<label>$LOCALIZE[31016]</label>
 					<textcolor>ffffaf37</textcolor>
 					<visible>Control.HasFocus(20)</visible>
 				</control>

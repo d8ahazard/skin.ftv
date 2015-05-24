@@ -525,7 +525,7 @@
 							<onup>306</onup>
 							<ondown>300</ondown>
 							<include>KeyboardButtons</include>
-							<label>IP</label>
+							<label>$LOCALIZE[31068]</label>
 						</control>
 					</control>
 					<!-- Seventh row -->

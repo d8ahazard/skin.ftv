@@ -172,55 +172,55 @@
 				<item>
 					<onclick>ActivateWindow(appearancesettings)</onclick>
 					<label>480</label>
-					<label2>Change the skin, set language and region, change file listing options and set up a screensaver.</label2>
+					<label2>$LOCALIZE[31115]</label2>
 					<icon>settings/icon_appearance.png</icon>
 				</item>
 				<item>
 					<onclick>ActivateWindow(addonbrowser)</onclick>
 					<label>24001</label>
-					<label2>Manage, browse for, install and modify Add-ons.</label2>
+					<label2>$LOCALIZE[31116]</label2>
 					<icon>settings/icon_addons.png</icon>
 				</item>
 				<item>
 					<onclick>ActivateWindow(videossettings)</onclick>
 					<label>3</label>
-					<label2>Manage your video library, set video playback options, change video listing options and set subtitle fonts.</label2>
+					<label2>$LOCALIZE[31117]</label2>
 					<icon>settings/icon_videos.png</icon>
 				</item>
 				<item>
 					<onclick>ActivateWindow(musicsettings)</onclick>
 					<label>2</label>
-					<label2>Manage your music library, set music playback options, change music listing options, setup song submission and set karaoke options.</label2>
+					<label2>$LOCALIZE[31118]</label2>
 					<icon>settings/icon_music.png</icon>
 				</item>
 				<item>
 					<onclick>ActivateWindow(weathersettings)</onclick>
 					<label>8</label>
-					<label2>Manage your weather addons and set cities to collect weather information.</label2>
+					<label2>$LOCALIZE[31119]</label2>
 					<icon>settings/icon_weather.png</icon>
 				</item>
 				<item>
 					<onclick>ActivateWindow(picturessettings)</onclick>
 					<label>1</label>
-					<label2>Set picture listing options and configure slideshow settings.</label2>
+					<label2>$LOCALIZE[31120]</label2>
 					<icon>settings/icon_pictures.png</icon>
 				</item>
 				<item>
 					<onclick>ActivateWindow(systemsettings)</onclick>
 					<label>13000</label>
-					<label2>Setup and calibrate displays, configure audio output, setup remote controls, set power saving options, enable debugging and setup master lock.</label2>
+					<label2>$LOCALIZE[31121]</label2>
 					<icon>settings/icon_system.png</icon>
 				</item>
 				<item>
 					<onclick>ActivateWindow(servicesettings)</onclick>
 					<label>14036</label>
-					<label2>Setup control of Kodi via UPnP and HTTP, configure file sharing, enable Zeroconf and configure AirPlay.</label2>
+					<label2>$LOCALIZE[31122]</label2>
 					<icon>settings/icon_service.png</icon>
 				</item>
 				<item>
 					<onclick>ActivateWindow(weathersettings)</onclick>
 					<label>22082</label>
-					<label2>Profiles, File Manager, System Information and Settings Level.</label2>
+					<label2>$LOCALIZE[31123]</label2>
 					<icon>settings/icon_more.png</icon>
 				</item>
 			</content>

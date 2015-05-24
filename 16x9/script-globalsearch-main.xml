@@ -79,7 +79,7 @@
 							<font>Bold32</font>
 							<align>center</align>
 							<textcolor>ffdadada</textcolor>
-							<label>Sorry, no items where found for this search.</label>
+							<label>$LOCALIZE[31111]</label>
 						</control>
 						<control type="label">
 							<top>34</top>
@@ -87,7 +87,7 @@
 							<font>Reg22</font>
 							<align>center</align>
 							<textcolor>ff717171</textcolor>
-							<label>Please try again.</label>
+							<label>$LOCALIZE[31112]</label>
 						</control>
 					</control>
 				</control>
@@ -111,7 +111,7 @@
 							<font>Light28</font>
 							<align>right</align>
 							<textcolor>ffa4a4a4</textcolor>
-							<label>Results for</label>
+							<label>$LOCALIZE[31113]</label>
 						</control>
 						<control type="label">
 							<top>1</top>
@@ -302,7 +302,6 @@
 							<focusposition>1</focusposition>
 							<viewtype label="">list</viewtype>
 							<orientation>horizontal</orientation>
-							<defaultcontrol always="true">0</defaultcontrol>
 							<scrolltime easing="inout" tween="sine">300</scrolltime>
 							<visible allowhiddenfocus="true">Control.HasFocus(111)</visible>
 							<animation reversible="false" type="Hidden">
@@ -439,7 +438,6 @@
 							<focusposition>1</focusposition>
 							<viewtype label="">list</viewtype>
 							<orientation>horizontal</orientation>
-							<defaultcontrol always="true">0</defaultcontrol>
 							<scrolltime easing="inout" tween="sine">300</scrolltime>
 							<visible allowhiddenfocus="true">Control.HasFocus(121)</visible>
 							<animation reversible="false" type="Hidden">
@@ -576,7 +574,6 @@
 							<focusposition>1</focusposition>
 							<viewtype label="">list</viewtype>
 							<orientation>horizontal</orientation>
-							<defaultcontrol always="true">0</defaultcontrol>
 							<scrolltime easing="inout" tween="sine">300</scrolltime>
 							<visible allowhiddenfocus="true">Control.HasFocus(131)</visible>
 							<animation reversible="false" type="Hidden">
@@ -713,7 +710,6 @@
 							<focusposition>1</focusposition>
 							<viewtype label="">list</viewtype>
 							<orientation>horizontal</orientation>
-							<defaultcontrol always="true">0</defaultcontrol>
 							<scrolltime easing="inout" tween="sine">300</scrolltime>
 							<visible allowhiddenfocus="true">Control.HasFocus(141)</visible>
 							<animation reversible="false" type="Hidden">
@@ -850,7 +846,6 @@
 							<focusposition>1</focusposition>
 							<viewtype label="">list</viewtype>
 							<orientation>horizontal</orientation>
-							<defaultcontrol always="true">0</defaultcontrol>
 							<scrolltime easing="inout" tween="sine">300</scrolltime>
 							<visible allowhiddenfocus="true">Control.HasFocus(151)</visible>
 							<animation reversible="false" type="Hidden">
@@ -987,7 +982,6 @@
 							<focusposition>1</focusposition>
 							<viewtype label="">list</viewtype>
 							<orientation>horizontal</orientation>
-							<defaultcontrol always="true">0</defaultcontrol>
 							<scrolltime easing="inout" tween="sine">300</scrolltime>
 							<visible allowhiddenfocus="true">Control.HasFocus(161)</visible>
 							<animation reversible="false" type="Hidden">
@@ -1112,7 +1106,6 @@
 							<focusposition>1</focusposition>
 							<viewtype label="">list</viewtype>
 							<orientation>horizontal</orientation>
-							<defaultcontrol always="true">0</defaultcontrol>
 							<scrolltime easing="inout" tween="sine">300</scrolltime>
 							<visible allowhiddenfocus="true">Control.HasFocus(171)</visible>
 							<animation reversible="false" type="Hidden">
@@ -1221,7 +1214,6 @@
 							<focusposition>1</focusposition>
 							<viewtype label="">list</viewtype>
 							<orientation>horizontal</orientation>
-							<defaultcontrol always="true">0</defaultcontrol>
 							<scrolltime easing="inout" tween="sine">300</scrolltime>
 							<visible allowhiddenfocus="true">Control.HasFocus(181)</visible>
 							<animation reversible="false" type="Hidden">
@@ -1330,7 +1322,6 @@
 							<focusposition>1</focusposition>
 							<viewtype label="">list</viewtype>
 							<orientation>horizontal</orientation>
-							<defaultcontrol always="true">0</defaultcontrol>
 							<scrolltime easing="inout" tween="sine">300</scrolltime>
 							<visible allowhiddenfocus="true">Control.HasFocus(211)</visible>
 							<animation reversible="false" type="Hidden">
@@ -1467,7 +1458,6 @@
 							<focusposition>1</focusposition>
 							<viewtype label="">list</viewtype>
 							<orientation>horizontal</orientation>
-							<defaultcontrol always="true">0</defaultcontrol>
 							<scrolltime easing="inout" tween="sine">300</scrolltime>
 							<visible allowhiddenfocus="true">Control.HasFocus(221)</visible>
 							<animation reversible="false" type="Hidden">

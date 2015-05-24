@@ -51,7 +51,7 @@
 				<width>1540</width>
 				<aligny>center</aligny>
 				<font>Bold30</font>
-				<label>Customise Shutdown Menu</label>
+				<label>$LOCALIZE[31114]</label>
 				<textcolor>ffdadada</textcolor>
 				<visible>!StringCompare(Window.Property(groupname), mainmenu)</visible>
 			</control>
@@ -206,15 +206,9 @@
 					<width>870</width>
 					<height>84</height>
 					<font>Light32</font>
-					<textwidth>790</textwidth>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>DisabledColor</textcolor>
-					<focusedcolor>DisabledColor</focusedcolor>
-					<texturefocus border="3">settings/button_focus.png</texturefocus>
-					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>$ADDON[script.skinshortcuts 32044]</label>
-					<label2>$INFO[Container(211).ListItem.Property(defaultID)]</label2>
-					<onclick>noop</onclick>
 					<visible>!StringCompare(Container(211).ListItem.Property(defaultID),movies) + !StringCompare(Container(211).ListItem.Property(defaultID),tvshows) + !StringCompare(Container(211).ListItem.Property(defaultID),music) + !StringCompare(Container(211).ListItem.Property(defaultID),videos) + !StringCompare(Container(211).ListItem.Property(defaultID),programs) + !StringCompare(Container(211).ListItem.Property(defaultID),pictures)</visible>
 				</control>
 				<!-- Manage widgets -->

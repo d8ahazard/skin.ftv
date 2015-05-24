@@ -180,7 +180,7 @@
 					<height>58</height>
 					<font>Light32</font>
 					<align>right</align>
-					<label>DVD Menu</label>
+					<label>$LOCALIZE[31136]</label>
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
@@ -223,7 +223,7 @@
 					<height>58</height>
 					<font>Light32</font>
 					<align>right</align>
-					<label>Video Options</label>
+					<label>$LOCALIZE[31137]</label>
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
@@ -237,7 +237,7 @@
 					<height>58</height>
 					<font>Light32</font>
 					<align>right</align>
-					<label>Audio Settings</label>
+					<label>$LOCALIZE[481]</label>
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
@@ -296,8 +296,8 @@
 					<width>300</width>
 					<height>58</height>
 					<font>Reg22</font>
-					<label>Turn Subtitles On</label>
-					<altlabel>Turn Subtitles Off</altlabel>
+					<label>$LOCALIZE[31138]</label>
+					<altlabel>$LOCALIZE[31139]</altlabel>
 					<textoffsetx>34</textoffsetx>
 					<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,5,6,8">views/button_nf.png</texturenofocus>
@@ -312,7 +312,7 @@
 					<width>300</width>
 					<height>58</height>
 					<font>Reg22</font>
-					<label>Download Subtitles</label>
+					<label>$LOCALIZE[31140]</label>
 					<textoffsetx>34</textoffsetx>
 					<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,5,6,8">views/button_nf.png</texturenofocus>

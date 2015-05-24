@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<variable name="WidgetType">
-		<value condition="StringCompare(Window(home).Property(WidgetType),movies)">Manage Movie Widgets</value>
-		<value condition="StringCompare(Window(home).Property(WidgetType),tvshows)">Manage TV Show Widgets</value>
-		<value condition="StringCompare(Window(home).Property(WidgetType),music)">Manage Music Widgets</value>
-		<value condition="StringCompare(Window(home).Property(WidgetType),videos)">Manage Video Widget</value>
-		<value condition="StringCompare(Window(home).Property(WidgetType),pictures)">Manage Picture Widget</value>
-		<value condition="StringCompare(Window(home).Property(WidgetType),programs)">Manage Program Widget</value>
-	</variable>
 	<variable name="RatingCountry">
 		<value condition="Stringcompare(Skin.String(RatingCountry),US)">US</value>
 		<value condition="Stringcompare(Skin.String(RatingCountry),UK)">UK</value>
@@ -401,7 +393,7 @@
 		<value condition="StringCompare(Container(100).ListItem.Property(Duration),300)">5 hours</value>
 	</variable>
 	<variable name="BookmarkLabel2">
-		<value condition="SubString(Container(11).ListItem.Label2,$LOCALIZE[20373] | SubString(Container(11).ListItem.Label2,$LOCALIZE[20359])">$INFO[Container(11).ListItem.Label2]</value>
+		<value condition="SubString(Container(11).ListItem.Label2,$LOCALIZE[20373]) | SubString(Container(11).ListItem.Label2,$LOCALIZE[20359])">$INFO[Container(11).ListItem.Label2]</value>
 		<value>$INFO[Container(11).ListItem.Label2,Starts at ]</value>
 	</variable>
 	<variable name="NextVideo">
@@ -550,19 +542,6 @@
 		<value condition="IntegerGreaterThan(ListItem.Rating,2)">rating/rating3.png</value>
 		<value condition="IntegerGreaterThan(ListItem.Rating,1)">rating/rating2.png</value>
 		<value condition="IntegerGreaterThan(ListItem.Rating,0)">rating/rating1.png</value>
-		<value>rating/rating0.png</value>
-	</variable>
-	<variable name="ExtendedStarRating">
-		<value condition="IntegerGreaterThan(Window.Property(movie.rating),9)">rating/rating10.png</value>
-		<value condition="IntegerGreaterThan(Window.Property(movie.rating),8)">rating/rating9.png</value>
-		<value condition="IntegerGreaterThan(Window.Property(movie.rating),7)">rating/rating8.png</value>
-		<value condition="IntegerGreaterThan(Window.Property(movie.rating),6)">rating/rating7.png</value>
-		<value condition="IntegerGreaterThan(Window.Property(movie.rating),5)">rating/rating6.png</value>
-		<value condition="IntegerGreaterThan(Window.Property(movie.rating),4)">rating/rating5.png</value>
-		<value condition="IntegerGreaterThan(Window.Property(movie.rating),3)">rating/rating4.png</value>
-		<value condition="IntegerGreaterThan(Window.Property(movie.rating),2)">rating/rating3.png</value>
-		<value condition="IntegerGreaterThan(Window.Property(movie.rating),1)">rating/rating2.png</value>
-		<value condition="IntegerGreaterThan(Window.Property(movie.rating),0)">rating/rating1.png</value>
 		<value>rating/rating0.png</value>
 	</variable>
 	<variable name="SeasonStarRating">

@@ -100,7 +100,7 @@
 					<width>270</width>
 					<aligny>center</aligny>
 					<font>Bold30</font>
-					<label>Widget Type</label>
+					<label>$LOCALIZE[31023]</label>
 					<textcolor>ffdadada</textcolor>
 				</control>
 				<!-- Widget name -->
@@ -111,7 +111,7 @@
 					<width>460</width>
 					<aligny>center</aligny>
 					<font>Bold30</font>
-					<label>Widget Name</label>
+					<label>$LOCALIZE[31024]</label>
 					<textcolor>ffdadada</textcolor>
 				</control>
 				<!-- Widget path -->
@@ -122,7 +122,7 @@
 					<width>810</width>
 					<aligny>center</aligny>
 					<font>Bold30</font>
-					<label>Widget Path</label>
+					<label>$LOCALIZE[31025]</label>
 					<textcolor>ffdadada</textcolor>
 				</control>
 				<!-- Widget -->
@@ -278,7 +278,7 @@
 				<width>270</width>
 				<aligny>center</aligny>
 				<font>Bold30</font>
-				<label>Widget Type</label>
+				<label>$LOCALIZE[31023]</label>
 				<textcolor>ffdadada</textcolor>
 			</control>
 			<!-- Widget name -->
@@ -289,7 +289,7 @@
 				<width>460</width>
 				<aligny>center</aligny>
 				<font>Bold30</font>
-				<label>Widget Name</label>
+				<label>$LOCALIZE[31024]</label>
 				<textcolor>ffdadada</textcolor>
 			</control>
 			<!-- Widget path -->
@@ -300,7 +300,7 @@
 				<width>810</width>
 				<aligny>center</aligny>
 				<font>Bold30</font>
-				<label>Widget Path</label>
+				<label>$LOCALIZE[31025]</label>
 				<textcolor>ffdadada</textcolor>
 			</control>
 			<!-- Widget -->

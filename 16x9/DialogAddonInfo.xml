@@ -48,7 +48,7 @@
 				<font>Light35</font>
 				<textcolor>ffdadada</textcolor>
 				<focusedcolor>ffffc24b</focusedcolor>
-				<label>Overview</label>
+				<label>$LOCALIZE[31026]</label>
 				<include>NoTextures</include>
 				<animation condition="!IsEmpty(Window(home).Property(AddonDetails))" effect="fade" end="50" start="100" time="0">Conditional</animation>
 			</control>
@@ -64,7 +64,7 @@
 				<font>Light35</font>
 				<textcolor>ffdadada</textcolor>
 				<focusedcolor>ffffc24b</focusedcolor>
-				<label>Addon Details</label>
+				<label>$LOCALIZE[31029]</label>
 				<include>NoTextures</include>
 				<animation condition="IsEmpty(Window(home).Property(AddonDetails))" effect="fade" end="50" start="100" time="0">Conditional</animation>
 			</control>
@@ -101,7 +101,7 @@
 					<font>Bold30</font>
 					<scroll>false</scroll>
 					<textcolor>ff717171</textcolor>
-					<label>Type:</label>
+					<label>$LOCALIZE[146]</label>
 				</control>
 				<control type="textbox">
 					<width>1192</width>
@@ -130,7 +130,7 @@
 					<font>Bold30</font>
 					<scroll>false</scroll>
 					<textcolor>ff717171</textcolor>
-					<label>Version:</label>
+					<label>$LOCALIZE[24051]</label>
 				</control>
 				<control type="textbox">
 					<width>1192</width>
@@ -159,7 +159,7 @@
 					<font>Bold30</font>
 					<scroll>false</scroll>
 					<textcolor>ff717171</textcolor>
-					<label>Creator:</label>
+					<label>$LOCALIZE[24051]</label>
 				</control>
 				<control type="textbox">
 					<width>1192</width>
@@ -168,27 +168,11 @@
 					<font>Light30Spaced</font>
 					<autoscroll>false</autoscroll>
 					<textcolor>ffbbbbbb</textcolor>
+					<label>$LOCALIZE[116]</label>
 					<label>[COLOR 00ffffff][B]Creator:-[/B][/COLOR]$INFO[ListItem.Property(Addon.Creator)]</label>
 					<include>DialogVideoInfoAnimation</include>
 				</control>
 			</control>
-			<!-- Star rating -->
-			<!--control type="group">
-				<top>183</top>
-				<height>36</height>
-				<itemgap>20</itemgap>
-				<orientation>horizontal</orientation>
-				<usecontrolcoords>true</usecontrolcoords>
-				<visible>!Control.HasFocus(50) + !Control.HasFocus(5000)</visible>
-				<animation effect="fade" start="100" end="0" time="0">Hidden</animation>
-				<animation effect="fade" start="0" end="100" time="80" delay="200">Visible</animation>
-				<control type="image">
-					<width>137</width>
-					<height>24</height>
-					<texture>$VAR[AddonStarRating]</texture>
-					<visible>!IsEmpty(ListItem.Property(Addon.StarRating))</visible>
-				</control>
-			</control-->
 			<control type="group">
 				<animation condition="!IsEmpty(Window(home).Property(AddonDetails))" effect="fade" end="0" start="100" time="0">Conditional</animation>
 				<!-- Summary -->
@@ -232,7 +216,7 @@
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>
 						<font>Med24</font>
-						<label>Update[CR]Now</label>
+						<label>$LOCALIZE[31022]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -247,7 +231,7 @@
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>
 						<font>Med24</font>
-						<label>Launch[CR]Now</label>
+						<label>$LOCALIZE[31033]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -305,7 +289,7 @@
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>
 						<font>Med24</font>
-						<label>Rollback[CR]Addon</label>
+						<label>$LOCALIZE[31037]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -320,7 +304,7 @@
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>
 						<font>Med24</font>
-						<label>Show[CR]Changelog</label>
+						<label>$LOCALIZE[31050]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>

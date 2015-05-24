@@ -178,7 +178,7 @@
 				<ondown>noop</ondown>
 				<onclick>ActivateWindow(ShutdownMenu)</onclick>
 				<font>Med24</font>
-				<label>Shutdown[CR]Menu</label>
+				<label>$LOCALIZE[31085]</label>
 				<textoffsetx>20</textoffsetx>
 				<textcolor>ffdadada</textcolor>
 				<focusedcolor>ff222222</focusedcolor>

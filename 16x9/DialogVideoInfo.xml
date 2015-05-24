@@ -118,7 +118,7 @@
 				<font>Light35</font>
 				<textcolor>ffdadada</textcolor>
 				<focusedcolor>ffffc24b</focusedcolor>
-				<label>Overview</label>
+				<label>$LOCALIZE[31026]</label>
 				<include>NoTextures</include>
 				<animation condition="!IsEmpty(Window(home).Property(Similar))" effect="fade" end="50" start="100" time="0">Conditional</animation>
 			</control>
@@ -135,7 +135,7 @@
 				<font>Light35</font>
 				<textcolor>ffdadada</textcolor>
 				<focusedcolor>ffffc24b</focusedcolor>
-				<label>Similar Titles</label>
+				<label>$LOCALIZE[31070]</label>
 				<include>NoTextures</include>
 				<animation condition="IsEmpty(Window(home).Property(Similar))" effect="fade" end="50" start="100" time="0">Conditional</animation>
 			</control>
@@ -315,7 +315,7 @@
 					<font>Med30</font>
 					<aligny>bottom</aligny>
 					<textcolor>ff717171</textcolor>
-					<label>Starring:</label>
+					<label>$LOCALIZE[31071]:</label>
 				</control>
 				<control type="label">
 					<top>-1</top>
@@ -345,7 +345,7 @@
 					<font>Med30</font>
 					<aligny>bottom</aligny>
 					<textcolor>ff717171</textcolor>
-					<label>Directed by:</label>
+					<label>$LOCALIZE[31072]:</label>
 				</control>
 				<control type="label">
 					<top>-1</top>
@@ -355,6 +355,36 @@
 					<aligny>bottom</aligny>
 					<textcolor>ffbcbcbc</textcolor>
 					<label>$INFO[ListItem.Director]</label>
+				</control>
+			</control>
+			<!-- Next Airs -->
+			<control type="grouplist">
+				<top>339</top>
+				<width>1192</width>
+				<height>36</height>
+				<itemgap>20</itemgap>
+				<include>DialogVideoInfoAnimation</include>
+				<orientation>horizontal</orientation>
+				<usecontrolcoords>true</usecontrolcoords>
+				<visible>IsEmpty(ListItem.Director) + Container.Content(tvshows) + !IsEmpty(Window(Home).Property(NextAired.NextDay))</visible>
+				<animation condition="Control.HasFocus(50) | Control.HasFocus(5000)" effect="fade" end="0" start="100" time="0">Conditional</animation>
+				<animation condition="!Control.HasFocus(50) + !Control.HasFocus(5000)" delay="200" effect="fade" end="100" start="0" time="80">Conditional</animation>
+				<control type="label">
+					<width>auto</width>
+					<height>24</height>
+					<font>Med30</font>
+					<aligny>bottom</aligny>
+					<textcolor>ff717171</textcolor>
+					<label>$LOCALIZE[31073]:</label>
+				</control>
+				<control type="label">
+					<top>-1</top>
+					<width>auto</width>
+					<height>24</height>
+					<font>Light30Spaced</font>
+					<aligny>bottom</aligny>
+					<textcolor>ffbcbcbc</textcolor>
+					<label>$INFO[Window(Home).Property(NextAired.NextDay)]</label>
 				</control>
 			</control>
 			<!-- Button grouplist -->
@@ -389,7 +419,7 @@
 					<ondown condition="Control.IsVisible(50)">50</ondown>
 					<font>Med24</font>
 					<label>$VAR[VideoInfoButton8]</label>
-					<altlabel>Browse[CR]TV Show</altlabel>
+					<altlabel>$LOCALIZE[31074]</altlabel>
 					<usealttexture>Container.Content(TVShows)</usealttexture>
 					<textoffsetx>20</textoffsetx>
 					<textcolor>ffdadada</textcolor>
@@ -409,7 +439,7 @@
 					<onclick condition="Player.HasMedia">PlayerControl(stop)</onclick>
 					<onclick>PlayMedia($INFO[ListItem.Trailer])</onclick>
 					<font>Med24</font>
-					<label>Watch[CR]Trailer</label>
+					<label>$LOCALIZE[31075]</label>
 					<textoffsetx>20</textoffsetx>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
@@ -502,7 +532,7 @@
 				<height>32</height>
 				<font>Med32</font>
 				<textcolor>ff717171</textcolor>
-				<label>Cast and Role</label>
+				<label>$LOCALIZE[31076]</label>
 				<visible>IsEmpty(Window(home).Property(Similar)) + !IsEmpty(Container(50).ListItem.Label) + !Control.HasFocus(50)</visible>
 				<animation delay="400" effect="fade" end="100" start="0" time="200">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="0">Hidden</animation>
@@ -524,7 +554,6 @@
 				<focusposition>2</focusposition>
 				<viewtype label="">list</viewtype>
 				<orientation>horizontal</orientation>
-				<defaultcontrol always="true">0</defaultcontrol>
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>IsEmpty(Window(home).Property(Similar))</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
@@ -910,7 +939,7 @@
 				<height>32</height>
 				<font>Med32</font>
 				<textcolor>ff717171</textcolor>
-				<label>Customers Also Watched</label>
+				<label>$LOCALIZE[31077]</label>
 				<visible>!IsEmpty(Window(home).Property(Similar)) + !IsEmpty(Container(5000).ListItem.Label) + !Control.HasFocus(5000)</visible>
 				<animation delay="400" effect="fade" end="100" start="0" time="200">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="0">Hidden</animation>
@@ -923,7 +952,7 @@
 				<height>32</height>
 				<font>Med54</font>
 				<textcolor>ffbebebe</textcolor>
-				<label>Sorry, we have no items for this title.</label>
+				<label>$LOCALIZE[31078]</label>
 				<visible>!IsEmpty(Window(home).Property(Similar)) + IsEmpty(Container(5000).ListItem.Label)</visible>
 				<animation delay="400" effect="fade" end="100" start="0" time="200">Visible</animation>
 				<animation condition="Control.HasFocus(5000)" effect="fade" end="0" start="100" time="0">Conditional</animation>
@@ -945,7 +974,6 @@
 				<focusposition>2</focusposition>
 				<viewtype label="">list</viewtype>
 				<orientation>horizontal</orientation>
-				<defaultcontrol always="true">0</defaultcontrol>
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>!IsEmpty(Window(home).Property(Similar))</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">

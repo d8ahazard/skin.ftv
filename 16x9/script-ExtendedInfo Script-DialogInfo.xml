@@ -66,7 +66,7 @@
 					<font>Light35</font>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ffffc24b</focusedcolor>
-					<label>Overview</label>
+					<label>$LOCALIZE[31026]</label>
 					<include>NoTextures</include>
 					<animation condition="!IsEmpty(Window(home).Property(StarredInTV))" effect="fade" end="50" start="100" time="0">Conditional</animation>
 				</control>
@@ -82,7 +82,7 @@
 					<font>Light35</font>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ffffc24b</focusedcolor>
-					<label>TV Roles</label>
+					<label>$LOCALIZE[31107]</label>
 					<include>NoTextures</include>
 					<visible>!IsEmpty(Container(250).ListItem.Label)</visible>
 					<animation condition="IsEmpty(Window(home).Property(StarredInTV))" effect="fade" end="50" start="100" time="0">Conditional</animation>
@@ -120,7 +120,7 @@
 						<font>Bold30</font>
 						<scroll>false</scroll>
 						<textcolor>ff717171</textcolor>
-						<label>Born</label>
+						<label>$LOCALIZE[21893]</label>
 					</control>
 					<control type="textbox">
 						<width>1192</width>
@@ -195,7 +195,7 @@
 						<font>Bold30</font>
 						<scroll>false</scroll>
 						<textcolor>ff717171</textcolor>
-						<label>Known For</label>
+						<label>$LOCALIZE[31108]</label>
 					</control>
 					<control type="textbox">
 						<width>1192</width>
@@ -523,7 +523,7 @@
 				<height>32</height>
 				<font>Med54</font>
 				<textcolor>ffbebebe</textcolor>
-				<label>Sorry, we have no items for this title.</label>
+				<label>$LOCALIZE[31078]</label>
 				<visible>!IsEmpty(Window(home).Property(StarredInTV)) + IsEmpty(Container(250).ListItem.Label)</visible>
 				<animation delay="400" effect="fade" end="100" start="0" time="200">Visible</animation>
 				<animation condition="Control.HasFocus(250)" effect="fade" end="0" start="100" time="0">Conditional</animation>

@@ -260,7 +260,7 @@
 					<width>958</width>
 					<height>84</height>
 					<font>Light32</font>
-					<label>Customise Home menu</label>
+					<label>$LOCALIZE[31049]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -272,7 +272,7 @@
 					<width>958</width>
 					<height>84</height>
 					<font>Light32</font>
-					<label>Customise Shutdown menu</label>
+					<label>$LOCALIZE[31114]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -284,7 +284,7 @@
 					<width>958</width>
 					<height>84</height>
 					<font>Light32</font>
-					<label>Hide Unwatched Episode Thumbs</label>
+					<label>$LOCALIZE[31130]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -304,7 +304,7 @@
 					<width>958</width>
 					<height>84</height>
 					<font>Light32</font>
-					<label>Enable Wide TV Show Icons</label>
+					<label>$LOCALIZE[31131]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -324,7 +324,7 @@
 					<width>958</width>
 					<height>84</height>
 					<font>Light32</font>
-					<label>Click to download TV Show logos</label>
+					<label>$LOCALIZE[31132]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -337,7 +337,7 @@
 					<width>958</width>
 					<height>84</height>
 					<font>Light32</font>
-					<label>Enable Wide Season Icons</label>
+					<label>$LOCALIZE[31133]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -357,7 +357,7 @@
 					<width>958</width>
 					<height>84</height>
 					<font>Light32</font>
-					<label>Enable Fanart</label>
+					<label>$LOCALIZE[31134]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -377,7 +377,7 @@
 					<width>958</width>
 					<height>84</height>
 					<font>Light32</font>
-					<label>Select Rating Country</label>
+					<label>$LOCALIZE[31135]</label>
 					<label2>$VAR[RatingCountry]</label2>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
@@ -393,18 +393,6 @@
 					<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(RatingCountry,Germany))</onclick>
 					<onclick>RunScript(script.toolbox,info=selectdialog,header=Select Rating Country)</onclick> 
 				</control>
-				<!--control id="18" type="button">
-					<width>958</width>
-					<height>84</height>
-					<font>Light32</font>
-					<label>Manage Home Widgets</label>
-					<textoffsetx>40</textoffsetx>
-					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
-					<texturefocus border="3">settings/button_focus.png</texturefocus>
-					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
-					<onclick>ActivateWindow(1105)</onclick>
-				</control-->
 				<control id="21" type="radiobutton">
 					<width>958</width>
 					<height>84</height>

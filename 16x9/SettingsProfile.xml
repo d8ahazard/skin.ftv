@@ -224,7 +224,7 @@
 					<width>558</width>
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
-					<label>Settings level</label>
+					<label>$LOCALIZE[31016]</label>
 					<textcolor>ff505153</textcolor>
 				</control>
 				<control type="image">
@@ -242,7 +242,7 @@
 			<font>Light32</font>
 			<aligny>bottom</aligny>
 			<textcolor>ffdadada</textcolor>
-			<label>Personalise your experience with profiles. Includes enabling login screen, profile creation and management.</label>
+			<label>$LOCALIZE[31124]</label>
 			<wrapmultiline>true</wrapmultiline>
 		</control>
 		<control type="image">
@@ -301,7 +301,7 @@
 					<font>Light30Spaced</font>
 					<onright>200</onright>
 					<onclick>SetFocus(200)</onclick>
-					<label>Login</label>
+					<label>$LOCALIZE[31125]</label>
 					<textcolor>$VAR[ProfileSettingsLoginButton]</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
@@ -474,7 +474,7 @@
 				<height>76</height>
 				<font>Med24</font>
 				<align>center</align>
-				<label>Last login:</label>
+				<label>$LOCALIZE[31126]:</label>
 			</control>
 			<control type="label">
 				<left>1033</left>

@@ -88,7 +88,7 @@
 				<font>Light35</font>
 				<textcolor>ffdadada</textcolor>
 				<focusedcolor>ffffc24b</focusedcolor>
-				<label>Overview</label>
+				<label>$LOCALIZE[31026]</label>
 				<include>NoTextures</include>
 				<animation condition="!IsEmpty(Window(home).Property(Similar))" effect="fade" end="50" start="100" time="0">Conditional</animation>
 			</control>
@@ -105,7 +105,7 @@
 				<font>Light35</font>
 				<textcolor>ffdadada</textcolor>
 				<focusedcolor>ffffc24b</focusedcolor>
-				<label>Similar Titles</label>
+				<label>$LOCALIZE[31070]</label>
 				<include>NoTextures</include>
 				<animation condition="IsEmpty(Window(home).Property(Similar))" effect="fade" end="50" start="100" time="0">Conditional</animation>
 			</control>
@@ -276,7 +276,7 @@
 					<font>Med30</font>
 					<aligny>bottom</aligny>
 					<textcolor>ff717171</textcolor>
-					<label>Starring:</label>
+					<label>$LOCALIZE[31071]:</label>
 				</control>
 				<control type="label">
 					<top>-1</top>
@@ -306,7 +306,7 @@
 					<font>Med30</font>
 					<aligny>bottom</aligny>
 					<textcolor>ff717171</textcolor>
-					<label>Directed by:</label>
+					<label>$LOCALIZE[31072]:</label>
 				</control>
 				<control type="label">
 					<top>-1</top>
@@ -349,7 +349,7 @@
 					<ondown condition="Control.IsVisible(150)">150</ondown>
 					<ondown condition="Control.IsVisible(1000)">1000</ondown>
 					<font>Med24</font>
-					<label>Watch[CR]Now</label>
+					<label>$LOCALIZE[31109]</label>
 					<textoffsetx>20</textoffsetx>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
@@ -365,7 +365,7 @@
 					<ondown condition="Control.IsVisible(150)">150</ondown>
 					<ondown condition="Control.IsVisible(1000)">1000</ondown>
 					<font>Med24</font>
-					<label>Watch[CR]Trailer</label>
+					<label>$LOCALIZE[31075]</label>
 					<textoffsetx>20</textoffsetx>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
@@ -385,7 +385,7 @@
 				<height>32</height>
 				<font>Med32</font>
 				<textcolor>ff717171</textcolor>
-				<label>Cast and Role</label>
+				<label>$LOCALIZE[31076]</label>
 				<visible>IsEmpty(Window(home).Property(Similar)) + !IsEmpty(Container(1000).ListItem.Label) + !Control.HasFocus(1000)</visible>
 				<animation delay="400" effect="fade" end="100" start="0" time="200">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="0">Hidden</animation>
@@ -408,7 +408,6 @@
 				<focusposition>2</focusposition>
 				<viewtype label="">list</viewtype>
 				<orientation>horizontal</orientation>
-				<defaultcontrol always="true">0</defaultcontrol>
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>IsEmpty(Window(home).Property(Similar))</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
@@ -794,7 +793,7 @@
 				<height>32</height>
 				<font>Med32</font>
 				<textcolor>ff717171</textcolor>
-				<label>Customers Also Watched</label>
+				<label>$LOCALIZE[31077]</label>
 				<visible>!IsEmpty(Window(home).Property(Similar)) + !IsEmpty(Container(150).ListItem.Label) + !Control.HasFocus(150)</visible>
 				<animation delay="400" effect="fade" end="100" start="0" time="200">Visible</animation>
 				<animation effect="fade" end="0" start="100" time="0">Hidden</animation>
@@ -807,7 +806,7 @@
 				<height>32</height>
 				<font>Med54</font>
 				<textcolor>ffbebebe</textcolor>
-				<label>Sorry, we have no items for this title.</label>
+				<label>$LOCALIZE[31078]</label>
 				<visible>!IsEmpty(Window(home).Property(Similar)) + IsEmpty(Container(150).ListItem.Label)</visible>
 				<animation delay="400" effect="fade" end="100" start="0" time="200">Visible</animation>
 				<animation condition="Control.HasFocus(150)" effect="fade" end="0" start="100" time="0">Conditional</animation>
@@ -829,7 +828,6 @@
 				<focusposition>2</focusposition>
 				<viewtype label="">list</viewtype>
 				<orientation>horizontal</orientation>
-				<defaultcontrol always="true">0</defaultcontrol>
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
 				<visible>!IsEmpty(Window(home).Property(Similar))</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">

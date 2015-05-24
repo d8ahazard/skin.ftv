@@ -84,7 +84,7 @@
 					<font>Light28</font>
 					<align>right</align>
 					<textcolor>ffa4a4a4</textcolor>
-					<label>Sorted by</label>
+					<label>$LOCALIZE[31086]</label>
 				</control>
 				<control type="label">
 					<top>1</top>
@@ -147,7 +147,7 @@
 						<ondown>3000</ondown>
 						<onclick>ReplaceWindow(MusicFiles)</onclick>
 						<font>Med24</font>
-						<label>Music[CR]Files</label>
+						<label>$LOCALIZE[31087]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -161,7 +161,7 @@
 						<ondown>3000</ondown>
 						<onclick condition="!StringCompare(Playlist.Length(music),0)">ActivateWindow(musicplaylist)</onclick>
 						<font>Med24</font>
-						<label>Current[CR]Playlist</label>
+						<label>$LOCALIZE[31088]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -176,7 +176,7 @@
 						<ondown>3000</ondown>
 						<onclick>SetFocus(5001)</onclick>
 						<font>Med24</font>
-						<label>View[CR]Options</label>
+						<label>$LOCALIZE[31089]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -190,8 +190,8 @@
 						<ondown>3000</ondown>
 						<onclick>SetFocus(50)</onclick>
 						<font>Med24</font>
-						<label>Update[CR]Library</label>
-						<altlabel>Stop[CR]scanning</altlabel>
+						<label>$LOCALIZE[31090]</label>
+						<altlabel>$LOCALIZE[31091]</altlabel>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -319,7 +319,7 @@
 						<ondown>1005</ondown>
 						<onclick>ReplaceWindow(MusicFiles)</onclick>
 						<font>Med24</font>
-						<label>Music[CR]Files</label>
+						<label>$LOCALIZE[31087]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -337,7 +337,7 @@
 						<ondown>3000</ondown>
 						<onclick>SetFocus(5001)</onclick>
 						<font>Med24</font>
-						<label>View[CR]Options</label>
+						<label>$LOCALIZE[31089]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -354,7 +354,7 @@
 						<ondown>noop</ondown>
 						<onclick condition="!StringCompare(Playlist.Length(music),0)">ActivateWindow(musicplaylist)</onclick>
 						<font>Med24</font>
-						<label>Current[CR]Playlist</label>
+						<label>$LOCALIZE[31088]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -372,8 +372,8 @@
 						<ondown>1004</ondown>
 						<onclick>SetFocus(50)</onclick>
 						<font>Med24</font>
-						<label>Update[CR]Library</label>
-						<altlabel>Stop[CR]scanning</altlabel>
+						<label>$LOCALIZE[31090]</label>
+						<altlabel>$LOCALIZE[31091]</altlabel>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -513,7 +513,7 @@
 					<height>60</height>
 					<font>Bold30</font>
 					<textcolor>ffdadada</textcolor>
-					<label>Sort By:</label>
+					<label>$LOCALIZE[31092]:</label>
 					<visible>Control.IsEnabled(3)</visible>
 				</control>
 				<control type="button" id="5004">
@@ -545,7 +545,7 @@
 					<height>60</height>
 					<font>Bold30</font>
 					<textcolor>ffdadada</textcolor>
-					<label>Order By:</label>
+					<label>$LOCALIZE[21429]:</label>
 					<visible>Control.IsEnabled(4)</visible>
 				</control>
 				<control type="togglebutton" id="4">
@@ -580,7 +580,7 @@
 					<height>60</height>
 					<font>Bold30</font>
 					<textcolor>ffdadada</textcolor>
-					<label>Filter By:</label>
+					<label>$LOCALIZE[31093]:</label>
 					<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
 				</control>
 				<control type="edit" id="19">
@@ -610,7 +610,7 @@
 					<height>60</height>
 					<font>Bold30</font>
 					<textcolor>ffdadada</textcolor>
-					<label>Filter:</label>
+					<label>$LOCALIZE[587]:</label>
 					<visible>Container.CanFilterAdvanced</visible>
 				</control>
 				<control type="radiobutton" id="5011">

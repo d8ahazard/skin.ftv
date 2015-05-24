@@ -104,7 +104,7 @@
 					<font>Light35</font>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ffffc24b</focusedcolor>
-					<label>Overview</label>
+					<label>$LOCALIZE[31026]</label>
 					<include>NoTextures</include>
 				</control>
 			</control>
@@ -124,7 +124,7 @@
 					<font>Light35</font>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ffffc24b</focusedcolor>
-					<label>Overview</label>
+					<label>$LOCALIZE[31026]</label>
 					<include>NoTextures</include>
 				</control>
 			</control>
@@ -275,7 +275,7 @@
 					<font>Med30</font>
 					<aligny>bottom</aligny>
 					<textcolor>ff717171</textcolor>
-					<label>Directed by:</label>
+					<label>$LOCALIZE[31072]:</label>
 				</control>
 				<control type="label">
 					<top>-1</top>
@@ -302,7 +302,7 @@
 					<font>Med30</font>
 					<aligny>bottom</aligny>
 					<textcolor>ff717171</textcolor>
-					<label>Written by:</label>
+					<label>$LOCALIZE[31110]:</label>
 				</control>
 				<control type="label">
 					<top>-1</top>
@@ -348,7 +348,7 @@
 						<font>Bold30</font>
 						<scroll>false</scroll>
 						<textcolor>ff717171</textcolor>
-						<label>Formed:</label>
+						<label>$LOCALIZE[21894]:</label>
 					</control>
 					<control type="textbox">
 						<width>1192</width>
@@ -372,7 +372,7 @@
 						<font>Bold30</font>
 						<scroll>false</scroll>
 						<textcolor>ff717171</textcolor>
-						<label>Year:</label>
+						<label>$LOCALIZE[345]:</label>
 					</control>
 					<control type="textbox">
 						<width>1192</width>
@@ -396,7 +396,7 @@
 						<font>Bold30</font>
 						<scroll>false</scroll>
 						<textcolor>ff717171</textcolor>
-						<label>Genre:</label>
+						<label>$LOCALIZE[515]:</label>
 					</control>
 					<control type="textbox">
 						<width>1192</width>
@@ -420,7 +420,7 @@
 						<font>Bold30</font>
 						<scroll>false</scroll>
 						<textcolor>ff717171</textcolor>
-						<label>Active:</label>
+						<label>$LOCALIZE[19074]</label>
 					</control>
 					<control type="textbox">
 						<width>1192</width>
@@ -444,7 +444,7 @@
 						<font>Bold30</font>
 						<scroll>false</scroll>
 						<textcolor>ff717171</textcolor>
-						<label>Artist:</label>
+						<label>$LOCALIZE[557]:</label>
 					</control>
 					<control type="textbox">
 						<width>1192</width>
@@ -546,7 +546,7 @@
 					<onup condition="!Control.IsVisible(96)">Close</onup>
 					<onup condition="Control.IsVisible(96)">3002</onup>
 					<font>Med24</font>
-					<label>OK</label>
+					<label>$LOCALIZE[186]</label>
 					<textoffsetx>20</textoffsetx>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>

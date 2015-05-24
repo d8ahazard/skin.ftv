@@ -196,7 +196,7 @@
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>
-					<label>Visualisation Presets</label>
+					<label>$LOCALIZE[31047]</label>
 					<texturefocus>-</texturefocus>
 					<texturenofocus>-</texturenofocus>
 					<onclick>ActivateWindow(122)</onclick>

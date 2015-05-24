@@ -40,7 +40,7 @@
 				<font>Light35</font>
 				<textcolor>ffdadada</textcolor>
 				<focusedcolor>ffffc24b</focusedcolor>
-				<label>Overview</label>
+				<label>$LOCALIZE[31026]</label>
 				<include>NoTextures</include>
 				<animation condition="!IsEmpty(Window(home).Property(AlbumDetails))" effect="fade" end="50" start="100" time="0">Conditional</animation>
 			</control>
@@ -57,7 +57,7 @@
 				<font>Light35</font>
 				<textcolor>ffdadada</textcolor>
 				<focusedcolor>ffffc24b</focusedcolor>
-				<label>Details</label>
+				<label>$LOCALIZE[33029]</label>
 				<include>NoTextures</include>
 				<animation condition="IsEmpty(Window(home).Property(AlbumDetails))" effect="fade" end="50" start="100" time="0">Conditional</animation>
 			</control>
@@ -92,7 +92,7 @@
 					<font>Bold30</font>
 					<scroll>false</scroll>
 					<textcolor>ff717171</textcolor>
-					<label>Formed:</label>
+					<label>$LOCALIZE[21894]:</label>
 				</control>
 				<control type="textbox">
 					<width>1192</width>
@@ -119,7 +119,7 @@
 					<font>Bold30</font>
 					<scroll>false</scroll>
 					<textcolor>ff717171</textcolor>
-					<label>Year:</label>
+					<label>$LOCALIZE[345]:</label>
 				</control>
 				<control type="textbox">
 					<width>1192</width>
@@ -145,7 +145,7 @@
 					<font>Bold30</font>
 					<scroll>false</scroll>
 					<textcolor>ff717171</textcolor>
-					<label>Genre:</label>
+					<label>$LOCALIZE[515]:</label>
 				</control>
 				<control type="textbox">
 					<width>1192</width>
@@ -172,7 +172,7 @@
 					<font>Bold30</font>
 					<scroll>false</scroll>
 					<textcolor>ff717171</textcolor>
-					<label>Active:</label>
+					<label>$LOCALIZE[19074]</label>
 				</control>
 				<control type="textbox">
 					<width>1192</width>
@@ -199,7 +199,7 @@
 					<font>Bold30</font>
 					<scroll>false</scroll>
 					<textcolor>ff717171</textcolor>
-					<label>Artist:</label>
+					<label>$LOCALIZE[557]:</label>
 				</control>
 				<control type="textbox">
 					<width>1192</width>
@@ -253,7 +253,7 @@
 						<height>116</height>
 						<onup>Close</onup>
 						<font>Med24</font>
-						<label>Refresh</label>
+						<label>$LOCALIZE[184]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -267,7 +267,7 @@
 						<height>116</height>
 						<onup>Close</onup>
 						<font>Med24</font>
-						<label>Choose[CR]Thumb</label>
+						<label>$LOCALIZE[31062]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -281,7 +281,7 @@
 						<height>116</height>
 						<onup>Close</onup>
 						<font>Med24</font>
-						<label>Choose[CR]Fanart</label>
+						<label>$LOCALIZE[31067]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>

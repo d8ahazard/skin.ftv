@@ -224,7 +224,7 @@
 					<width>558</width>
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
-					<label>Settings level</label>
+					<label>$LOCALIZE[31016]</label>
 					<textcolor>ff505153</textcolor>
 				</control>
 				<control type="image">
@@ -242,7 +242,7 @@
 			<font>Light32</font>
 			<aligny>bottom</aligny>
 			<textcolor>ffdadada</textcolor>
-			<label>View your system's information. Includes storage, network, and hardware information.</label>
+			<label>$LOCALIZE[31127]</label>
 			<wrapmultiline>true</wrapmultiline>
 		</control>
 		<control type="image">
@@ -276,7 +276,7 @@
 				<width>419</width>
 				<aligny>center</aligny>
 				<font>Bold30</font>
-				<label>About</label>
+				<label>$LOCALIZE[31128]</label>
 				<textcolor>ffdadada</textcolor>
 			</control>
 			<control id="100" type="grouplist">
@@ -296,7 +296,7 @@
 					<textwidth>576</textwidth>
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
-					<label>Kodi</label>
+					<label>$LOCALIZE[31129]</label>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>

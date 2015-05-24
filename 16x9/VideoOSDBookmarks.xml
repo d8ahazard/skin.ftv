@@ -113,7 +113,7 @@
 						<font>Med28</font>
 						<textcolor>ffffc448</textcolor>
 						<shadowcolor>88000000</shadowcolor>
-						<label>Jump to</label>
+						<label>$LOCALIZE[31141]</label>
 						<visible>!StringCompare(ListItem.Label,..)</visible>
 						<animation condition="Control.HasFocus(11) | Container(11).OnNext | Container(11).OnPrevious" delay="700" easing="inout" effect="fade" end="100" reversible="false" start="0" time="220" tween="sine">Focus</animation>
 						<animation condition="Container(11).OnNext | Container(11).OnPrevious" effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -222,7 +222,7 @@
 						<onup>11</onup>
 						<ondown>noop</ondown>
 						<font>Med24</font>
-						<label>Create New[CR]Bookmark Here</label>
+						<label>$LOCALIZE[31142]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -237,7 +237,7 @@
 						<onup>11</onup>
 						<ondown>noop</ondown>
 						<font>Med24</font>
-						<label>Set Episode[CR]Bookmark Here</label>
+						<label>$LOCALIZE[31143]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
@@ -251,7 +251,7 @@
 						<onup>11</onup>
 						<ondown>noop</ondown>
 						<font>Med24</font>
-						<label>Clear all[CR]Bookmarks</label>
+						<label>$LOCALIZE[31144]</label>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
