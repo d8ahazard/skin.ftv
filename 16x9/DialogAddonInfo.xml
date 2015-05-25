@@ -168,7 +168,6 @@
 					<font>Light30Spaced</font>
 					<autoscroll>false</autoscroll>
 					<textcolor>ffbbbbbb</textcolor>
-					<label>$LOCALIZE[116]</label>
 					<label>[COLOR 00ffffff][B]Creator:-[/B][/COLOR]$INFO[ListItem.Property(Addon.Creator)]</label>
 					<include>DialogVideoInfoAnimation</include>
 				</control>

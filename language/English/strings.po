@@ -624,3 +624,11 @@ msgstr ""
 msgctxt "#31146"
 msgid "Special"
 msgstr ""
+
+msgctxt "#31147"
+msgid "minutes"
+msgstr ""
+
+msgctxt "#31148"
+msgid "hours"
+msgstr ""

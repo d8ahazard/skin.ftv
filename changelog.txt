@@ -1,3 +1,9 @@
+0.9.81
+
+Fixed some language strings
+Fixed Addon Info label
+Added Artist Slideshow support
+
 0.9.8
 
 More localisation
