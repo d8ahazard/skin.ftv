@@ -1,3 +1,8 @@
+0.9.91
+
+Fixed video osd navigation
+Changed OSD button colours
+
 0.9.9
 
 Added video and music osd controls option

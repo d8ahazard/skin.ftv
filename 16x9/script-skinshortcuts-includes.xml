@@ -88,30 +88,30 @@
 			<property name="hasSubmenu">True</property>
 		</item>
 		<item id="7">
-			<label>Apps</label>
+			<label>$LOCALIZE[31101]</label>
 			<label2>Custom shortcut</label2>
 			<icon>DefaultProgram.png</icon>
 			<thumb />
-			<property name="labelID">apps</property>
+			<property name="labelID">31101</property>
 			<property name="defaultID">programs</property>
 			<onclick>ActivateWindow(Programs)</onclick>
 			<property name="path">ActivateWindow(Programs)</property>
 			<visible>StringCompare(System.ProfileName,Hitcher)</visible>
-			<property name="submenuVisibility">apps</property>
+			<property name="submenuVisibility">num-31101</property>
 			<property name="group">mainmenu</property>
 			<property name="hasSubmenu">False</property>
 		</item>
 		<item id="8">
-			<label>Photos</label>
+			<label>$LOCALIZE[31100]</label>
 			<label2>Common Shortcut</label2>
 			<icon>DefaultPicture.png</icon>
 			<thumb />
-			<property name="labelID">photos</property>
+			<property name="labelID">31100</property>
 			<property name="defaultID">pictures</property>
 			<onclick>ActivateWindow(Pictures)</onclick>
 			<property name="path">ActivateWindow(Pictures)</property>
 			<visible>StringCompare(System.ProfileName,Hitcher)</visible>
-			<property name="submenuVisibility">photos</property>
+			<property name="submenuVisibility">num-31100</property>
 			<property name="group">mainmenu</property>
 			<property name="hasSubmenu">True</property>
 		</item>
@@ -1229,9 +1229,9 @@
 			<property name="defaultID">1039</property>
 			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,Hitcher) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),photos)]</visible>
+			<visible>StringCompare(System.ProfileName,Hitcher) + [StringCompare(Container(9000).ListItem.Property(submenuVisibility),num-31100)]</visible>
 			<property name="isSubmenu">True</property>
-			<property name="group">photos</property>
+			<property name="group">31100</property>
 		</item>
 		<item id="1">
 			<label>$LOCALIZE[7]</label>
@@ -7039,9 +7039,9 @@
 			<property name="group">music</property>
 		</item>
 	</include>
-	<include name="skinshortcuts-group-apps" />
-	<include name="skinshortcuts-group-alt-apps" />
-	<include name="skinshortcuts-group-photos">
+	<include name="skinshortcuts-group-31101" />
+	<include name="skinshortcuts-group-alt-31101" />
+	<include name="skinshortcuts-group-31100">
 		<item id="1">
 			<label>$LOCALIZE[1039]</label>
 			<label2>$ADDON[script.skinshortcuts 32020]</label2>
@@ -7052,10 +7052,8 @@
 			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
 			<visible>StringCompare(System.ProfileName,Hitcher)</visible>
-			<property name="group">photos</property>
+			<property name="group">31100</property>
 		</item>
-	</include>
-	<include name="skinshortcuts-group-alt-photos">
 		<item id="1">
 			<label>$LOCALIZE[1039]</label>
 			<label2>$ADDON[script.skinshortcuts 32020]</label2>
@@ -7065,9 +7063,136 @@
 			<property name="defaultID">1039</property>
 			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
 			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,Hitcher) + [StringCompare(Window(10000).Property(submenuVisibility),photos)]</visible>
+			<visible>StringCompare(System.ProfileName,User 2)</visible>
+			<property name="group">31100</property>
+		</item>
+		<item id="1">
+			<label>$LOCALIZE[1039]</label>
+			<label2>$ADDON[script.skinshortcuts 32020]</label2>
+			<icon>DefaultAddonPicture.png</icon>
+			<thumb />
+			<property name="labelID">1039</property>
+			<property name="defaultID">1039</property>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
+			<visible>StringCompare(System.ProfileName,User 3)</visible>
+			<property name="group">31100</property>
+		</item>
+		<item id="1">
+			<label>$LOCALIZE[1039]</label>
+			<label2>$ADDON[script.skinshortcuts 32020]</label2>
+			<icon>DefaultAddonPicture.png</icon>
+			<thumb />
+			<property name="labelID">1039</property>
+			<property name="defaultID">1039</property>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
+			<visible>StringCompare(System.ProfileName,User 4)</visible>
+			<property name="group">31100</property>
+		</item>
+		<item id="1">
+			<label>$LOCALIZE[1039]</label>
+			<label2>$ADDON[script.skinshortcuts 32020]</label2>
+			<icon>DefaultAddonPicture.png</icon>
+			<thumb />
+			<property name="labelID">1039</property>
+			<property name="defaultID">1039</property>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
+			<visible>StringCompare(System.ProfileName,User 5)</visible>
+			<property name="group">31100</property>
+		</item>
+		<item id="1">
+			<label>$LOCALIZE[1039]</label>
+			<label2>$ADDON[script.skinshortcuts 32020]</label2>
+			<icon>DefaultAddonPicture.png</icon>
+			<thumb />
+			<property name="labelID">1039</property>
+			<property name="defaultID">1039</property>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
+			<visible>StringCompare(System.ProfileName,User 6)</visible>
+			<property name="group">31100</property>
+		</item>
+	</include>
+	<include name="skinshortcuts-group-alt-31100">
+		<item id="1">
+			<label>$LOCALIZE[1039]</label>
+			<label2>$ADDON[script.skinshortcuts 32020]</label2>
+			<icon>DefaultAddonPicture.png</icon>
+			<thumb />
+			<property name="labelID">1039</property>
+			<property name="defaultID">1039</property>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
+			<visible>StringCompare(System.ProfileName,Hitcher) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
 			<property name="isSubmenu">True</property>
-			<property name="group">photos</property>
+			<property name="group">31100</property>
+		</item>
+		<item id="1">
+			<label>$LOCALIZE[1039]</label>
+			<label2>$ADDON[script.skinshortcuts 32020]</label2>
+			<icon>DefaultAddonPicture.png</icon>
+			<thumb />
+			<property name="labelID">1039</property>
+			<property name="defaultID">1039</property>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
+			<visible>StringCompare(System.ProfileName,User 2) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">31100</property>
+		</item>
+		<item id="1">
+			<label>$LOCALIZE[1039]</label>
+			<label2>$ADDON[script.skinshortcuts 32020]</label2>
+			<icon>DefaultAddonPicture.png</icon>
+			<thumb />
+			<property name="labelID">1039</property>
+			<property name="defaultID">1039</property>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
+			<visible>StringCompare(System.ProfileName,User 3) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">31100</property>
+		</item>
+		<item id="1">
+			<label>$LOCALIZE[1039]</label>
+			<label2>$ADDON[script.skinshortcuts 32020]</label2>
+			<icon>DefaultAddonPicture.png</icon>
+			<thumb />
+			<property name="labelID">1039</property>
+			<property name="defaultID">1039</property>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
+			<visible>StringCompare(System.ProfileName,User 4) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">31100</property>
+		</item>
+		<item id="1">
+			<label>$LOCALIZE[1039]</label>
+			<label2>$ADDON[script.skinshortcuts 32020]</label2>
+			<icon>DefaultAddonPicture.png</icon>
+			<thumb />
+			<property name="labelID">1039</property>
+			<property name="defaultID">1039</property>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
+			<visible>StringCompare(System.ProfileName,User 5) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">31100</property>
+		</item>
+		<item id="1">
+			<label>$LOCALIZE[1039]</label>
+			<label2>$ADDON[script.skinshortcuts 32020]</label2>
+			<icon>DefaultAddonPicture.png</icon>
+			<thumb />
+			<property name="labelID">1039</property>
+			<property name="defaultID">1039</property>
+			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
+			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
+			<visible>StringCompare(System.ProfileName,User 6) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
+			<property name="isSubmenu">True</property>
+			<property name="group">31100</property>
 		</item>
 	</include>
 	<include name="skinshortcuts-group-weather" />
@@ -9558,137 +9683,6 @@
 			<visible>StringCompare(System.ProfileName,User 6) + [StringCompare(Window(10000).Property(submenuVisibility),shutdown)]</visible>
 			<property name="isSubmenu">True</property>
 			<property name="group">shutdown</property>
-		</item>
-	</include>
-	<include name="skinshortcuts-group-31101" />
-	<include name="skinshortcuts-group-alt-31101" />
-	<include name="skinshortcuts-group-31100">
-		<item id="1">
-			<label>$LOCALIZE[1039]</label>
-			<label2>$ADDON[script.skinshortcuts 32020]</label2>
-			<icon>DefaultAddonPicture.png</icon>
-			<thumb />
-			<property name="labelID">1039</property>
-			<property name="defaultID">1039</property>
-			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
-			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,User 2)</visible>
-			<property name="group">31100</property>
-		</item>
-		<item id="1">
-			<label>$LOCALIZE[1039]</label>
-			<label2>$ADDON[script.skinshortcuts 32020]</label2>
-			<icon>DefaultAddonPicture.png</icon>
-			<thumb />
-			<property name="labelID">1039</property>
-			<property name="defaultID">1039</property>
-			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
-			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,User 3)</visible>
-			<property name="group">31100</property>
-		</item>
-		<item id="1">
-			<label>$LOCALIZE[1039]</label>
-			<label2>$ADDON[script.skinshortcuts 32020]</label2>
-			<icon>DefaultAddonPicture.png</icon>
-			<thumb />
-			<property name="labelID">1039</property>
-			<property name="defaultID">1039</property>
-			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
-			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,User 4)</visible>
-			<property name="group">31100</property>
-		</item>
-		<item id="1">
-			<label>$LOCALIZE[1039]</label>
-			<label2>$ADDON[script.skinshortcuts 32020]</label2>
-			<icon>DefaultAddonPicture.png</icon>
-			<thumb />
-			<property name="labelID">1039</property>
-			<property name="defaultID">1039</property>
-			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
-			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,User 5)</visible>
-			<property name="group">31100</property>
-		</item>
-		<item id="1">
-			<label>$LOCALIZE[1039]</label>
-			<label2>$ADDON[script.skinshortcuts 32020]</label2>
-			<icon>DefaultAddonPicture.png</icon>
-			<thumb />
-			<property name="labelID">1039</property>
-			<property name="defaultID">1039</property>
-			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
-			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,User 6)</visible>
-			<property name="group">31100</property>
-		</item>
-	</include>
-	<include name="skinshortcuts-group-alt-31100">
-		<item id="1">
-			<label>$LOCALIZE[1039]</label>
-			<label2>$ADDON[script.skinshortcuts 32020]</label2>
-			<icon>DefaultAddonPicture.png</icon>
-			<thumb />
-			<property name="labelID">1039</property>
-			<property name="defaultID">1039</property>
-			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
-			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,User 2) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
-			<property name="isSubmenu">True</property>
-			<property name="group">31100</property>
-		</item>
-		<item id="1">
-			<label>$LOCALIZE[1039]</label>
-			<label2>$ADDON[script.skinshortcuts 32020]</label2>
-			<icon>DefaultAddonPicture.png</icon>
-			<thumb />
-			<property name="labelID">1039</property>
-			<property name="defaultID">1039</property>
-			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
-			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,User 3) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
-			<property name="isSubmenu">True</property>
-			<property name="group">31100</property>
-		</item>
-		<item id="1">
-			<label>$LOCALIZE[1039]</label>
-			<label2>$ADDON[script.skinshortcuts 32020]</label2>
-			<icon>DefaultAddonPicture.png</icon>
-			<thumb />
-			<property name="labelID">1039</property>
-			<property name="defaultID">1039</property>
-			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
-			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,User 4) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
-			<property name="isSubmenu">True</property>
-			<property name="group">31100</property>
-		</item>
-		<item id="1">
-			<label>$LOCALIZE[1039]</label>
-			<label2>$ADDON[script.skinshortcuts 32020]</label2>
-			<icon>DefaultAddonPicture.png</icon>
-			<thumb />
-			<property name="labelID">1039</property>
-			<property name="defaultID">1039</property>
-			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
-			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,User 5) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
-			<property name="isSubmenu">True</property>
-			<property name="group">31100</property>
-		</item>
-		<item id="1">
-			<label>$LOCALIZE[1039]</label>
-			<label2>$ADDON[script.skinshortcuts 32020]</label2>
-			<icon>DefaultAddonPicture.png</icon>
-			<thumb />
-			<property name="labelID">1039</property>
-			<property name="defaultID">1039</property>
-			<onclick>ActivateWindow(Pictures,Addons,return)</onclick>
-			<property name="path">ActivateWindow(Pictures,Addons,return)</property>
-			<visible>StringCompare(System.ProfileName,User 6) + [StringCompare(Window(10000).Property(submenuVisibility),num-31100)]</visible>
-			<property name="isSubmenu">True</property>
-			<property name="group">31100</property>
 		</item>
 	</include>
 </includes>

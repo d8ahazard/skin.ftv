@@ -159,8 +159,8 @@
 				<bottom>26</bottom>
 				<width>800</width>
 				<height>64</height>
-				<onup condition="Skin.HasSetting(HideOSDControls) + system.getbool(videoplayer.autoplaynextitem)">SetFocus(16)</onup>
-				<onup condition="Skin.HasSetting(HideOSDControls) + !system.getbool(videoplayer.autoplaynextitem)">SetFocus(15)</onup>
+				<onup condition="system.getbool(videoplayer.autoplaynextitem)">SetFocus(16)</onup>
+				<onup condition="!system.getbool(videoplayer.autoplaynextitem)">SetFocus(15)</onup>
 				<itemgap>0</itemgap>
 				<align>center</align>
 				<orientation>horizontal</orientation>
