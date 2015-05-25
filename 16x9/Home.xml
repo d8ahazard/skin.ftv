@@ -770,7 +770,7 @@
 			<content>
 				<item>
 					<label>$INFO[Skin.String(MovieWidget1.Label)]</label>
-					<visible>!IsEmpty(Container(101).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(101).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(101).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(101).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(101).ListItemNoWrap(2).Icon]</property>
@@ -793,7 +793,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MovieWidget2.Label)]</label>
-					<visible>!IsEmpty(Container(102).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(102).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(102).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(102).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(102).ListItemNoWrap(2).Icon]</property>
@@ -816,7 +816,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MovieWidget3.Label)]</label>
-					<visible>!IsEmpty(Container(103).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(103).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(103).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(103).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(103).ListItemNoWrap(2).Icon]</property>
@@ -839,7 +839,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MovieWidget4.Label)]</label>
-					<visible>!IsEmpty(Container(104).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(104).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(104).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(104).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(104).ListItemNoWrap(2).Icon]</property>
@@ -862,7 +862,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MovieWidget5.Label)]</label>
-					<visible>!IsEmpty(Container(105).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(105).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(105).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(105).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(105).ListItemNoWrap(2).Icon]</property>
@@ -885,7 +885,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MovieWidget6.Label)]</label>
-					<visible>!IsEmpty(Container(106).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(106).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(106).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(106).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(106).ListItemNoWrap(2).Icon]</property>
@@ -908,7 +908,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MovieWidget7.Label)]</label>
-					<visible>!IsEmpty(Container(107).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(107).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(107).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(107).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(107).ListItemNoWrap(2).Icon]</property>
@@ -931,7 +931,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MovieWidget8.Label)]</label>
-					<visible>!IsEmpty(Container(108).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(108).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(108).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(108).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(108).ListItemNoWrap(2).Icon]</property>
@@ -986,7 +986,7 @@
 			<content>
 				<item>
 					<label>$INFO[Skin.String(TVWidget1.Label)]</label>
-					<visible>!IsEmpty(Container(201).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(201).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(201).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(201).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(201).ListItemNoWrap(2).Icon]</property>
@@ -1018,7 +1018,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(TVWidget2.Label)]</label>
-					<visible>!IsEmpty(Container(202).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(202).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(202).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(202).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(202).ListItemNoWrap(2).Icon]</property>
@@ -1050,7 +1050,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(TVWidget3.Label)]</label>
-					<visible>!IsEmpty(Container(203).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(203).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(203).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(203).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(203).ListItemNoWrap(2).Icon]</property>
@@ -1082,7 +1082,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(TVWidget4.Label)]</label>
-					<visible>!IsEmpty(Container(204).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(204).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(204).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(204).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(204).ListItemNoWrap(2).Icon]</property>
@@ -1114,7 +1114,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(TVWidget5.Label)]</label>
-					<visible>!IsEmpty(Container(205).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(205).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(205).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(205).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(205).ListItemNoWrap(2).Icon]</property>
@@ -1146,7 +1146,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(TVWidget6.Label)]</label>
-					<visible>!IsEmpty(Container(206).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(206).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(206).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(206).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(206).ListItemNoWrap(2).Icon]</property>
@@ -1178,7 +1178,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(TVWidget7.Label)]</label>
-					<visible>!IsEmpty(Container(207).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(207).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(207).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(207).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(207).ListItemNoWrap(2).Icon]</property>
@@ -1210,7 +1210,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(TVWidget8.Label)]</label>
-					<visible>!IsEmpty(Container(208).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(208).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(208).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(208).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(208).ListItemNoWrap(2).Icon]</property>
@@ -1824,7 +1824,7 @@
 			<content>
 				<item>
 					<label>$INFO[Skin.String(MusicWidget1.Label)]</label>
-					<visible>!IsEmpty(Container(301).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(301).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(301).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(301).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(301).ListItemNoWrap(2).Icon]</property>
@@ -1841,7 +1841,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MusicWidget2.Label)]</label>
-					<visible>!IsEmpty(Container(302).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(302).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(302).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(302).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(302).ListItemNoWrap(2).Icon]</property>
@@ -1858,7 +1858,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MusicWidget3.Label)]</label>
-					<visible>!IsEmpty(Container(303).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(303).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(303).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(303).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(303).ListItemNoWrap(2).Icon]</property>
@@ -1875,7 +1875,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MusicWidget4.Label)]</label>
-					<visible>!IsEmpty(Container(304).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(304).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(304).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(304).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(304).ListItemNoWrap(2).Icon]</property>
@@ -1892,7 +1892,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MusicWidget5.Label)]</label>
-					<visible>!IsEmpty(Container(305).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(305).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(305).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(305).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(305).ListItemNoWrap(2).Icon]</property>
@@ -1909,7 +1909,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MusicWidget6.Label)]</label>
-					<visible>!IsEmpty(Container(306).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(306).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(306).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(306).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(306).ListItemNoWrap(2).Icon]</property>
@@ -1926,7 +1926,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MusicWidget7.Label)]</label>
-					<visible>!IsEmpty(Container(307).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(307).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(307).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(307).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(307).ListItemNoWrap(2).Icon]</property>
@@ -1943,7 +1943,7 @@
 				</item>
 				<item>
 					<label>$INFO[Skin.String(MusicWidget8.Label)]</label>
-					<visible>!IsEmpty(Container(308).ListItemNoWrap(0).Icon)</visible>
+					<visible>!IsEmpty(Container(308).ListItemNoWrap(0).Label)</visible>
 					<property name="Icon1">$INFO[Container(308).ListItemNoWrap(0).Icon]</property>
 					<property name="Icon2">$INFO[Container(308).ListItemNoWrap(1).Icon]</property>
 					<property name="Icon3">$INFO[Container(308).ListItemNoWrap(2).Icon]</property>
