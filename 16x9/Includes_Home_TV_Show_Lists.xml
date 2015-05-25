@@ -532,7 +532,7 @@
 					<aspectratio align="center">scale</aspectratio>
 					<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(ArtFanart1)]</texture>
 					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
-					<visible>IsEmpty(ListItem.Property(ArtFTV1))</visible>
+					<visible>IsEmpty(ListItem.Property(ArtFTV1)) + !IsEmpty(ListItem.Property(ArtFanart1))</visible>
 				</control>
 				<control type="image">
 					<left>78</left>
@@ -541,7 +541,16 @@
 					<height>101</height>
 					<aspectratio align="center" aligny="top">keep</aspectratio>
 					<texture background="true">$INFO[ListItem.Property(ArtLogo1)]</texture>
-					<visible>IsEmpty(ListItem.Property(ArtFTV1))</visible>
+					<visible>IsEmpty(ListItem.Property(ArtFTV1)) + !IsEmpty(ListItem.Property(ArtFanart1))</visible>
+				</control>
+				<control type="image">
+					<width>423</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(Icon1)]</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+					<visible>IsEmpty(ListItem.Property(ArtFTV1)) + IsEmpty(ListItem.Property(ArtFanart1))</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -578,7 +587,7 @@
 					<aspectratio align="center">scale</aspectratio>
 					<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(ArtFanart2)]</texture>
 					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
-					<visible>IsEmpty(ListItem.Property(ArtFTV2))</visible>
+					<visible>IsEmpty(ListItem.Property(ArtFTV2)) + !IsEmpty(ListItem.Property(ArtFanart2))</visible>
 				</control>
 				<control type="image">
 					<left>78</left>
@@ -586,8 +595,17 @@
 					<width>257</width>
 					<height>101</height>
 					<aspectratio align="center" aligny="top">keep</aspectratio>
-					<texture background="true">$INFO[ListItem.Property(ArtLogo2)]</texture>
-					<visible>IsEmpty(ListItem.Property(ArtFTV2))</visible>
+					<texture background="true">$INFO[ListItem.Property(ArtLogo1)]</texture>
+					<visible>IsEmpty(ListItem.Property(ArtFTV2)) + !IsEmpty(ListItem.Property(ArtFanart2))</visible>
+				</control>
+				<control type="image">
+					<width>423</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(Icon2)]</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+					<visible>IsEmpty(ListItem.Property(ArtFTV2)) + IsEmpty(ListItem.Property(ArtFanart2))</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -624,7 +642,7 @@
 					<aspectratio align="center">scale</aspectratio>
 					<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(ArtFanart3)]</texture>
 					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
-					<visible>IsEmpty(ListItem.Property(ArtFTV3))</visible>
+					<visible>IsEmpty(ListItem.Property(ArtFTV3)) + !IsEmpty(ListItem.Property(ArtFanart3))</visible>
 				</control>
 				<control type="image">
 					<left>78</left>
@@ -632,8 +650,17 @@
 					<width>257</width>
 					<height>101</height>
 					<aspectratio align="center" aligny="top">keep</aspectratio>
-					<texture background="true">$INFO[ListItem.Property(ArtLogo3)]</texture>
-					<visible>IsEmpty(ListItem.Property(ArtFTV3))</visible>
+					<texture background="true">$INFO[ListItem.Property(ArtLogo1)]</texture>
+					<visible>IsEmpty(ListItem.Property(ArtFTV3)) + !IsEmpty(ListItem.Property(ArtFanart3))</visible>
+				</control>
+				<control type="image">
+					<width>423</width>
+					<height>334</height>
+					<bordersize>0,13,10,13</bordersize>
+					<aspectratio align="center">scale</aspectratio>
+					<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(Icon3)]</texture>
+					<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+					<visible>IsEmpty(ListItem.Property(ArtFTV3)) + IsEmpty(ListItem.Property(ArtFanart3))</visible>
 				</control>
 				<control type="image">
 					<top>13</top>
@@ -726,7 +753,7 @@
 						<aspectratio align="center">scale</aspectratio>
 						<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(ArtFanart1)]</texture>
 						<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
-						<visible>IsEmpty(ListItem.Property(ArtFTV1))</visible>
+						<visible>IsEmpty(ListItem.Property(ArtFTV1)) + !IsEmpty(ListItem.Property(ArtFanart1))</visible>
 					</control>
 					<control type="image">
 						<left>78</left>
@@ -735,7 +762,16 @@
 						<height>101</height>
 						<aspectratio align="center" aligny="top">keep</aspectratio>
 						<texture background="true">$INFO[ListItem.Property(ArtLogo1)]</texture>
-						<visible>IsEmpty(ListItem.Property(ArtFTV1))</visible>
+						<visible>IsEmpty(ListItem.Property(ArtFTV1)) + !IsEmpty(ListItem.Property(ArtFanart1))</visible>
+					</control>
+					<control type="image">
+						<width>423</width>
+						<height>334</height>
+						<bordersize>0,13,10,13</bordersize>
+						<aspectratio align="center">scale</aspectratio>
+						<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(Icon1)]</texture>
+						<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+						<visible>IsEmpty(ListItem.Property(ArtFTV1)) + IsEmpty(ListItem.Property(ArtFanart1))</visible>
 					</control>
 					<control type="image">
 						<top>13</top>
@@ -774,7 +810,7 @@
 						<aspectratio align="center">scale</aspectratio>
 						<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(ArtFanart2)]</texture>
 						<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
-						<visible>IsEmpty(ListItem.Property(ArtFTV2))</visible>
+						<visible>IsEmpty(ListItem.Property(ArtFTV2)) + !IsEmpty(ListItem.Property(ArtFanart2))</visible>
 					</control>
 					<control type="image">
 						<left>78</left>
@@ -782,8 +818,17 @@
 						<width>257</width>
 						<height>101</height>
 						<aspectratio align="center" aligny="top">keep</aspectratio>
-						<texture background="true">$INFO[ListItem.Property(ArtLogo2)]</texture>
-						<visible>IsEmpty(ListItem.Property(ArtFTV2))</visible>
+						<texture background="true">$INFO[ListItem.Property(ArtLogo1)]</texture>
+						<visible>IsEmpty(ListItem.Property(ArtFTV2)) + !IsEmpty(ListItem.Property(ArtFanart2))</visible>
+					</control>
+					<control type="image">
+						<width>423</width>
+						<height>334</height>
+						<bordersize>0,13,10,13</bordersize>
+						<aspectratio align="center">scale</aspectratio>
+						<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(Icon2)]</texture>
+						<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+						<visible>IsEmpty(ListItem.Property(ArtFTV2)) + IsEmpty(ListItem.Property(ArtFanart2))</visible>
 					</control>
 					<control type="image">
 						<top>13</top>
@@ -822,7 +867,7 @@
 						<aspectratio align="center">scale</aspectratio>
 						<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(ArtFanart3)]</texture>
 						<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
-						<visible>IsEmpty(ListItem.Property(ArtFTV3))</visible>
+						<visible>IsEmpty(ListItem.Property(ArtFTV3)) + !IsEmpty(ListItem.Property(ArtFanart3))</visible>
 					</control>
 					<control type="image">
 						<left>78</left>
@@ -830,8 +875,17 @@
 						<width>257</width>
 						<height>101</height>
 						<aspectratio align="center" aligny="top">keep</aspectratio>
-						<texture background="true">$INFO[ListItem.Property(ArtLogo3)]</texture>
-						<visible>IsEmpty(ListItem.Property(ArtFTV3))</visible>
+						<texture background="true">$INFO[ListItem.Property(ArtLogo1)]</texture>
+						<visible>IsEmpty(ListItem.Property(ArtFTV3)) + !IsEmpty(ListItem.Property(ArtFanart3))</visible>
+					</control>
+					<control type="image">
+						<width>423</width>
+						<height>334</height>
+						<bordersize>0,13,10,13</bordersize>
+						<aspectratio align="center">scale</aspectratio>
+						<texture background="true" fallback="views/episode_fallback.png">$INFO[ListItem.Property(Icon3)]</texture>
+						<bordertexture border="16,30,16,18">home/image_shadow_small_nf.png</bordertexture>
+						<visible>IsEmpty(ListItem.Property(ArtFTV3)) + IsEmpty(ListItem.Property(ArtFanart3))</visible>
 					</control>
 					<control type="image">
 						<top>13</top>

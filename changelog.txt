@@ -1,3 +1,8 @@
+0.9.93
+
+Fixed home TV show widget wide icon problem
+Fixed Picture and Program widget favourite problem
+
 0.9.92
 
 Fixed home widget visibility conditions

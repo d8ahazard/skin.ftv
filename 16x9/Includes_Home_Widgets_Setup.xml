@@ -936,7 +936,7 @@
 				<onclick>SetProperty(Dialog.2.Label,Your Android Apps)</onclick>
 				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(ProgramsWidget.List,androidapp://sources/apps/)||Skin.SetString(ProgramsWidget.Label,Your Android Apps))</onclick>
 				<onclick>SetProperty(Dialog.3.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,RunScript(script.favourites,property=VideosWidget))</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,RunScript(script.favourites,property=ProgramsWidget))</onclick>
 				<onclick>SetProperty(Dialog.4.Label,Clear)</onclick>
 				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.Reset(ProgramsWidget.Label)||Skin.Reset(ProgramsWidget.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Programs Widget)</onclick>
@@ -970,7 +970,7 @@
 				<onclick>SetProperty(Dialog.1.Label,Your Picture Add-ons)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(PicturesWidget.List,addons://sources/image/)||Skin.SetString(PicturesWidget.Label,Your Picture Add-ons))</onclick>
 				<onclick>SetProperty(Dialog.2.Label,Favourite)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,RunScript(script.favourites,property=VideosWidget))</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,RunScript(script.favourites,property=PicturesWidget))</onclick>
 				<onclick>SetProperty(Dialog.3.Label,Clear)</onclick>
 				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.Reset(PicturesWidget.Label)||Skin.Reset(PicturesWidget.List))</onclick>
 				<onclick>RunScript(script.toolbox,info=selectdialog,header=Pictures Widget)</onclick>
