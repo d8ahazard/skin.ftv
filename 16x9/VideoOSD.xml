@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<!-- videoosd -->
-	<onload condition="Window.IsVisible(VideoFullScreen.xml) + system.getbool(videoplayer.autoplaynextitem)">SetFocus(16)</onload>
-	<onload condition="Window.IsVisible(VideoFullScreen.xml) + !system.getbool(videoplayer.autoplaynextitem)">SetFocus(15)</onload>
+	<onload condition="!Skin.HasSetting(HideOSDControls)">SetFocus(304)</onload>
+	<onload condition="Skin.HasSetting(HideOSDControls) + system.getbool(videoplayer.autoplaynextitem)">SetFocus(16)</onload>
+	<onload condition="Skin.HasSetting(HideOSDControls) + !system.getbool(videoplayer.autoplaynextitem)">SetFocus(15)</onload>
 	<controls>
 		<control type="group">
 			<visible>!Window.IsVisible(osdvideosettings) + !Window.IsVisible(osdaudiosettings) + !Window.IsVisible(videobookmarks) + !Window.IsVisible(subtitlesearch)</visible>
@@ -16,6 +17,14 @@
 				<width>1920</width>
 				<height>720</height>
 				<texture border="1">osd/mask_bottom.png</texture>
+				<visible>!Player.Forwarding + !Player.Rewinding</visible>
+			</control>
+			<control type="image">
+				<bottom>0</bottom>
+				<width>1980</width>
+				<height>120</height>
+				<texture>osd/mask.png</texture>
+				<visible>Player.Forwarding | Player.Rewinding</visible>
 			</control>
 			<control type="grouplist">
 				<left>20</left>
@@ -67,6 +76,15 @@
 				<shadowcolor>ff000000</shadowcolor>
 				<label>$INFO[VideoPlayer.Title]</label>
 				<visible>!IsEmpty(VideoPlayer.TVShowTitle)</visible>
+			</control>
+			<!-- Pause -->
+			<control type="image">
+				<centerleft>50%</centerleft>
+				<centertop>50%</centertop>
+				<width>321</width>
+				<height>341</height>
+				<texture>osd/Pause.png</texture>
+				<visible>Player.Paused</visible>
 			</control>
 			<!--  Progress bar -->
 			<control id="99" type="progress">
@@ -136,6 +154,76 @@
 					<label>$VAR[PlayerResolution]</label>
 				</control>
 			</control>
+			<control id="300" type="grouplist">
+				<centerleft>50%</centerleft>
+				<bottom>26</bottom>
+				<width>800</width>
+				<height>64</height>
+				<onup condition="Skin.HasSetting(HideOSDControls) + system.getbool(videoplayer.autoplaynextitem)">SetFocus(16)</onup>
+				<onup condition="Skin.HasSetting(HideOSDControls) + !system.getbool(videoplayer.autoplaynextitem)">SetFocus(15)</onup>
+				<itemgap>0</itemgap>
+				<align>center</align>
+				<orientation>horizontal</orientation>
+				<defaultcontrol always="true">204</defaultcontrol>
+				<visible>!Skin.HasSetting(HideOSDControls)</visible>
+				<!-- Skip Back -->
+				<control type="button" id="301">
+					<width>64</width>
+					<height>64</height>
+					<font>-</font>
+					<texturefocus>osd/osd_prev_fo.png</texturefocus>
+					<texturenofocus>osd/osd_prev_nf.png</texturenofocus>
+					<onclick>PlayerControl(Previous)</onclick>
+				</control>
+				<!-- Rewind -->
+				<control type="button" id="302">
+					<width>64</width>
+					<height>64</height>
+					<font>-</font>
+					<texturefocus>osd/osd_rw_fo.png</texturefocus>
+					<texturenofocus>osd/osd_rw_nf.png</texturenofocus>
+					<onclick>PlayerControl(Rewind)</onclick>
+				</control>
+				<!-- Stop -->
+				<control type="button" id="303">
+					<width>64</width>
+					<height>64</height>
+					<font>-</font>
+					<texturefocus>osd/osd_stop_fo.png</texturefocus>
+					<texturenofocus>osd/osd_stop_nf.png</texturenofocus>
+					<onclick>PlayerControl(Stop)</onclick>
+				</control>
+				<!-- Play/Pause -->
+				<control type="togglebutton" id="304">
+					<width>64</width>
+					<height>64</height>
+					<font>-</font>
+					<texturefocus>osd/osd_pause_fo.png</texturefocus>
+					<texturenofocus>osd/osd_pause_nf.png</texturenofocus>
+					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
+					<alttexturefocus>osd/osd_play_fo.png</alttexturefocus>
+					<alttexturenofocus>osd/osd_play_nf.png</alttexturenofocus>
+					<onclick>PlayerControl(Play)</onclick>
+				</control>
+				<!-- Fast Forward -->
+				<control type="button" id="305">
+					<width>64</width>
+					<height>64</height>
+					<font>-</font>
+					<texturefocus>osd/osd_ff_fo.png</texturefocus>
+					<texturenofocus>osd/osd_ff_nf.png</texturenofocus>
+					<onclick>PlayerControl(Forward)</onclick>
+				</control>
+				<!-- Next -->
+				<control type="button" id="306">
+					<width>64</width>
+					<height>64</height>
+					<font>-</font>
+					<texturefocus>osd/osd_next_fo.png</texturefocus>
+					<texturenofocus>osd/osd_next_nf.png</texturenofocus>
+					<onclick>PlayerControl(Next)</onclick>
+				</control>
+			</control>
 			<!--  Current time -->
 			<control type="label">
 				<right>92</right>
@@ -157,8 +245,9 @@
 				<itemgap>0</itemgap>
 				<onleft>noop</onleft>
 				<onright>noop</onright>
+				<ondown condition="!Skin.HasSetting(HideOSDControls)">304</ondown>
 				<orientation>vertical</orientation>
-				<visible>!Control.IsVisible(200)</visible>
+				<visible>!Control.IsVisible(200) + !Player.Forwarding + !Player.Rewinding</visible>
 				<!-- 3D mode -->
 				<control id="10" type="button">
 					<width>600</width>

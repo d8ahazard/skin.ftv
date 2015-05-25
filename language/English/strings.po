@@ -632,3 +632,11 @@ msgstr ""
 msgctxt "#31148"
 msgid "hours"
 msgstr ""
+
+msgctxt "#31149"
+msgid "Hide OSD controls"
+msgstr ""
+
+msgctxt "#31150"
+msgid "Hides the Stop, Play, Pause, etc buttons from the music and video OSD."
+msgstr ""
