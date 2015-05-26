@@ -357,7 +357,7 @@
 						<font>Light30Spaced</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbbbbbb</textcolor>
-						<label>[COLOR 00ffffff][B]Formed:-[/B][/COLOR]$INFO[Container(100).ListItem.Property(Artist_Formed)]</label>
+						<label>[COLOR 00ffffff][B]$LOCALIZE[21894]:-[/B][/COLOR]$INFO[Container(100).ListItem.Property(Artist_Formed)]</label>
 					</control>
 				</control>
 				<!-- Year -->
@@ -381,7 +381,7 @@
 						<font>Light30Spaced</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbbbbbb</textcolor>
-						<label>[COLOR 00ffffff][B]Year:-[/B][/COLOR]$INFO[Container(100).ListItem.Property(Year)]</label>
+						<label>[COLOR 00ffffff][B]$LOCALIZE[345]:-[/B][/COLOR]$INFO[Container(100).ListItem.Property(Year)]</label>
 					</control>
 				</control>
 				<!-- Genre -->
@@ -405,7 +405,7 @@
 						<font>Light30Spaced</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbbbbbb</textcolor>
-						<label>[COLOR 00ffffff][B]Genre:-[/B][/COLOR]$INFO[Container(100).ListItem.Property(Genre)]$INFO[Container(100).ListItem.Property(Artist_Genre)]</label>
+						<label>[COLOR 00ffffff][B]$LOCALIZE[515]:-[/B][/COLOR]$INFO[Container(100).ListItem.Property(Genre)]$INFO[Container(100).ListItem.Property(Artist_Genre)]</label>
 					</control>
 				</control>
 				<!-- Active -->
@@ -429,7 +429,7 @@
 						<font>Light30Spaced</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbbbbbb</textcolor>
-						<label>[COLOR 00ffffff][B]Active:-[/B][/COLOR]$INFO[Container(100).ListItem.Property(Artist_YearsActive)]</label>
+						<label>[COLOR 00ffffff][B]$LOCALIZE[19074]:-[/B][/COLOR]$INFO[Container(100).ListItem.Property(Artist_YearsActive)]</label>
 					</control>
 				</control>
 				<!-- Artist -->
@@ -453,7 +453,7 @@
 						<font>Light30Spaced</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbbbbbb</textcolor>
-						<label>[COLOR 00ffffff][B]Artist:-[/B][/COLOR]$INFO[Container(100).ListItem.Property(Artist)]</label>
+						<label>[COLOR 00ffffff][B]$LOCALIZE[557]:-[/B][/COLOR]$INFO[Container(100).ListItem.Property(Artist)]</label>
 					</control>
 				</control>
 				<control type="label">

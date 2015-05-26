@@ -113,7 +113,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/bbfc/pg.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,pg)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,pg,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
@@ -121,7 +121,15 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/bbfc/12.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,12)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,12,right)</visible>
+		</control>
+		<control type="image">
+			<top>3</top>
+			<width>38</width>
+			<height>23</height>
+			<colordiffuse>ffdadada</colordiffuse>
+			<texture>rating/bbfc/12A.png</texture>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,12a,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
@@ -129,7 +137,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/bbfc/15.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,15)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,15,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
@@ -137,7 +145,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/bbfc/18.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,18)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,18,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
@@ -145,7 +153,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/bbfc/u.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,u)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,u,right)</visible>
 		</control>
 	</include>
 	<!-- FSK Ratings -->
@@ -156,7 +164,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/fsk/0.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,0)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,0,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
@@ -164,7 +172,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/fsk/6.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,6)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,6,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
@@ -172,7 +180,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/fsk/12.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,12)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,12,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
@@ -180,7 +188,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/fsk/16.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,16)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,16,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
@@ -188,7 +196,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/fsk/18.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,18)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,18,right)</visible>
 		</control>
 	</include>
 	<!-- MPAA Ratings -->
@@ -199,7 +207,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/mpaa/nc17.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,nc)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,nc,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
@@ -207,7 +215,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/mpaa/pg13.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,13)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,13,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
@@ -215,7 +223,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/mpaa/nr.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,nr)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,nr,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>

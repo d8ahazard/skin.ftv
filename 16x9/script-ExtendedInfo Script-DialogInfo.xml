@@ -120,7 +120,7 @@
 						<font>Bold30</font>
 						<scroll>false</scroll>
 						<textcolor>ff717171</textcolor>
-						<label>$LOCALIZE[21893]</label>
+						<label>$LOCALIZE[21893]:</label>
 					</control>
 					<control type="textbox">
 						<width>1192</width>
@@ -129,7 +129,7 @@
 						<font>Light30Spaced</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbbbbbb</textcolor>
-						<label>[COLOR 00ffffff][B]Born-[/B][/COLOR]$INFO[Window.Property(actor.Birthday)]</label>
+						<label>[COLOR 00ffffff][B]$LOCALIZE[21893]:-[/B][/COLOR]$INFO[Window.Property(actor.Birthday)]</label>
 						<include>DialogVideoInfoAnimation</include>
 					</control>
 				</control>
@@ -195,7 +195,7 @@
 						<font>Bold30</font>
 						<scroll>false</scroll>
 						<textcolor>ff717171</textcolor>
-						<label>$LOCALIZE[31108]</label>
+						<label>$LOCALIZE[31108]:</label>
 					</control>
 					<control type="textbox">
 						<width>1192</width>
@@ -204,7 +204,7 @@
 						<font>Light30Spaced</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbbbbbb</textcolor>
-						<label>[COLOR 00ffffff][B]Known For-[/B][/COLOR]$VAR[MovieList]</label>
+						<label>[COLOR 00ffffff][B]$LOCALIZE[31108]:-[/B][/COLOR]$VAR[MovieList]</label>
 						<include>DialogVideoInfoAnimation</include>
 					</control>
 				</control>

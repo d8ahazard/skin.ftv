@@ -485,7 +485,7 @@
 				<height>438</height>
 				<font>Med24CR</font>
 				<aligny>top</aligny>
-				<label>$INFO[System.FriendlyName,Device Name: ,[CR]]$INFO[System.ProfileName,Profile: ,[CR]]$INFO[System.BuildVersion,Build Version: ,[CR]]$INFO[System.FreeSpace,Storage Capacity: , / ]$INFO[System.TotalSpace,,[CR]]Current Date and Time: $INFO[System.Date(d)] $INFO[System.Date(mmm)] $INFO[System.Date(yyyy)] $INFO[System.Time(hh:mm:ss xx)]</label>
+				<label>$INFO[System.FriendlyName,$LOCALIZE[31158]: ,[CR]]$INFO[System.ProfileName,$LOCALIZE[31154]: ,[CR]]$INFO[System.BuildVersion,$LOCALIZE[31155]: ,[CR]]$INFO[System.FreeSpace,Storage $LOCALIZE[31156]: , / ]$INFO[System.TotalSpace,,[CR]]$LOCALIZE[31157]: $INFO[System.Date(d)] $INFO[System.Date(mmm)] $INFO[System.Date(yyyy)] $INFO[System.Time(hh:mm:ss xx)]</label>
 				<textcolor>ffdadada</textcolor>
 				<animation delay="100" effect="fade" end="100" start="0" time="200">WindowOpen</animation>
 				<animation effect="fade" end="0" start="100" time="0">WindowClose</animation>

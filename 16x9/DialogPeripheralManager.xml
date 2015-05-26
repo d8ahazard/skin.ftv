@@ -63,7 +63,7 @@
 						<height>30</height>
 						<font>Light26</font>
 						<textcolor>ff505153</textcolor>
-						<label>[COLOR=ffd8d8d8]$LOCALIZE[35504]:[/COLOR] $INFO[ListItem.Property(Product)]</label>
+						<label>[COLOR ffd8d8d8]$LOCALIZE[35504]:[/COLOR] $INFO[ListItem.Property(Product)]</label>
 					</control>
 					<control type="label">
 						<left>345</left>
@@ -72,7 +72,7 @@
 						<height>30</height>
 						<font>Light26</font>
 						<textcolor>ff505153</textcolor>
-						<label>[COLOR=ffd8d8d8]$LOCALIZE[35503]:[/COLOR] $INFO[ListItem.Property(Vendor)]</label>
+						<label>[COLOR ffd8d8d8]$LOCALIZE[35503]:[/COLOR] $INFO[ListItem.Property(Vendor)]</label>
 					</control>
 					<control type="label">
 						<left>650</left>
@@ -81,7 +81,7 @@
 						<height>30</height>
 						<font>Light26</font>
 						<textcolor>ff505153</textcolor>
-						<label>[COLOR=ffd8d8d8]$LOCALIZE[35501]:[/COLOR] $INFO[ListItem.Property(Class)]</label>
+						<label>[COLOR ffd8d8d8]$LOCALIZE[35501]:[/COLOR] $INFO[ListItem.Property(Class)]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="140" width="937">
@@ -128,7 +128,7 @@
 						<height>30</height>
 						<font>Light26</font>
 						<textcolor>ff505153</textcolor>
-						<label>[COLOR=ffd8d8d8]$LOCALIZE[35504]:[/COLOR] $INFO[ListItem.Property(Product)]</label>
+						<label>[COLOR ffd8d8d8]$LOCALIZE[35504]:[/COLOR] $INFO[ListItem.Property(Product)]</label>
 					</control>
 					<control type="label">
 						<left>345</left>
@@ -137,7 +137,7 @@
 						<height>30</height>
 						<font>Light26</font>
 						<textcolor>ff505153</textcolor>
-						<label>[COLOR=ffd8d8d8]$LOCALIZE[35503]:[/COLOR] $INFO[ListItem.Property(Vendor)]</label>
+						<label>[COLOR ffd8d8d8]$LOCALIZE[35503]:[/COLOR] $INFO[ListItem.Property(Vendor)]</label>
 					</control>
 					<control type="label">
 						<left>650</left>
@@ -146,7 +146,7 @@
 						<height>30</height>
 						<font>Light26</font>
 						<textcolor>ff505153</textcolor>
-						<label>[COLOR=ffd8d8d8]$LOCALIZE[35501]:[/COLOR] $INFO[ListItem.Property(Class)]</label>
+						<label>[COLOR ffd8d8d8]$LOCALIZE[35501]:[/COLOR] $INFO[ListItem.Property(Class)]</label>
 					</control>
 				</focusedlayout>
 			</control>

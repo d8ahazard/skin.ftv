@@ -1311,7 +1311,7 @@
 						<width>40</width>
 						<height>40</height>
 						<texture>views/equaliser.gif</texture>
-						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_1))</visible>
+						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_1))</visible>
 					</control>
 					<control type="label">
 						<left>61</left>
@@ -1323,7 +1323,7 @@
 						<textcolor>ffffffff</textcolor>
 						<shadowcolor>88000000</shadowcolor>
 						<label>$INFO[ListItem.Property(Label1_1)]</label>
-						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_1))</visible>
+						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_1))</visible>
 					</control>
 					<control type="label">
 						<left>11</left>
@@ -1335,7 +1335,7 @@
 						<textcolor>ffffffff</textcolor>
 						<shadowcolor>88000000</shadowcolor>
 						<label>$INFO[ListItem.Property(Label1_1)]</label>
-						<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Album1_1))</visible>
+						<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Label1_1))</visible>
 					</control>
 					<control type="image">
 						<top>13</top>
@@ -1370,7 +1370,7 @@
 						<width>40</width>
 						<height>40</height>
 						<texture>views/equaliser.gif</texture>
-						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_2))</visible>
+						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_2))</visible>
 					</control>
 					<control type="label">
 						<left>61</left>
@@ -1382,7 +1382,7 @@
 						<textcolor>ffffffff</textcolor>
 						<shadowcolor>88000000</shadowcolor>
 						<label>$INFO[ListItem.Property(Label1_2)]</label>
-						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_2))</visible>
+						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_2))</visible>
 					</control>
 					<control type="label">
 						<left>11</left>
@@ -1394,7 +1394,7 @@
 						<textcolor>ffffffff</textcolor>
 						<shadowcolor>88000000</shadowcolor>
 						<label>$INFO[ListItem.Property(Label1_2)]</label>
-						<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Album1_2))</visible>
+						<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Label1_2))</visible>
 					</control>
 					<control type="image">
 						<top>13</top>
@@ -1429,7 +1429,7 @@
 						<width>40</width>
 						<height>40</height>
 						<texture>views/equaliser.gif</texture>
-						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_3))</visible>
+						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_3))</visible>
 					</control>
 					<control type="label">
 						<left>61</left>
@@ -1441,7 +1441,7 @@
 						<textcolor>ffffffff</textcolor>
 						<shadowcolor>88000000</shadowcolor>
 						<label>$INFO[ListItem.Property(Label1_3)]</label>
-						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_3))</visible>
+						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_3))</visible>
 					</control>
 					<control type="label">
 						<left>11</left>
@@ -1453,7 +1453,7 @@
 						<textcolor>ffffffff</textcolor>
 						<shadowcolor>88000000</shadowcolor>
 						<label>$INFO[ListItem.Property(Label1_3)]</label>
-						<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Album1_3))</visible>
+						<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Label1_3))</visible>
 					</control>
 					<control type="image">
 						<top>13</top>
@@ -1488,7 +1488,7 @@
 						<width>40</width>
 						<height>40</height>
 						<texture>views/equaliser.gif</texture>
-						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_4))</visible>
+						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_4))</visible>
 					</control>
 					<control type="label">
 						<left>61</left>
@@ -1500,7 +1500,7 @@
 						<textcolor>ffffffff</textcolor>
 						<shadowcolor>88000000</shadowcolor>
 						<label>$INFO[ListItem.Property(Label1_4)]</label>
-						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_4))</visible>
+						<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_4))</visible>
 					</control>
 					<control type="label">
 						<left>11</left>
@@ -1512,7 +1512,7 @@
 						<textcolor>ffffffff</textcolor>
 						<shadowcolor>88000000</shadowcolor>
 						<label>$INFO[ListItem.Property(Label1_4)]</label>
-						<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Album1_4))</visible>
+						<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Label1_4))</visible>
 					</control>
 					<control type="image">
 						<top>13</top>
@@ -1603,7 +1603,7 @@
 							<width>40</width>
 							<height>40</height>
 							<texture>views/equaliser.gif</texture>
-							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_1))</visible>
+							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_1))</visible>
 						</control>
 						<control type="label">
 							<left>61</left>
@@ -1615,7 +1615,7 @@
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
 							<label>$INFO[ListItem.Property(Label1_1)]</label>
-							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_1))</visible>
+							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_1))</visible>
 						</control>
 						<control type="label">
 							<left>11</left>
@@ -1627,7 +1627,7 @@
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
 							<label>$INFO[ListItem.Property(Label1_1)]</label>
-							<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Album1_1))</visible>
+							<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Label1_1))</visible>
 						</control>
 						<control type="image">
 							<top>13</top>
@@ -1663,7 +1663,7 @@
 							<width>40</width>
 							<height>40</height>
 							<texture>views/equaliser.gif</texture>
-							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_2))</visible>
+							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_2))</visible>
 						</control>
 						<control type="label">
 							<left>61</left>
@@ -1675,7 +1675,7 @@
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
 							<label>$INFO[ListItem.Property(Label1_2)]</label>
-							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_2))</visible>
+							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_2))</visible>
 						</control>
 						<control type="label">
 							<left>11</left>
@@ -1687,7 +1687,7 @@
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
 							<label>$INFO[ListItem.Property(Label1_2)]</label>
-							<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Album1_2))</visible>
+							<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Label1_2))</visible>
 						</control>
 						<control type="image">
 							<top>13</top>
@@ -1723,7 +1723,7 @@
 							<width>40</width>
 							<height>40</height>
 							<texture>views/equaliser.gif</texture>
-							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_3))</visible>
+							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_3))</visible>
 						</control>
 						<control type="label">
 							<left>61</left>
@@ -1735,7 +1735,7 @@
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
 							<label>$INFO[ListItem.Property(Label1_3)]</label>
-							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_3))</visible>
+							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_3))</visible>
 						</control>
 						<control type="label">
 							<left>11</left>
@@ -1747,7 +1747,7 @@
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
 							<label>$INFO[ListItem.Property(Label1_3)]</label>
-							<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Album1_3))</visible>
+							<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Label1_3))</visible>
 						</control>
 						<control type="image">
 							<top>13</top>
@@ -1783,7 +1783,7 @@
 							<width>40</width>
 							<height>40</height>
 							<texture>views/equaliser.gif</texture>
-							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_4))</visible>
+							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_4))</visible>
 						</control>
 						<control type="label">
 							<left>61</left>
@@ -1795,7 +1795,7 @@
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
 							<label>$INFO[ListItem.Property(Label1_4)]</label>
-							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Album1_4))</visible>
+							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Property(Label1_4))</visible>
 						</control>
 						<control type="label">
 							<left>11</left>
@@ -1807,7 +1807,7 @@
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
 							<label>$INFO[ListItem.Property(Label1_4)]</label>
-							<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Album1_4))</visible>
+							<visible>!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Property(Label1_4))</visible>
 						</control>
 						<control type="image">
 							<top>13</top>
@@ -1833,10 +1833,6 @@
 					<property name="Label1_2">$INFO[Container(301).ListItemNoWrap(1).Label]</property>
 					<property name="Label1_3">$INFO[Container(301).ListItemNoWrap(2).Label]</property>
 					<property name="Label1_4">$INFO[Container(301).ListItemNoWrap(3).Label]</property>
-					<property name="Album1_1">$INFO[Container(301).ListItemNoWrap(0).Album]</property>
-					<property name="Album1_2">$INFO[Container(301).ListItemNoWrap(1).Album]</property>
-					<property name="Album1_3">$INFO[Container(301).ListItemNoWrap(2).Album]</property>
-					<property name="Album1_4">$INFO[Container(301).ListItemNoWrap(3).Album]</property>
 					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget1.List)],return)</onclick>
 				</item>
 				<item>
@@ -1850,10 +1846,6 @@
 					<property name="Label1_2">$INFO[Container(302).ListItemNoWrap(1).Label]</property>
 					<property name="Label1_3">$INFO[Container(302).ListItemNoWrap(2).Label]</property>
 					<property name="Label1_4">$INFO[Container(302).ListItemNoWrap(3).Label]</property>
-					<property name="Album1_1">$INFO[Container(302).ListItemNoWrap(0).Album]</property>
-					<property name="Album1_2">$INFO[Container(302).ListItemNoWrap(1).Album]</property>
-					<property name="Album1_3">$INFO[Container(302).ListItemNoWrap(2).Album]</property>
-					<property name="Album1_4">$INFO[Container(302).ListItemNoWrap(3).Album]</property>
 					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget2.List)],return)</onclick>
 				</item>
 				<item>
@@ -1867,10 +1859,6 @@
 					<property name="Label1_2">$INFO[Container(303).ListItemNoWrap(1).Label]</property>
 					<property name="Label1_3">$INFO[Container(303).ListItemNoWrap(2).Label]</property>
 					<property name="Label1_4">$INFO[Container(303).ListItemNoWrap(3).Label]</property>
-					<property name="Album1_1">$INFO[Container(303).ListItemNoWrap(0).Album]</property>
-					<property name="Album1_2">$INFO[Container(303).ListItemNoWrap(1).Album]</property>
-					<property name="Album1_3">$INFO[Container(303).ListItemNoWrap(2).Album]</property>
-					<property name="Album1_4">$INFO[Container(303).ListItemNoWrap(3).Album]</property>
 					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget3.List)],return)</onclick>
 				</item>
 				<item>
@@ -1884,10 +1872,6 @@
 					<property name="Label1_2">$INFO[Container(304).ListItemNoWrap(1).Label]</property>
 					<property name="Label1_3">$INFO[Container(304).ListItemNoWrap(2).Label]</property>
 					<property name="Label1_4">$INFO[Container(304).ListItemNoWrap(3).Label]</property>
-					<property name="Album1_1">$INFO[Container(304).ListItemNoWrap(0).Album]</property>
-					<property name="Album1_2">$INFO[Container(304).ListItemNoWrap(1).Album]</property>
-					<property name="Album1_3">$INFO[Container(304).ListItemNoWrap(2).Album]</property>
-					<property name="Album1_4">$INFO[Container(304).ListItemNoWrap(3).Album]</property>
 					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget4.List)],return)</onclick>
 				</item>
 				<item>
@@ -1901,10 +1885,6 @@
 					<property name="Label1_2">$INFO[Container(305).ListItemNoWrap(1).Label]</property>
 					<property name="Label1_3">$INFO[Container(305).ListItemNoWrap(2).Label]</property>
 					<property name="Label1_4">$INFO[Container(305).ListItemNoWrap(3).Label]</property>
-					<property name="Album1_1">$INFO[Container(305).ListItemNoWrap(0).Album]</property>
-					<property name="Album1_2">$INFO[Container(305).ListItemNoWrap(1).Album]</property>
-					<property name="Album1_3">$INFO[Container(305).ListItemNoWrap(2).Album]</property>
-					<property name="Album1_4">$INFO[Container(305).ListItemNoWrap(3).Album]</property>
 					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget5.List)],return)</onclick>
 				</item>
 				<item>
@@ -1918,10 +1898,6 @@
 					<property name="Label1_2">$INFO[Container(306).ListItemNoWrap(1).Label]</property>
 					<property name="Label1_3">$INFO[Container(306).ListItemNoWrap(2).Label]</property>
 					<property name="Label1_4">$INFO[Container(306).ListItemNoWrap(3).Label]</property>
-					<property name="Album1_1">$INFO[Container(306).ListItemNoWrap(0).Album]</property>
-					<property name="Album1_2">$INFO[Container(306).ListItemNoWrap(1).Album]</property>
-					<property name="Album1_3">$INFO[Container(306).ListItemNoWrap(2).Album]</property>
-					<property name="Album1_4">$INFO[Container(306).ListItemNoWrap(3).Album]</property>
 					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget6.List)],return)</onclick>
 				</item>
 				<item>
@@ -1935,10 +1911,6 @@
 					<property name="Label1_2">$INFO[Container(307).ListItemNoWrap(1).Label]</property>
 					<property name="Label1_3">$INFO[Container(307).ListItemNoWrap(2).Label]</property>
 					<property name="Label1_4">$INFO[Container(307).ListItemNoWrap(3).Label]</property>
-					<property name="Album1_1">$INFO[Container(307).ListItemNoWrap(0).Album]</property>
-					<property name="Album1_2">$INFO[Container(307).ListItemNoWrap(1).Album]</property>
-					<property name="Album1_3">$INFO[Container(307).ListItemNoWrap(2).Album]</property>
-					<property name="Album1_4">$INFO[Container(307).ListItemNoWrap(3).Album]</property>
 					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget7.List)],return)</onclick>
 				</item>
 				<item>
@@ -1952,10 +1924,6 @@
 					<property name="Label1_2">$INFO[Container(308).ListItemNoWrap(1).Label]</property>
 					<property name="Label1_3">$INFO[Container(308).ListItemNoWrap(2).Label]</property>
 					<property name="Label1_4">$INFO[Container(308).ListItemNoWrap(3).Label]</property>
-					<property name="Album1_1">$INFO[Container(308).ListItemNoWrap(0).Album]</property>
-					<property name="Album1_2">$INFO[Container(308).ListItemNoWrap(1).Album]</property>
-					<property name="Album1_3">$INFO[Container(308).ListItemNoWrap(2).Album]</property>
-					<property name="Album1_4">$INFO[Container(308).ListItemNoWrap(3).Album]</property>
 					<onclick>ActivateWindow(MusicLibrary,$INFO[Skin.String(MusicWidget8.List)],return)</onclick>
 				</item>
 			</content>

@@ -254,7 +254,7 @@
 					<height>58</height>
 					<font>Light32</font>
 					<align>right</align>
-					<label>3D Options</label>
+					<label>$LOCALIZE[31153]</label>
 					<textcolor>ffffffff</textcolor>
 					<shadowcolor>ff000000</shadowcolor>
 					<focusedcolor>ffffc04b</focusedcolor>

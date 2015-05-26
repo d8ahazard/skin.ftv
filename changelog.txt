@@ -1,3 +1,15 @@
+0.9.95
+
+More localisation
+Fixed UK rating
+Added 12A UK rating
+Added View type button
+Added German language (thanks to b711)
+
+0.9.94
+
+Added 12A UK rating flag
+
 0.9.93
 
 Fixed home TV show widget wide icon problem

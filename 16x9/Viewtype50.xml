@@ -6,7 +6,7 @@
 			<!-- List -->
 			<control id="50" type="fixedlist">
 				<left>-238</left>
-				<top>267</top>
+				<top>242</top>
 				<width>2200</width>
 				<height>576</height>
 				<onup>Back</onup>
@@ -16,21 +16,20 @@
 				<onright condition="!Window.IsVisible(1103)">SetProperty(BounceRight,1,Home)</onright>
 				<preloaditems>2</preloaditems>
 				<focusposition>1</focusposition>
-				<viewtype label="">list</viewtype>
+				<viewtype label="31161">list</viewtype>
 				<orientation>horizontal</orientation>
 				<defaultcontrol always="true">0</defaultcontrol>
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
-				<visible>!Container.Content(movies) + !Container.Content(sets) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(songs)</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
 					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
 					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
 				</animation>
-				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + IsEmpty(Window(home).Property(FocusRow)) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="193,-15" time="540" tween="sine">WindowOpen</animation>
-				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + StringCompare(Window(home).Property(FocusRow),1_2) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,-200" time="540" tween="sine">WindowOpen</animation>
-				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + StringCompare(Window(home).Property(FocusRow),2_2) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,170" time="540" tween="sine">WindowOpen</animation>
-				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + StringCompare(Window(home).Property(FocusRow),1_3) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,-271" time="540" tween="sine">WindowOpen</animation>
-				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + StringCompare(Window(home).Property(FocusRow),2_3) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,-15" time="540" tween="sine">WindowOpen</animation>
-				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + StringCompare(Window(home).Property(FocusRow),3_3) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,143" time="540" tween="sine">WindowOpen</animation>
+				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + IsEmpty(Window(home).Property(FocusRow)) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="193,10" time="540" tween="sine">WindowOpen</animation>
+				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + StringCompare(Window(home).Property(FocusRow),1_2) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,-175" time="540" tween="sine">WindowOpen</animation>
+				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + StringCompare(Window(home).Property(FocusRow),2_2) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,195" time="540" tween="sine">WindowOpen</animation>
+				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + StringCompare(Window(home).Property(FocusRow),1_3) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,-246" time="540" tween="sine">WindowOpen</animation>
+				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + StringCompare(Window(home).Property(FocusRow),2_3) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,10" time="540" tween="sine">WindowOpen</animation>
+				<animation condition="IsEmpty(Window(home).Property(MainMenuFocus)) + StringCompare(Window(home).Property(FocusRow),3_3) + Window.Previous(home)" easing="inout" effect="slide" end="0,0" start="497,168" time="540" tween="sine">WindowOpen</animation>
 				<itemlayout height="576" width="436">
 					<control type="group">
 						<animation center="250,288" condition="true" effect="zoom" end="85" start="85">Conditional</animation>

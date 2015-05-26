@@ -110,7 +110,7 @@
 					<font>Light30Spaced</font>
 					<autoscroll>false</autoscroll>
 					<textcolor>ffbbbbbb</textcolor>
-					<label>[COLOR 00ffffff][B]Type:-[/B][/COLOR]$INFO[ListItem.Property(Addon.Type)]</label>
+					<label>[COLOR 00ffffff][B]$LOCALIZE[146]-[/B][/COLOR]$INFO[ListItem.Property(Addon.Type)]</label>
 					<include>DialogVideoInfoAnimation</include>
 				</control>
 			</control>
@@ -139,7 +139,7 @@
 					<font>Light30Spaced</font>
 					<autoscroll>false</autoscroll>
 					<textcolor>ffbbbbbb</textcolor>
-					<label>[COLOR 00ffffff][B]Version:-[/B][/COLOR]$INFO[ListItem.Property(Addon.Version)]</label>
+					<label>[COLOR 00ffffff][B]$LOCALIZE[24051]-[/B][/COLOR]$INFO[ListItem.Property(Addon.Version)]</label>
 					<include>DialogVideoInfoAnimation</include>
 				</control>
 			</control>
@@ -159,7 +159,7 @@
 					<font>Bold30</font>
 					<scroll>false</scroll>
 					<textcolor>ff717171</textcolor>
-					<label>$LOCALIZE[24051]</label>
+					<label>$LOCALIZE[31151]:</label>
 				</control>
 				<control type="textbox">
 					<width>1192</width>
@@ -168,7 +168,7 @@
 					<font>Light30Spaced</font>
 					<autoscroll>false</autoscroll>
 					<textcolor>ffbbbbbb</textcolor>
-					<label>[COLOR 00ffffff][B]Creator:-[/B][/COLOR]$INFO[ListItem.Property(Addon.Creator)]</label>
+					<label>[COLOR 00ffffff][B]$LOCALIZE[31151]:-[/B][/COLOR]$INFO[ListItem.Property(Addon.Creator)]</label>
 					<include>DialogVideoInfoAnimation</include>
 				</control>
 			</control>

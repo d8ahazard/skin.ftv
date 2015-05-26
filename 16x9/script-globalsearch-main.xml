@@ -249,12 +249,12 @@
 								<pagecontrol>96</pagecontrol>
 								<autoscroll>false</autoscroll>
 								<textcolor>ffbcbcbc</textcolor>
-								<label>[COLOR 00ffffff][B]$VAR[SearchLabel,,--][/B][/COLOR]$VAR[SearchPlot]</label>
+								<label>[COLOR 00ffffff][B]$VAR[SearchLabel,,---][/B][/COLOR]$VAR[SearchPlot]</label>
 							</control>
-							<control type="label">
-								<top>148</top>
+							<control type="textbox">
+								<top>135</top>
 								<width>1192</width>
-								<height>30</height>
+								<height>160</height>
 								<align>left</align>
 								<font>Bold32</font>
 								<textcolor>ffbcbcbc</textcolor>

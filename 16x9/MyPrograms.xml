@@ -139,12 +139,12 @@
 					<pagecontrol>96</pagecontrol>
 					<autoscroll>false</autoscroll>
 					<textcolor>ffbcbcbc</textcolor>
-					<label>[COLOR 00ffffff][B]$INFO[ListItem.Label,,--][/B][/COLOR]$INFO[ListItem.Label2]</label>
+					<label>[COLOR 00ffffff][B]$INFO[ListItem.Label,,---][/B][/COLOR]$INFO[ListItem.Label2]</label>
 				</control>
-				<control type="label">
-					<top>110</top>
+				<control type="textbox">
+					<top>97</top>
 					<width>1192</width>
-					<height>30</height>
+					<height>120</height>
 					<align>left</align>
 					<font>Bold32</font>
 					<textcolor>ffbcbcbc</textcolor>

@@ -199,7 +199,7 @@
 						<font>Light30Spaced</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbbbbbb</textcolor>
-						<label>$INFO[Container(50).ListItem.Artist,[COLOR=ffffffff][B]$LOCALIZE[557]:[/B][/COLOR] ,[CR]]$INFO[Container(50).ListItem.Album,[COLOR=ffffffff][B]$LOCALIZE[558]:[/B] [/COLOR]]</label>
+						<label>$INFO[Container(50).ListItem.Artist,[COLOR ffffffff][B]$LOCALIZE[557]:[/B][/COLOR] ,[CR]]$INFO[Container(50).ListItem.Album,[COLOR ffffffff][B]$LOCALIZE[558]:[/B] [/COLOR]]</label>
 					</control>
 				</control>
 				<control type="group">
@@ -224,7 +224,7 @@
 						<font>Light30Spaced</font>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbbbbbb</textcolor>
-						<label>$INFO[Container(100).ListItem.Artist,[COLOR=ffffffff][B]$LOCALIZE[557]:[/B][/COLOR] ,[CR]]$INFO[Container(100).ListItem.Album,[COLOR=ffffffff][B]$LOCALIZE[558]:[/B] [/COLOR]]</label>
+						<label>$INFO[Container(100).ListItem.Artist,[COLOR ffffffff][B]$LOCALIZE[557]:[/B][/COLOR] ,[CR]]$INFO[Container(100).ListItem.Album,[COLOR ffffffff][B]$LOCALIZE[558]:[/B] [/COLOR]]</label>
 					</control>
 				</control>
 				<!-- Middle grouplist -->
