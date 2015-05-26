@@ -595,7 +595,7 @@
 					<width>257</width>
 					<height>101</height>
 					<aspectratio align="center" aligny="top">keep</aspectratio>
-					<texture background="true">$INFO[ListItem.Property(ArtLogo1)]</texture>
+					<texture background="true">$INFO[ListItem.Property(ArtLogo2)]</texture>
 					<visible>IsEmpty(ListItem.Property(ArtFTV2)) + !IsEmpty(ListItem.Property(ArtFanart2))</visible>
 				</control>
 				<control type="image">
@@ -650,7 +650,7 @@
 					<width>257</width>
 					<height>101</height>
 					<aspectratio align="center" aligny="top">keep</aspectratio>
-					<texture background="true">$INFO[ListItem.Property(ArtLogo1)]</texture>
+					<texture background="true">$INFO[ListItem.Property(ArtLogo3)]</texture>
 					<visible>IsEmpty(ListItem.Property(ArtFTV3)) + !IsEmpty(ListItem.Property(ArtFanart3))</visible>
 				</control>
 				<control type="image">
@@ -818,7 +818,7 @@
 						<width>257</width>
 						<height>101</height>
 						<aspectratio align="center" aligny="top">keep</aspectratio>
-						<texture background="true">$INFO[ListItem.Property(ArtLogo1)]</texture>
+						<texture background="true">$INFO[ListItem.Property(ArtLogo2)]</texture>
 						<visible>IsEmpty(ListItem.Property(ArtFTV2)) + !IsEmpty(ListItem.Property(ArtFanart2))</visible>
 					</control>
 					<control type="image">
@@ -875,7 +875,7 @@
 						<width>257</width>
 						<height>101</height>
 						<aspectratio align="center" aligny="top">keep</aspectratio>
-						<texture background="true">$INFO[ListItem.Property(ArtLogo1)]</texture>
+						<texture background="true">$INFO[ListItem.Property(ArtLogo3)]</texture>
 						<visible>IsEmpty(ListItem.Property(ArtFTV3)) + !IsEmpty(ListItem.Property(ArtFanart3))</visible>
 					</control>
 					<control type="image">

@@ -1,3 +1,7 @@
+0.0.96
+
+Fixed logos on home widgets
+
 0.9.95
 
 More localisation
