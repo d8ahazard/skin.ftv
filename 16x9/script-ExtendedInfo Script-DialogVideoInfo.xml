@@ -7,10 +7,10 @@
 	<onload>Control.Move(150,1)</onload>
 	<onload>Control.Move(1000,$INFO[Container(1000).CurrentItem,-])</onload>
 	<onload>Control.Move(1000,1)</onload>
-	<onload condition="!IsEmpty(Container(1000).ListItemNoWrap(0).Label)">SetProperty(Actor1,$INFO[Container(1000).ListItemNoWrap(0).Label])</onload>
-	<onload condition="!IsEmpty(Container(1000).ListItemNoWrap(1).Label)">SetProperty(Actor2,$INFO[Container(1000).ListItemNoWrap(1).Label])</onload>
-	<onload condition="!IsEmpty(Container(1000).ListItemNoWrap(2).Label)">SetProperty(Actor3,$INFO[Container(1000).ListItemNoWrap(2).Label])</onload>
 	<onload condition="System.HasAddon(script.tvtunes)">RunScript(script.tvtunes,backend=True)</onload>
+	<onunload>ClearProperty(ExActor1,home)</onunload>
+	<onunload>ClearProperty(ExActor2,home)</onunload>
+	<onunload>ClearProperty(ExActor3,home)</onunload>
 	<onunload>ClearProperty(Similar,home)</onunload>
 	<onunload>SetFocus(1000)</onunload>
 	<animation effect="fade" end="100" start="100" time="200">WindowClose</animation>
@@ -285,7 +285,18 @@
 					<font>Light30Spaced</font>
 					<aligny>bottom</aligny>
 					<textcolor>ffbcbcbc</textcolor>
-					<label>$VAR[CastList]</label>
+					<label>$INFO[Window(home).Property(ExActor1)]$INFO[Window(home).Property(ExActor2),$COMMA ]$INFO[Window(home).Property(ExActor3),$COMMA ]</label>
+					<visible>!IsEmpty(Window(home).Property(ExActor1))</visible>
+				</control>
+				<control type="label">
+					<top>-1</top>
+					<width max="1024">auto</width>
+					<height>24</height>
+					<font>Light30Spaced</font>
+					<aligny>bottom</aligny>
+					<textcolor>ffbcbcbc</textcolor>
+					<label>$INFO[Container(1000).ListItemNoWrap(0).Label]$INFO[Container(1000).ListItemNoWrap(1).Label,$COMMA ]$INFO[Container(1000).ListItemNoWrap(2).Label,$COMMA ]</label>
+					<visible>IsEmpty(Window(home).Property(ExActor1))</visible>
 				</control>
 			</control>
 			<!-- Director -->
@@ -474,6 +485,13 @@
 					</control>
 				</itemlayout>
 				<focusedlayout height="576" width="300">
+					<control type="button">
+						<texturefocus>-</texturefocus>
+						<texturenofocus>-</texturenofocus>
+						<onfocus condition="IsEmpty(Window(home).Property(ExActor1))">SetProperty(ExActor1,$INFO[Container(1000).ListItemNoWrap(0).Label],home)</onfocus>
+						<onfocus condition="IsEmpty(Window(home).Property(ExActor2))">SetProperty(ExActor2,$INFO[Container(1000).ListItemNoWrap(1).Label],home)</onfocus>
+						<onfocus condition="IsEmpty(Window(home).Property(ExActor3))">SetProperty(ExActor3,$INFO[Container(1000).ListItemNoWrap(2).Label],home)</onfocus>
+					</control>
 					<control type="group">
 						<animation center="150,288" condition="Control.HasFocus(1000) + [Container(1000).OnNext | Container(1000).OnPrevious]" easing="inout" effect="zoom" end="100" start="85" time="300" tween="sine">Focus</animation>
 						<animation center="150,288" condition="Control.HasFocus(1000) + [Container(1000).OnNext | Container(1000).OnPrevious]" easing="inout" effect="zoom" end="85" start="100" time="300" tween="sine">UnFocus</animation>

@@ -16,10 +16,11 @@
 				<onright condition="!Window.IsVisible(1103)">SetProperty(BounceRight,1,Home)</onright>
 				<preloaditems>2</preloaditems>
 				<focusposition>1</focusposition>
-				<viewtype label="20359">list</viewtype>
+				<viewtype label="">list</viewtype>
 				<orientation>horizontal</orientation>
 				<defaultcontrol always="true">0</defaultcontrol>
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
+				<visible>IsEmpty(Container.PluginName) + Container.Content(episodes)</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
 					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
 					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
@@ -41,7 +42,7 @@
 							<height>480</height>
 							<aspectratio align="center">scale</aspectratio>
 							<texture>views/episode_fallback.png</texture>
-							<visible>Skin.HasSetting(HideUnwatchedThumbs) + !StringCompare(ListItem.DBID,-1) + !StringCompare(ListItem.Overlay,OverlayWatched.png) + !StringCompare(ListItem.Label,..)</visible>
+							<visible>Skin.HasSetting(HideUnwatchedThumbs) + !StringCompare(ListItem.Overlay,OverlayWatched.png) + !StringCompare(ListItem.Label,..)</visible>
 						</control>
 						<control type="image">
 							<left>119</left>
@@ -142,7 +143,7 @@
 							<height>480</height>
 							<aspectratio align="center">scale</aspectratio>
 							<texture>views/episode_fallback.png</texture>
-							<visible>Skin.HasSetting(HideUnwatchedThumbs) + !StringCompare(ListItem.DBID,-1) + !StringCompare(ListItem.Overlay,OverlayWatched.png) + !StringCompare(ListItem.Label,..)</visible>
+							<visible>Skin.HasSetting(HideUnwatchedThumbs) + !StringCompare(ListItem.Overlay,OverlayWatched.png) + !StringCompare(ListItem.Label,..)</visible>
 						</control>
 						<control type="image">
 							<left>119</left>

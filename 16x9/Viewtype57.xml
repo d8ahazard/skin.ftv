@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include name="Viewtype50">
+	<include name="Viewtype57">
 		<control type="group">
-			<visible>Control.IsVisible(50)</visible>
+			<visible>Control.IsVisible(57)</visible>
 			<!-- List -->
-			<control id="50" type="fixedlist">
+			<control id="57" type="fixedlist">
 				<left>-238</left>
 				<top>242</top>
 				<width>2200</width>
@@ -16,11 +16,11 @@
 				<onright condition="!Window.IsVisible(1103)">SetProperty(BounceRight,1,Home)</onright>
 				<preloaditems>2</preloaditems>
 				<focusposition>1</focusposition>
-				<viewtype label="">list</viewtype>
+				<viewtype label="31161">list</viewtype>
 				<orientation>horizontal</orientation>
 				<defaultcontrol always="true">0</defaultcontrol>
 				<scrolltime easing="inout" tween="sine">300</scrolltime>
-				<visible>IsEmpty(Container.PluginName) + !Container.Content(movies) + !Container.Content(sets) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(songs)</visible>
+				<visible>!IsEmpty(Container.PluginName) | [!Container.Content(movies) + !Container.Content(sets) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(songs)]</visible>
 				<animation condition="Window.IsVisible(1103)" reversible="false" type="Conditional">
 					<effect easing="out" end="-20,0" start="0,0" time="60" tween="sine" type="slide" />
 					<effect delay="80" easing="out" end="20,0" start="0,0" time="120" tween="sine" type="slide" />
@@ -42,6 +42,20 @@
 							<texture background="true">$INFO[ListItem.Icon]</texture>
 						</control>
 						<control type="image">
+							<top>48</top>
+							<width>90</width>
+							<height>90</height>
+							<texture>views/OverlayHD.png</texture>
+							<visible>IntegerGreaterThan(ListItem.VideoResolution,719)</visible>
+						</control>
+						<control type="image">
+							<top>48</top>
+							<width>90</width>
+							<height>90</height>
+							<texture>views/OverlayWatched.png</texture>
+							<visible>StringCompare(ListItem.Overlay,OverlayWatched.png)</visible>
+						</control>
+						<control type="image">
 							<left>-48</left>
 							<centertop>288</centertop>
 							<width>576</width>
@@ -55,26 +69,6 @@
 							<texture border="2">views/season_overlay.png</texture>
 							<visible>!StringCompare(ListItem.Label,..) + !SubString(ListItem.Icon,Default)</visible>
 						</control>
-						<control type="image">
-							<left>17</left>
-							<top>419</top>
-							<width>62</width>
-							<height>62</height>
-							<texture>views/equaliser.gif</texture>
-							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Album) + Container.Content(albums)</visible>
-						</control>
-						<control type="label">
-							<left>98</left>
-							<top>447</top>
-							<width>366</width>
-							<height>42</height>
-							<font>Bold44</font>
-							<scroll>false</scroll>
-							<textcolor>ffffffff</textcolor>
-							<shadowcolor>88000000</shadowcolor>
-							<label>$INFO[ListItem.Label]</label>
-							<visible>!StringCompare(ListItem.Label,..) + Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Album) + Container.Content(albums)</visible>
-						</control>
 						<control type="label">
 							<left>18</left>
 							<top>447</top>
@@ -85,7 +79,7 @@
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
 							<label>$INFO[ListItem.Label]</label>
-							<visible>!StringCompare(ListItem.Label,..) + [!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Album) | !Container.Content(albums)]</visible>
+							<visible>!StringCompare(ListItem.Label,..)</visible>
 						</control>
 						<control type="image">
 							<top>48</top>
@@ -106,7 +100,7 @@
 					</control>
 					<control type="group">
 						<animation center="250,288" easing="inout" effect="zoom" end="100" start="85" time="300" tween="sine">Focus</animation>
-						<animation center="250,288" condition="Container(50).OnNext | Container(50).OnPrevious" easing="inout" effect="zoom" end="85" start="100" time="300" tween="sine">UnFocus</animation>
+						<animation center="250,288" condition="Container(57).OnNext | Container(57).OnPrevious" easing="inout" effect="zoom" end="85" start="100" time="300" tween="sine">UnFocus</animation>
 						<animation center="250,288" condition="Control.HasFocus(4000)" easing="inout" effect="zoom" end="85" start="100" time="300" tween="sine">Conditional</animation>
 						<control type="image">
 							<top>48</top>
@@ -116,13 +110,27 @@
 							<texture background="true">$INFO[ListItem.Icon]</texture>
 						</control>
 						<control type="image">
+							<top>48</top>
+							<width>90</width>
+							<height>90</height>
+							<texture>views/OverlayHD.png</texture>
+							<visible>IntegerGreaterThan(ListItem.VideoResolution,719)</visible>
+						</control>
+						<control type="image">
+							<top>48</top>
+							<width>90</width>
+							<height>90</height>
+							<texture>views/OverlayWatched.png</texture>
+							<visible>StringCompare(ListItem.Overlay,OverlayWatched.png)</visible>
+						</control>
+						<control type="image">
 							<left>-48</left>
 							<centertop>288</centertop>
 							<width>576</width>
 							<height>576</height>
 							<texture border="51">views/shadow_fo.png</texture>
-							<animation center="auto" condition="Control.HasFocus(50) | Container(50).OnNext | Container(50).OnPrevious" easing="inout" effect="fade" end="100" start="0" time="300" tween="sine">Focus</animation>
-							<animation center="auto" condition="Container(50).OnNext | Container(50).OnPrevious" easing="inout" effect="fade" end="0" start="100" time="300" tween="sine">UnFocus</animation>
+							<animation center="auto" condition="Control.HasFocus(57) | Container(57).OnNext | Container(57).OnPrevious" easing="inout" effect="fade" end="100" start="0" time="300" tween="sine">Focus</animation>
+							<animation center="auto" condition="Container(57).OnNext | Container(57).OnPrevious" easing="inout" effect="fade" end="0" start="100" time="300" tween="sine">UnFocus</animation>
 						</control>
 						<control type="image">
 							<left>-48</left>
@@ -130,8 +138,8 @@
 							<width>576</width>
 							<height>576</height>
 							<texture border="66,66,51,51">views/shadow_nf.png</texture>
-							<animation center="auto" condition="Control.HasFocus(50)" easing="inout" effect="fade" end="0" start="100" time="300" tween="sine">Focus</animation>
-							<animation center="auto" condition="Control.HasFocus(50)" easing="inout" effect="fade" end="100" start="0" time="300" tween="sine">UnFocus</animation>
+							<animation center="auto" condition="Control.HasFocus(57)" easing="inout" effect="fade" end="0" start="100" time="300" tween="sine">Focus</animation>
+							<animation center="auto" condition="Control.HasFocus(57)" easing="inout" effect="fade" end="100" start="0" time="300" tween="sine">UnFocus</animation>
 						</control>
 						<control type="image">
 							<top>48</top>
@@ -139,26 +147,6 @@
 							<height>480</height>
 							<texture border="2">views/season_overlay.png</texture>
 							<visible>!StringCompare(ListItem.Label,..) + !SubString(ListItem.Icon,Default)</visible>
-						</control>
-						<control type="image">
-							<left>17</left>
-							<top>419</top>
-							<width>62</width>
-							<height>62</height>
-							<texture>views/equaliser.gif</texture>
-							<visible>Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Album) + Container.Content(albums)</visible>
-						</control>
-						<control type="label">
-							<left>98</left>
-							<top>447</top>
-							<width>366</width>
-							<height>42</height>
-							<font>Bold44</font>
-							<scroll>false</scroll>
-							<textcolor>ffffffff</textcolor>
-							<shadowcolor>88000000</shadowcolor>
-							<label>$INFO[ListItem.Label]</label>
-							<visible>!StringCompare(ListItem.Label,..) + Player.Playing + StringCompare(MusicPlayer.Album,ListItem.Album) + Container.Content(albums)</visible>
 						</control>
 						<control type="label">
 							<left>18</left>
@@ -170,15 +158,15 @@
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>88000000</shadowcolor>
 							<label>$INFO[ListItem.Label]</label>
-							<visible>!StringCompare(ListItem.Label,..) + [!Player.Playing | !StringCompare(MusicPlayer.Album,ListItem.Album) | !Container.Content(albums)]</visible>
+							<visible>!StringCompare(ListItem.Label,..)</visible>
 						</control>
 						<control type="image">
 							<top>48</top>
 							<width>480</width>
 							<height>480</height>
 							<texture>views/OverlayNF.png</texture>
-							<animation center="auto" condition="Control.HasFocus(50)" easing="inout" effect="fade" end="0" start="100" time="300" tween="sine">Focus</animation>
-							<animation center="auto" condition="Control.HasFocus(50)" easing="inout" effect="fade" end="100" start="0" time="300" tween="sine">UnFocus</animation>
+							<animation center="auto" condition="Control.HasFocus(57)" easing="inout" effect="fade" end="0" start="100" time="300" tween="sine">Focus</animation>
+							<animation center="auto" condition="Control.HasFocus(57)" easing="inout" effect="fade" end="100" start="0" time="300" tween="sine">UnFocus</animation>
 						</control>
 					</control>
 				</focusedlayout>

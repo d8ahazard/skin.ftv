@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
 	id="skin.ftv"
-	version="0.9.96"
+	version="0.9.97"
 	name="fTV"
 	provider-name="Hitcher">
 	<requires>

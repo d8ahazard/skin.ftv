@@ -684,3 +684,11 @@ msgstr ""
 msgctxt "#31161"
 msgid "Square"
 msgstr ""
+
+msgctxt "#31162"
+msgid "Show"
+msgstr ""
+
+msgctxt "#31163"
+msgid "Start[CR]Party Mode"
+msgstr ""

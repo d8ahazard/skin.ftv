@@ -2,7 +2,7 @@
 <window>
 	<!-- seekbar -->
 	<defaultcontrol always="true">901</defaultcontrol>
-	<visible>Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding</visible>
+	<visible>VideoPlayer.IsFullscreen + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
 	<controls>
 		<control type="group">
 			<visible>!Window.IsActive(videoosd) + !Window.IsActive(musicosd) + !Window.IsActive(subtitlesearch)</visible>
@@ -100,7 +100,7 @@
 					<overlaytexture>-</overlaytexture>
 				</control>
 				<!--  Progress bar -->
-				<control id="2" type="progress">
+				<control type="progress">
 					<left>92</left>
 					<bottom>93</bottom>
 					<width>1735</width>
