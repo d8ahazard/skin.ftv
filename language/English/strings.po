@@ -692,3 +692,11 @@ msgstr ""
 msgctxt "#31163"
 msgid "Start[CR]Party Mode"
 msgstr ""
+
+msgctxt "#31164"
+msgid "Next Up"
+msgstr ""
+
+msgctxt "#31165"
+msgid "Choose[CR]Art"
+msgstr ""

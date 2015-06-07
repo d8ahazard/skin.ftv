@@ -1,3 +1,10 @@
+0.0.98
+
+Added Next Up script labels to debug info
+Added option for non-English sized buttons
+Fixed text colour for number dialog
+Removed Chapter number for seek
+
 0.0.97
 
 Added new view types for non-library content

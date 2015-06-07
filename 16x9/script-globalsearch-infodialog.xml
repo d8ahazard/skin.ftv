@@ -541,7 +541,8 @@
 				<include>DialogVideoInfoAnimation</include>
 				<defaultcontrol always="true">191</defaultcontrol>
 				<control id="191" type="button">
-					<width>134</width>
+					<include condition="SubString(System.Language,English)">Width134</include>
+					<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 					<height>116</height>
 					<onup condition="!Control.IsVisible(96)">Close</onup>
 					<onup condition="Control.IsVisible(96)">3002</onup>
@@ -554,7 +555,8 @@
 					<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 				</control>
 				<control id="192" type="button">
-					<width>134</width>
+					<include condition="SubString(System.Language,English)">Width134</include>
+					<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 					<height>116</height>
 					<onup condition="!Control.IsVisible(96)">Close</onup>
 					<onup condition="Control.IsVisible(96)">3002</onup>
@@ -566,7 +568,8 @@
 					<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 				</control>
 				<control id="193" type="button">
-					<width>134</width>
+					<include condition="SubString(System.Language,English)">Width134</include>
+					<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 					<height>116</height>
 					<onup condition="!Control.IsVisible(96)">Close</onup>
 					<onup condition="Control.IsVisible(96)">3002</onup>

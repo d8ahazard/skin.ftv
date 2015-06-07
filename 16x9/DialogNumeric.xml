@@ -34,6 +34,8 @@
 					<height>48</height>
 					<scroll>true</scroll>
 					<font>Light39</font>
+					<textcolor>ffdadada</textcolor>
+					<focusedcolor>ffdadada</focusedcolor>
 				</control>
 				<!-- Edit Text line -->
 				<control type="image">

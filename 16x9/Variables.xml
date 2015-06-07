@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
+	<variable name="NextEpisodeCountdown">
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:29)">osd/countdown/29.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:28)">osd/countdown/28.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:27)">osd/countdown/27.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:26)">osd/countdown/26.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:25)">osd/countdown/25.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:24)">osd/countdown/24.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:23)">osd/countdown/23.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:22)">osd/countdown/22.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:21)">osd/countdown/21.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:20)">osd/countdown/20.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:19)">osd/countdown/19.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:18)">osd/countdown/18.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:17)">osd/countdown/17.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:16)">osd/countdown/16.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:15)">osd/countdown/15.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:14)">osd/countdown/14.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:13)">osd/countdown/13.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:12)">osd/countdown/12.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:11)">osd/countdown/11.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:10)">osd/countdown/10.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:09)">osd/countdown/09.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:08)">osd/countdown/08.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:07)">osd/countdown/07.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:06)">osd/countdown/06.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:05)">osd/countdown/05.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:04)">osd/countdown/04.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:03)">osd/countdown/03.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:02)">osd/countdown/02.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:01)">osd/countdown/01.png</value>
+		<value condition="StringCompare(Player.TimeRemaining(hh:mm:ss),00:00:00)">osd/countdown/00.png</value>
+		<value>osd/countdown/30.png</value>
+	</variable>
 	<variable name="RatingCountry">
 		<value condition="Stringcompare(Skin.String(RatingCountry),US)">$LOCALIZE[31001]</value>
 		<value condition="Stringcompare(Skin.String(RatingCountry),UK)">$LOCALIZE[31002]</value>
@@ -1691,7 +1724,6 @@
 		<value condition="SubString(ListItem.Premiered,99,right)">99</value>
 	</variable>
 	<variable name="SeekOffset">
-		<value condition="IntegerGreaterThan(Player.Chapter,0)">$INFO[Player.Chapter,c]</value>
 		<value condition="!IsEmpty(Player.SeekStepSize) + SubString(Player.SeekStepSize(hh:mm:ss),05:00:00)">5h</value>
 		<value condition="!IsEmpty(Player.SeekStepSize) + SubString(Player.SeekStepSize(hh:mm:ss),04:30:00)">4.5h</value>
 		<value condition="!IsEmpty(Player.SeekStepSize) + SubString(Player.SeekStepSize(hh:mm:ss),04:00:00)">4h</value>

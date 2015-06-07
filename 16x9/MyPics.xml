@@ -122,7 +122,8 @@
 						<visible>!Control.HasFocus(6) + !Control.HasFocus(7) + !Control.HasFocus(9) + !Control.HasFocus(1002) + !Control.HasFocus(1003)</visible>
 					</control>
 					<control id="6" type="button">
-						<width>164</width>
+						<include condition="SubString(System.Language,English)">Width164</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>57</onup>
 						<ondown>3000</ondown>
@@ -136,7 +137,8 @@
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="7" type="button">
-						<width>164</width>
+						<include condition="SubString(System.Language,English)">Width164</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>57</onup>
 						<ondown>3000</ondown>
@@ -150,7 +152,8 @@
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="9" type="radiobutton">
-						<width>184</width>
+						<include condition="SubString(System.Language,English)">Width184</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>57</onup>
 						<ondown>3000</ondown>
@@ -167,8 +170,10 @@
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="1002" type="label">
-						<left>-174</left>
-						<width>164</width>
+						<include condition="SubString(System.Language,English)">Width164</include>
+						<include condition="!SubString(System.Language,English)">WidthDefaultLabel</include>
+						<include condition="SubString(System.Language,English)">Left174</include>
+						<include condition="!SubString(System.Language,English)">Left210</include>
 						<height>100</height>
 						<font>Med24</font>
 						<label>$VAR[RandomiseSlideshow]</label>
@@ -176,7 +181,8 @@
 						<visible>Control.IsEnabled(9)</visible>
 					</control>
 					<control id="1003" type="button">
-						<width>151</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>57</onup>
 						<ondown>3000</ondown>

@@ -120,7 +120,8 @@
 						<visible>!Control.HasFocus(1002) + !Control.HasFocus(1003)</visible>
 					</control>
 					<control id="1002" type="button">
-						<width>134</width>
+						<include condition="SubString(System.Language,English)">Width134</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>50</onup>
 						<ondown>3000</ondown>
@@ -134,7 +135,8 @@
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="1003" type="button">
-						<width>151</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>50</onup>
 						<ondown>3000</ondown>

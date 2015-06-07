@@ -910,6 +910,26 @@
 				<label>script-globalsearch-main.xml</label>
 				<visible>Window.IsVisible(script-globalsearch-main.xml)</visible>
 			</control>
+			<control type="label">
+				<width>780</width>
+				<height>21</height>
+				<textcolor>FFFF0000</textcolor>
+				<shadowcolor>FF000000</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>script-nextup-notification-NextUpInfo.xml</label>
+				<visible>Window.IsVisible(script-nextup-notification-NextUpInfo.xml)</visible>
+			</control>
+			<control type="label">
+				<width>780</width>
+				<height>21</height>
+				<textcolor>FFFF0000</textcolor>
+				<shadowcolor>FF000000</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>script-nextup-notification-StillWatchingInfo.xml</label>
+				<visible>Window.IsVisible(script-nextup-notification-StillWatchingInfo.xml)</visible>
+			</control>
 		</control>
 		<!-- Control label -->
 		<control type="label">

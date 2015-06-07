@@ -210,7 +210,8 @@
 					</control>
 					<!-- Update Addon Button -->
 					<control id="8" type="button">
-						<width>154</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 						<height>116</height>
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>
@@ -225,7 +226,8 @@
 					</control>
 					<!-- Launch Addon Button -->
 					<control id="12" type="button">
-						<width>154</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 						<height>116</height>
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>
@@ -240,7 +242,8 @@
 					</control>
 					<!-- Enable/Disable Addon button -->
 					<control id="7" type="button">
-						<width>154</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 						<height>116</height>
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>
@@ -254,7 +257,8 @@
 					</control>
 					<!-- Configure Addon button -->
 					<control id="9" type="button">
-						<width>154</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 						<height>116</height>
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>
@@ -269,7 +273,8 @@
 					</control>
 					<!-- Install/UnInstall Addon button -->
 					<control id="6" type="button">
-						<width>154</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 						<height>116</height>
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>
@@ -283,7 +288,8 @@
 					</control>
 					<!-- Rollback Button -->
 					<control id="11" type="button">
-						<width>164</width>
+						<include condition="SubString(System.Language,English)">Width164</include>
+						<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 						<height>116</height>
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>
@@ -298,7 +304,8 @@
 					</control>
 					<!-- Changelog Button -->
 					<control id="10" type="button">
-						<width>174</width>
+						<include condition="SubString(System.Language,English)">Width174</include>
+						<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 						<height>116</height>
 						<onup>Close</onup>
 						<ondown condition="Control.IsVisible(50)">50</ondown>

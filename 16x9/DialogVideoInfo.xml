@@ -411,7 +411,8 @@
 				</control>
 				<!-- Play/Browse Button -->
 				<control id="8" type="togglebutton">
-					<width>174</width>
+					<include condition="SubString(System.Language,English)">Width174</include>
+					<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 					<height>116</height>
 					<onup condition="!Control.IsVisible(96)">Close</onup>
 					<onup condition="Control.IsVisible(96)">3002</onup>
@@ -430,7 +431,8 @@
 					<alttexturenofocus border="3,3,6,6">views/button_nf.png</alttexturenofocus>
 				</control>
 				<control id="1003" type="button">
-					<width>134</width>
+					<include condition="SubString(System.Language,English)">Width134</include>
+					<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 					<height>116</height>
 					<onup condition="!Control.IsVisible(96)">Close</onup>
 					<onup condition="Control.IsVisible(96)">3002</onup>
@@ -449,7 +451,8 @@
 				</control>
 				<!-- Refresh Button -->
 				<control id="6" type="button">
-					<width>134</width>
+					<include condition="SubString(System.Language,English)">Width134</include>
+					<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 					<height>116</height>
 					<onup condition="!Control.IsVisible(96)">Close</onup>
 					<onup condition="Control.IsVisible(96)">3002</onup>
@@ -466,14 +469,15 @@
 				</control>
 				<!-- Get Thumb Button -->
 				<control id="10" type="button">
-					<width>174</width>
+					<include condition="SubString(System.Language,English)">Width174</include>
+					<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 					<height>116</height>
 					<onup condition="!Control.IsVisible(96)">Close</onup>
 					<onup condition="Control.IsVisible(96)">3002</onup>
 					<ondown condition="Control.IsVisible(5000)">5000</ondown>
 					<ondown condition="Control.IsVisible(50)">50</ondown>
 					<font>Med24</font>
-					<label>13511</label>
+					<label>31165</label>
 					<textoffsetx>20</textoffsetx>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
@@ -483,7 +487,8 @@
 				</control>
 				<!-- Artwork Downloader Button -->
 				<control id="20" type="button">
-					<width>184</width>
+					<include condition="SubString(System.Language,English)">Width184</include>
+					<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 					<height>116</height>
 					<onup condition="!Control.IsVisible(96)">Close</onup>
 					<onup condition="Control.IsVisible(96)">3002</onup>
@@ -502,7 +507,8 @@
 				</control>
 				<!-- Cinema Experience Button -->
 				<control id="21" type="button">
-					<width>174</width>
+					<include condition="SubString(System.Language,English)">Width174</include>
+					<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 					<height>116</height>
 					<onup condition="!Control.IsVisible(96)">Close</onup>
 					<onup condition="Control.IsVisible(96)">3002</onup>

@@ -8,7 +8,7 @@
 				<effect end="100" start="0" time="200" type="fade" />
 				<effect delay="4200" end="0" start="100" time="200" type="fade" />
 			</animation>
-			<visible>!Window.IsActive(seekbar) + !Window.IsActive(fullscreeninfo) + !Window.IsActive(videoosd) + !Window.IsActive(musicosd) + !Window.IsActive(subtitlesearch)</visible>
+			<visible>!Window.IsActive(seekbar) + !Window.IsActive(fullscreeninfo) + !Window.IsActive(videoosd) + !Window.IsActive(musicosd) + !Window.IsActive(subtitlesearch) + !Window.IsVisible(script-nextup-notification-NextUpInfo.xml) + !Window.IsVisible(script-nextup-notification-StillWatchingInfo.xml)</visible>
 			<control id="99" type="image">
 				<width>1980</width>
 				<height>210</height>
@@ -166,7 +166,7 @@
 			</control>
 		</control>
 		<control id="2" type="group">
-			<visible>!Player.Paused + [Player.Forwarding | Player.Rewinding]</visible>
+			<visible>!Player.Paused + [Player.Forwarding | Player.Rewinding] + !Window.IsVisible(script-nextup-notification-NextUpInfo.xml) + !Window.IsVisible(script-nextup-notification-StillWatchingInfo.xml)</visible>
 			<control id="1" type="progress">
 				<left>92</left>
 				<bottom>93</bottom>

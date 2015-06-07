@@ -249,7 +249,8 @@
 					</control>
 					<!-- Refresh Button -->
 					<control type="button" id="6">
-						<width>154</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 						<height>116</height>
 						<onup>Close</onup>
 						<font>Med24</font>
@@ -263,7 +264,8 @@
 					</control>
 					<!-- Get Thumb Button -->
 					<control type="button" id="10">
-						<width>154</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 						<height>116</height>
 						<onup>Close</onup>
 						<font>Med24</font>
@@ -277,7 +279,8 @@
 					</control>
 					<!-- Fanart Button -->
 					<control type="button" id="12">
-						<width>154</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthInfoDefault</include>
 						<height>116</height>
 						<onup>Close</onup>
 						<font>Med24</font>

@@ -401,7 +401,8 @@
 						<visible>!Control.HasFocus(1002) + !Control.HasFocus(1003) + !Control.HasFocus(21) + !Control.HasFocus(22) + !Control.HasFocus(1004)</visible>
 					</control>
 					<control id="1002" type="button">
-						<width>182</width>
+						<include condition="SubString(System.Language,English)">Width184</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>50</onup>
 						<onclick>SendClick(20)</onclick>
@@ -414,7 +415,8 @@
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="1003" type="button">
-						<width>182</width>
+						<include condition="SubString(System.Language,English)">Width184</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>50</onup>
 						<onclick>SendClick(26)</onclick>
@@ -427,7 +429,8 @@
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="21" type="button">
-						<width>151</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>50</onup>
 						<font>Med24</font>
@@ -435,12 +438,13 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<visible>!StringCompare(Playlist.Length(music),0)</visible>
+						<visible>!StringCompare(Playlist.Length(music),0) + Control.IsEnabled(21)</visible>
 						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="22" type="button">
-						<width>151</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>50</onup>
 						<font>Med24</font>
@@ -448,11 +452,13 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
+						<visible>Control.IsEnabled(22)</visible>
 						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="1004" type="button">
-						<width>151</width>
+						<include condition="SubString(System.Language,English)">Width154</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
 						<onup>50</onup>
 						<ondown>3000</ondown>

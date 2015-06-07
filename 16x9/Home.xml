@@ -288,7 +288,7 @@
 					<control type="textbox">
 						<left>14</left>
 						<top>22</top>
-						<width>191</width>
+						<width>188</width>
 						<height>152</height>
 						<font>Bold26</font>
 						<align>left</align>
@@ -1280,7 +1280,7 @@
 					<control type="textbox">
 						<left>14</left>
 						<top>23</top>
-						<width>191</width>
+						<width>188</width>
 						<height>152</height>
 						<font>Bold26</font>
 						<align>left</align>
