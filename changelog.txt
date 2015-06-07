@@ -1,7 +1,10 @@
 0.0.98
 
+Added Next Up script support
 Added Next Up script labels to debug info
 Added option for non-English sized buttons
+Added Party Mode to music
+Added role to Extended Info actor list
 Fixed text colour for number dialog
 Removed Chapter number for seek
 
