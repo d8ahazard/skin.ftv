@@ -1358,7 +1358,7 @@
 			<include>FullscreenDimensions</include>
 			<include>VisibleFadeAnimation</include>
 			<texture>special://skin/extras/backgrounds/default.png</texture>
-			<visible>Window.IsVisible(script-ExtendedInfo Script-DialogInfo.xml) | Window.IsVisible(script-ExtendedInfo Script-DialogVideoInfo.xml)</visible>
+			<visible>Window.IsVisible(script-ExtendedInfo Script-DialogInfo.xml) | Window.IsVisible(script-ExtendedInfo Script-DialogVideoInfo.xml) | Window.IsVisible(busydialog)</visible>
 		</control>
 	</controls>
 </window>

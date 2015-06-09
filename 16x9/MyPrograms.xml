@@ -2,11 +2,11 @@
 <window>
 	<!-- programs -->
 	<backgroundcolor>0xff12161b</backgroundcolor>
-	<defaultcontrol always="true">57</defaultcontrol>
+	<defaultcontrol always="true">55</defaultcontrol>
 	<onload condition="Window.Previous(home) + system.getbool(filelists.showparentdiritems)">Control.Move($VAR[ContainerID],1)</onload>
 	<onunload condition="Window.Next(home)">Control.Move($VAR[ContainerID],$INFO[Container.CurrentItem,-])</onunload>
 	<onunload condition="Window.Next(home) + !system.getbool(filelists.showparentdiritems)">Control.Move($VAR[ContainerID],1)</onunload>
-	<views>57,56,55</views>
+	<views>56,55,57</views>
 	<controls>
 		<!-- Fanart -->
 		<include condition="Skin.HasSetting(EnableFanart)">Fanart</include>
@@ -102,8 +102,8 @@
 				<control id="1000" type="grouplist">
 					<height>100</height>
 					<itemgap>10</itemgap>
-					<onleft>SetFocus(57)</onleft>
-					<onright>SetFocus(57)</onright>
+					<onleft>SetFocus(55)</onleft>
+					<onright>SetFocus(55)</onright>
 					<orientation>horizontal</orientation>
 					<usecontrolcoords>true</usecontrolcoords>
 					<defaultcontrol always="true">1001</defaultcontrol>
@@ -120,7 +120,7 @@
 						<include condition="SubString(System.Language,English)">Width154</include>
 						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
-						<onup>57</onup>
+						<onup>55</onup>
 						<ondown>3000</ondown>
 						<onclick>SetFocus(5001)</onclick>
 						<font>Med24</font>
@@ -168,8 +168,8 @@
 					<height>23</height>
 					<onup>1000</onup>
 					<ondown>noop</ondown>
-					<onleft>57</onleft>
-					<onright>57</onright>
+					<onleft>55</onleft>
+					<onright>55</onright>
 					<onclick>RunScript(script.toolbox,info=textviewer,header=$INFO[ListItem.Label],text='"$INFO[ListItem.Label2]"')</onclick>
 					<visible>Control.IsVisible(96)</visible>
 					<texturefocus>views/more_fo.png</texturefocus>
@@ -213,8 +213,8 @@
 				<height>620</height>
 				<onup>noop</onup>
 				<ondown>noop</ondown>
-				<onleft>57</onleft>
-				<onright>57</onright>
+				<onleft>55</onleft>
+				<onright>55</onright>
 				<itemgap>0</itemgap>
 				<align>center</align>
 				<orientation>vertical</orientation>
@@ -256,7 +256,7 @@
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
 					<label>$INFO[Container.Viewmode]</label>
-					<onback>57</onback>
+					<onback>55</onback>
 					<onclick>Container.NextViewMode</onclick>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -288,7 +288,7 @@
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
 					<label>$INFO[Container.SortMethod]</label>
-					<onback>57</onback>
+					<onback>55</onback>
 					<onclick>Container.NextSortMethod</onclick>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -321,7 +321,7 @@
 					<font>Light30Spaced</font>
 					<label>584</label>
 					<altlabel>585</altlabel>
-					<onback>57</onback>
+					<onback>55</onback>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
@@ -354,7 +354,7 @@
 					<textwidth>560</textwidth>
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
-					<onback>57</onback>
+					<onback>55</onback>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
@@ -385,8 +385,8 @@
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
 					<label>$VAR[FilterButton]</label>
-					<onback>57</onback>
-					<onclick>SetFocus(57)</onclick>
+					<onback>55</onback>
+					<onclick>SetFocus(55)</onclick>
 					<onclick>Filter</onclick>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -411,8 +411,8 @@
 					<height>84</height>
 					<align>center</align>
 					<aligny>top</aligny>
-					<onback>57</onback>
-					<onclick>SetFocus(57)</onclick>
+					<onback>55</onback>
+					<onclick>SetFocus(55)</onclick>
 					<font>Med24</font>
 					<label>20177</label>
 					<textoffsety>27</textoffsety>

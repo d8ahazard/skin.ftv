@@ -6,7 +6,7 @@
 	<onload condition="Window.Previous(home) + system.getbool(filelists.showparentdiritems)">Control.Move($VAR[ContainerID],1)</onload>
 	<onunload condition="Window.Next(home)">Control.Move($VAR[ContainerID],$INFO[Container.CurrentItem,-])</onunload>
 	<onunload condition="Window.Next(home) + !system.getbool(filelists.showparentdiritems)">Control.Move($VAR[ContainerID],1)</onunload>
-	<views>50</views>
+	<views>50,56,55,57</views>
 	<controls>
 		<control id="2" type="button">
 			<include>HiddenControl</include>
@@ -17,6 +17,9 @@
 		</control>
 		<!-- Views -->
 		<include>Viewtype50</include>
+		<include>Viewtype55</include>
+		<include>Viewtype56</include>
+		<include>Viewtype57</include>
 		<control type="group">
 			<animation condition="!Window.Previous(visualisation)" delay="400" effect="fade" end="100" start="0" time="200">WindowOpen</animation>
 			<!-- Heading / Current item / Total items -->

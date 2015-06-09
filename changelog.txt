@@ -1,3 +1,9 @@
+0.1.0
+
+Added more views for music addons
+Fixed Next Up notification problem
+Updated German language (thanks to b711)
+
 0.0.98
 
 Added Next Up script support

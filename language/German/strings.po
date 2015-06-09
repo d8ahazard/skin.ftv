@@ -58,7 +58,7 @@ msgstr "Artwork[CR]Downloader"
 
 msgctxt "#31104"
 msgid "Cinema[CR]Experience"
-msgstr Cinema[CR]Experience""
+msgstr "Cinema[CR]Experience"
 
 msgctxt "#31000"
 msgid "Audio Options"
@@ -104,7 +104,7 @@ msgstr "Systemaddons inklusive Abhängigkeiten, verweisten Abhängigkeiten und[C
 
 msgctxt "#31021"
 msgid "Download add-ons from your installed repos."
-msgstr "Addons aus den installierten repos herunterladen"
+msgstr "Addons aus den installierten Repositories herunterladen"
 
 msgctxt "#31010"
 msgid "Save playlist"
@@ -132,7 +132,7 @@ msgstr "Addons durch den Dateimanager installieren."
 
 msgctxt "#31028"
 msgid "Search for an add-on from your installed repos."
-msgstr "Suche nach Addons in den installierten repos."
+msgstr "Suche nach Addons in den installierten Repositories."
 
 msgctxt "#31022"
 msgid "Update[CR]Now"
@@ -176,7 +176,7 @@ msgstr "Widget Name"
 
 msgctxt "#31038"
 msgid "Select your scrapers preferred certification county."
-msgstr "Wähle bevorzugtes Land für die Altersbewertung des scrapers aus"
+msgstr "Wähle bevorzugtes Land für die Altersbewertung des Scrapers aus"
 
 msgctxt "#31039"
 msgid "Enable debug grid.[CR]Useful when skinning."
@@ -464,7 +464,7 @@ msgstr "Jetzt[CR]ansehen"
 
 msgctxt "#31110"
 msgid "Written by"
-msgstr ""
+msgstr "Geschrieben von"
 
 msgctxt "#31111"
 msgid "Sorry, no items where found for this search."
@@ -587,7 +587,7 @@ msgstr "DVD Menü"
 
 msgctxt "#31137"
 msgid "Video Options"
-msgstr Video-Optionen""
+msgstr "Video-Optionen"
 
 msgctxt "#31138"
 msgid "Turn Subtitles On"
@@ -640,3 +640,63 @@ msgstr "Blende OSD-Bedienelemente aus"
 msgctxt "#31150"
 msgid "Hides the Stop, Play, Pause, etc buttons from the music and video OSD."
 msgstr "Blendet die Stop, Abspielen, Pause und andere Bedienelemente aus dem On-Screen-Display für Musik und Video aus."
+
+msgctxt "#31151"
+msgid "Creator"
+msgstr "Schöpfer"
+
+msgctxt "#31152"
+msgid "Air Date"
+msgstr "Ausstrahlungsdatum"
+
+msgctxt "#31153"
+msgid "3D Options"
+msgstr "3D Optionen"
+
+msgctxt "#31154"
+msgid "Profile"
+msgstr "Profil"
+
+msgctxt "#31155"
+msgid "Build Version"
+msgstr "Build Version"
+
+msgctxt "#31156"
+msgid "Capacity"
+msgstr "Platz"
+
+msgctxt "#31157"
+msgid "Current Date and Time"
+msgstr "Aktuelles Datum und Zeit"
+
+msgctxt "#31158"
+msgid "Device Name"
+msgstr "Gerätename"
+
+msgctxt "#31159"
+msgid "Wide"
+msgstr "Breit"
+
+msgctxt "#31160"
+msgid "Poster"
+msgstr "Poster"
+
+msgctxt "#31161"
+msgid "Square"
+msgstr "Quadrat"
+
+msgctxt "#31162"
+msgid "Show"
+msgstr "Ansicht"
+
+msgctxt "#31163"
+msgid "Start[CR]Party Mode"
+msgstr "Partymodus[CR]starten"
+
+msgctxt "#31164"
+msgid "Next Up"
+msgstr "Es folgt"
+
+msgctxt "#31165"
+msgid "Choose[CR]Art"
+msgstr "Grafik[CR]wählen"
