@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<!-- addoninformation -->
-	<defaultcontrol always="true">9000</defaultcontrol>
+	<defaultcontrol always="true">9001</defaultcontrol>
 	<onunload>ClearProperty(AddonDetails,home)</onunload>
-	<onunload>SetFocus(50)</onunload>
+	<onunload>SetFocus(55)</onunload>
 	<animation effect="fade" end="100" start="100" time="200">WindowClose</animation>
 	<controls>
 		<!-- Background -->

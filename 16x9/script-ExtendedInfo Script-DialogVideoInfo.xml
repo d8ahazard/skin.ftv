@@ -3,10 +3,6 @@
 	<!-- script-ExtendedInfo Script-DialogVideoInfo -->
 	<defaultcontrol always="true">999</defaultcontrol>
 	<zorder>2</zorder>
-	<onload>Control.Move(150,$INFO[Container(150).CurrentItem,-])</onload>
-	<onload>Control.Move(150,1)</onload>
-	<onload>Control.Move(1000,$INFO[Container(1000).CurrentItem,-])</onload>
-	<onload>Control.Move(1000,1)</onload>
 	<onload condition="System.HasAddon(script.tvtunes)">RunScript(script.tvtunes,backend=True)</onload>
 	<onunload>ClearProperty(ExActor1,home)</onunload>
 	<onunload>ClearProperty(ExActor2,home)</onunload>

@@ -114,9 +114,25 @@
 						<label>-</label>
 						<onfocus>Right</onfocus>
 						<include>NoTextures</include>
-						<visible>!Control.HasFocus(1002)</visible>
+						<visible>!Control.HasFocus(1002) + !Control.HasFocus(1003)</visible>
 					</control>
 					<control id="1002" type="button">
+						<include condition="SubString(System.Language,English)">Width184</include>
+						<include condition="!SubString(System.Language,English)">WidthDefault</include>
+						<height>100</height>
+						<onup>55</onup>
+						<ondown>3000</ondown>
+						<onclick>SetFocus(55)</onclick>
+						<onclick>Info</onclick>
+						<font>Med24</font>
+						<label>[CAPITALIZE]$LOCALIZE[24000][CR]$LOCALIZE[19033][/CAPITALIZE]</label>
+						<textoffsetx>20</textoffsetx>
+						<textcolor>ffdadada</textcolor>
+						<focusedcolor>ff222222</focusedcolor>
+						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
+					</control>
+					<control id="1003" type="button">
 						<include condition="SubString(System.Language,English)">Width154</include>
 						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
@@ -176,15 +192,15 @@
 					<texturenofocus>views/more_nf.png</texturenofocus>
 					<visible>!Window.IsVisible(textviewer)</visible>
 				</control>
-					<!-- More button -->
-					<control type="image">
-						<left>1194</left>
-						<top>192</top>
-						<width>37</width>
-						<height>23</height>
-						<texture>views/more_nf.png</texture>
-						<visible>Window.IsVisible(textviewer)</visible>
-					</control>
+				<!-- More button -->
+				<control type="image">
+					<left>1194</left>
+					<top>192</top>
+					<width>37</width>
+					<height>23</height>
+					<texture>views/more_nf.png</texture>
+					<visible>Window.IsVisible(textviewer)</visible>
+				</control>
 			</control>
 		</control>
 		<!-- Background -->

@@ -1,3 +1,8 @@
+1.0.1
+
+Fixed album/artist info dialog description
+Added 'Add-on Information' button to My Programs
+
 1.0.0
 
 Added 'Open 'Visualiser' button to music

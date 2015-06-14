@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<!-- musicinformation -->
-	<defaultcontrol always="true">9001</defaultcontrol>
+	<defaultcontrol always="true">6</defaultcontrol>
 	<onunload>ClearProperty(AlbumDetails,home)</onunload>
 	<onunload>SetFocus(50)</onunload>
 	<animation effect="fade" end="100" start="100" time="200">WindowClose</animation>
 	<controls>
+		<!-- Hidden Info -->
+		<control type="textbox">
+			<left>-1200</left>
+			<top>293</top>
+			<width>792</width>
+			<height>528</height>
+			<align>left</align>
+			<font>Light30Spaced</font>
+			<pagecontrol>96</pagecontrol>
+			<autoscroll>false</autoscroll>
+			<textcolor>ffa4a4a4</textcolor>
+			<label>$VAR[MusicInfoDescription]</label>
+		</control>
+		<!-- Hidden scrollbar -->
+		<control id="96" type="scrollbar">
+			<left>-1200</left>
+			<top>293</top>
+			<width>792</width>
+			<height>528</height>
+			<showonepage>false</showonepage>
+			<orientation>vertical</orientation>
+		</control>
 		<!-- Background -->
 		<include>BackgroundImage</include>
 		<!-- Fanart -->
@@ -324,8 +346,8 @@
 					<font>Med32</font>
 					<textcolor>ffdadada</textcolor>
 					<label>21821</label>
-					<visible>[Container.Content(albums) + !IsEmpty(ListItem.Property(Album_Description))] | [Container.Content(artists) + !IsEmpty(ListItem.Property(Artist_Description))]</visible>
 				</control>
+				<!-- Info -->
 				<control type="textbox">
 					<top>293</top>
 					<width>792</width>
@@ -336,15 +358,6 @@
 					<textcolor>ffa4a4a4</textcolor>
 					<pagecontrol>96</pagecontrol>
 					<label>$VAR[MusicInfoDescription]</label>
-				</control>
-				<!-- Hidden scrollbar -->
-				<control id="96" type="scrollbar">
-					<left>-1200</left>
-					<top>293</top>
-					<width>792</width>
-					<height>528</height>
-					<showonepage>false</showonepage>
-					<orientation>vertical</orientation>
 				</control>
 				<!-- More button -->
 				<control id="3002" type="button">
