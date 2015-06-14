@@ -6,24 +6,24 @@
 			<item>
 				<label>$LOCALIZE[31079] 1</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget1.Label,Recently Added Movies))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget1.Label,Your Movies))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress Movies)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget1.Label,In Progress Movies))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids Movies)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget1.Label,Kids Movies))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure Movies)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget1.Label,Action &amp; Adventure Movies))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy Movies)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget1.Label,Comedy Movies))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi Movies)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget1.Label,Sci-Fi Movies))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget1.Label,Top Rated Movies))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31167])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget1.Label,$LOCALIZE[31167]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31168])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget1.Label,$LOCALIZE[31168]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31169])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget1.Label,$LOCALIZE[31169]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31170])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget1.Label,$LOCALIZE[31170]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31171])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget1.Label,$LOCALIZE[31171]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31172])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget1.Label,$LOCALIZE[31172]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31173])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget1.Label,$LOCALIZE[31173]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31174])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget1.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget1.Label,$LOCALIZE[31174]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget1.List,,special://videoplaylists/)||Skin.SetString(MovieWidget1.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget1.List,special://videoplaylists/)||Skin.SetString(MovieWidget1.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget1))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -33,24 +33,24 @@
 			<item>
 				<label>$LOCALIZE[31079] 2</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget2.Label,Recently Added Movies))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget2.Label,Your Movies))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress Movies)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget2.Label,In Progress Movies))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids Movies)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget2.Label,Kids Movies))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure Movies)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget2.Label,Action &amp; Adventure Movies))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy Movies)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget2.Label,Comedy Movies))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi Movies)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget2.Label,Sci-Fi Movies))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget2.Label,Top Rated Movies))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31167])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget2.Label,$LOCALIZE[31167]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31168])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget2.Label,$LOCALIZE[31168]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31169])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget2.Label,$LOCALIZE[31169]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31170])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget2.Label,$LOCALIZE[31170]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31171])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget2.Label,$LOCALIZE[31171]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31172])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget2.Label,$LOCALIZE[31172]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31173])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget2.Label,$LOCALIZE[31173]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31174])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget2.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget2.Label,$LOCALIZE[31174]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget2.List,,special://videoplaylists/)||Skin.SetString(MovieWidget2.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget2.List,special://videoplaylists/)||Skin.SetString(MovieWidget2.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget2))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -60,24 +60,24 @@
 			<item>
 				<label>$LOCALIZE[31079] 3</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget3.Label,Recently Added Movies))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget3.Label,Your Movies))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress Movies)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget3.Label,In Progress Movies))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids Movies)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget3.Label,Kids Movies))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure Movies)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget3.Label,Action &amp; Adventure Movies))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy Movies)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget3.Label,Comedy Movies))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi Movies)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget3.Label,Sci-Fi Movies))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget3.Label,Top Rated Movies))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31167])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget3.Label,$LOCALIZE[31167]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31168])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget3.Label,$LOCALIZE[31168]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31169])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget3.Label,$LOCALIZE[31169]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31170])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget3.Label,$LOCALIZE[31170]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31171])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget3.Label,$LOCALIZE[31171]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31172])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget3.Label,$LOCALIZE[31172]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31173])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget3.Label,$LOCALIZE[31173]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31174])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget3.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget3.Label,$LOCALIZE[31174]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget3.List,,special://videoplaylists/)||Skin.SetString(MovieWidget3.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget3.List,special://videoplaylists/)||Skin.SetString(MovieWidget3.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget3))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -87,24 +87,24 @@
 			<item>
 				<label>$LOCALIZE[31079] 4</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget4.Label,Recently Added Movies))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget4.Label,Your Movies))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress Movies)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget4.Label,In Progress Movies))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids Movies)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget4.Label,Kids Movies))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure Movies)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget4.Label,Action &amp; Adventure Movies))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy Movies)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget4.Label,Comedy Movies))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi Movies)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget4.Label,Sci-Fi Movies))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget4.Label,Top Rated Movies))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31167])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget4.Label,$LOCALIZE[31167]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31168])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget4.Label,$LOCALIZE[31168]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31169])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget4.Label,$LOCALIZE[31169]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31170])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget4.Label,$LOCALIZE[31170]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31171])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget4.Label,$LOCALIZE[31171]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31172])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget4.Label,$LOCALIZE[31172]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31173])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget4.Label,$LOCALIZE[31173]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31174])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget4.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget4.Label,$LOCALIZE[31174]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget4.List,,special://videoplaylists/)||Skin.SetString(MovieWidget4.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget4.List,special://videoplaylists/)||Skin.SetString(MovieWidget4.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget4))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -114,24 +114,24 @@
 			<item>
 				<label>$LOCALIZE[31079] 5</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget5.Label,Recently Added Movies))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget5.Label,Your Movies))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress Movies)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget5.Label,In Progress Movies))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids Movies)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget5.Label,Kids Movies))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure Movies)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget5.Label,Action &amp; Adventure Movies))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy Movies)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget5.Label,Comedy Movies))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi Movies)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget5.Label,Sci-Fi Movies))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget5.Label,Top Rated Movies))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31167])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget5.Label,$LOCALIZE[31167]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31168])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget5.Label,$LOCALIZE[31168]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31169])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget5.Label,$LOCALIZE[31169]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31170])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget5.Label,$LOCALIZE[31170]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31171])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget5.Label,$LOCALIZE[31171]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31172])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget5.Label,$LOCALIZE[31172]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31173])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget5.Label,$LOCALIZE[31173]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31174])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget5.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget5.Label,$LOCALIZE[31174]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget5.List,,special://videoplaylists/)||Skin.SetString(MovieWidget5.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget5.List,special://videoplaylists/)||Skin.SetString(MovieWidget5.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget5))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -141,24 +141,24 @@
 			<item>
 				<label>$LOCALIZE[31079] 6</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget6.Label,Recently Added Movies))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget6.Label,Your Movies))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress Movies)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget6.Label,In Progress Movies))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids Movies)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget6.Label,Kids Movies))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure Movies)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget6.Label,Action &amp; Adventure Movies))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy Movies)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget6.Label,Comedy Movies))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi Movies)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget6.Label,Sci-Fi Movies))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget6.Label,Top Rated Movies))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31167])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget6.Label,$LOCALIZE[31167]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31168])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget6.Label,$LOCALIZE[31168]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31169])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget6.Label,$LOCALIZE[31169]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31170])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget6.Label,$LOCALIZE[31170]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31171])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget6.Label,$LOCALIZE[31171]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31172])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget6.Label,$LOCALIZE[31172]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31173])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget6.Label,$LOCALIZE[31173]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31174])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget6.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget6.Label,$LOCALIZE[31174]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget6.List,,special://videoplaylists/)||Skin.SetString(MovieWidget6.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget6.List,special://videoplaylists/)||Skin.SetString(MovieWidget6.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget6))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -168,24 +168,24 @@
 			<item>
 				<label>$LOCALIZE[31079] 7</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget7.Label,Recently Added Movies))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget7.Label,Your Movies))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress Movies)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget7.Label,In Progress Movies))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids Movies)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget7.Label,Kids Movies))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure Movies)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget7.Label,Action &amp; Adventure Movies))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy Movies)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget7.Label,Comedy Movies))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi Movies)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget7.Label,Sci-Fi Movies))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget7.Label,Top Rated Movies))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31167])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget7.Label,$LOCALIZE[31167]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31168])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget7.Label,$LOCALIZE[31168]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31169])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget7.Label,$LOCALIZE[31169]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31170])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget7.Label,$LOCALIZE[31170]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31171])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget7.Label,$LOCALIZE[31171]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31172])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget7.Label,$LOCALIZE[31172]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31173])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget7.Label,$LOCALIZE[31173]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31174])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget7.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget7.Label,$LOCALIZE[31174]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget7.List,,special://videoplaylists/)||Skin.SetString(MovieWidget7.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget7.List,special://videoplaylists/)||Skin.SetString(MovieWidget7.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget7))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -195,24 +195,24 @@
 			<item>
 				<label>$LOCALIZE[31079] 8</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Added Movies)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget8.Label,Recently Added Movies))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Movies)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget8.Label,Your Movies))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress Movies)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget8.Label,In Progress Movies))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids Movies)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget8.Label,Kids Movies))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure Movies)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget8.Label,Action &amp; Adventure Movies))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy Movies)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget8.Label,Comedy Movies))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi Movies)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget8.Label,Sci-Fi Movies))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated Movies)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget8.Label,Top Rated Movies))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31167])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/RecentlyAddedMovies.xsp)||Skin.SetString(MovieWidget8.Label,$LOCALIZE[31167]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31168])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/YourMovies.xsp)||Skin.SetString(MovieWidget8.Label,$LOCALIZE[31168]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31169])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/InProgressMovies.xsp)||Skin.SetString(MovieWidget8.Label,$LOCALIZE[31169]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31170])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/KidsMovies.xsp)||Skin.SetString(MovieWidget8.Label,$LOCALIZE[31170]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31171])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/ActionAdventureMovies.xsp)||Skin.SetString(MovieWidget8.Label,$LOCALIZE[31171]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31172])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/ComedyMovies.xsp)||Skin.SetString(MovieWidget8.Label,$LOCALIZE[31172]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31173])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/SciFiMovies.xsp)||Skin.SetString(MovieWidget8.Label,$LOCALIZE[31173]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31174])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MovieWidget8.List,special://skin/extras/video/TopRatedMovies.xsp)||Skin.SetString(MovieWidget8.Label,$LOCALIZE[31174]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget8.List,,special://videoplaylists/)||Skin.SetString(MovieWidget8.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MovieWidget8.List,special://videoplaylists/)||Skin.SetString(MovieWidget8.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MovieWidget8))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -303,22 +303,22 @@
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget1.Label,Recently Updated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget1.Label,Your TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget1.Label,In Progress TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget1.Label,Kids TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget1.Label,Action &amp; Adventure TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget1.Label,Comedy TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget1.Label,Sci-Fi TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget1.Label,Top Rated TV Shows))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31176])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget1.Label,$LOCALIZE[31176]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31177])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget1.Label,$LOCALIZE[31177]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31178])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget1.Label,$LOCALIZE[31178]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31179])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget1.Label,$LOCALIZE[31179]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31180])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget1.Label,$LOCALIZE[31180]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31181])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget1.Label,$LOCALIZE[31181]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31182])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget1.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget1.Label,$LOCALIZE[31182]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget1.List,,special://videoplaylists/)||Skin.SetString(TVWidget1.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget1.List,special://videoplaylists/)||Skin.SetString(TVWidget1.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget1))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -330,22 +330,22 @@
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget2.Label,Recently Updated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget2.Label,Your TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget2.Label,In Progress TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget2.Label,Kids TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget2.Label,Action &amp; Adventure TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget2.Label,Comedy TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget2.Label,Sci-Fi TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget2.Label,Top Rated TV Shows))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31176])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget2.Label,$LOCALIZE[31176]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31177])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget2.Label,$LOCALIZE[31177]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31178])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget2.Label,$LOCALIZE[31178]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31179])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget2.Label,$LOCALIZE[31179]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31180])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget2.Label,$LOCALIZE[31180]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31181])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget2.Label,$LOCALIZE[31181]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31182])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget2.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget2.Label,$LOCALIZE[31182]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget2.List,,special://videoplaylists/)||Skin.SetString(TVWidget2.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget2.List,special://videoplaylists/)||Skin.SetString(TVWidget2.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget2))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -357,22 +357,22 @@
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget3.Label,Recently Updated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget3.Label,Your TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget3.Label,In Progress TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget3.Label,Kids TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget3.Label,Action &amp; Adventure TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget3.Label,Comedy TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget3.Label,Sci-Fi TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget3.Label,Top Rated TV Shows))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31176])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget3.Label,$LOCALIZE[31176]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31177])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget3.Label,$LOCALIZE[31177]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31178])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget3.Label,$LOCALIZE[31178]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31179])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget3.Label,$LOCALIZE[31179]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31180])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget3.Label,$LOCALIZE[31180]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31181])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget3.Label,$LOCALIZE[31181]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31182])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget3.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget3.Label,$LOCALIZE[31182]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget3.List,,special://videoplaylists/)||Skin.SetString(TVWidget3.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget3.List,special://videoplaylists/)||Skin.SetString(TVWidget3.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget3))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -384,22 +384,22 @@
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget4.Label,Recently Updated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget4.Label,Your TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget4.Label,In Progress TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget4.Label,Kids TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget4.Label,Action &amp; Adventure TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget4.Label,Comedy TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget4.Label,Sci-Fi TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget4.Label,Top Rated TV Shows))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31176])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget4.Label,$LOCALIZE[31176]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31177])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget4.Label,$LOCALIZE[31177]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31178])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget4.Label,$LOCALIZE[31178]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31179])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget4.Label,$LOCALIZE[31179]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31180])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget4.Label,$LOCALIZE[31180]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31181])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget4.Label,$LOCALIZE[31181]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31182])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget4.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget4.Label,$LOCALIZE[31182]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget4.List,,special://videoplaylists/)||Skin.SetString(TVWidget4.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget4.List,special://videoplaylists/)||Skin.SetString(TVWidget4.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget4))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -411,22 +411,22 @@
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget5.Label,Recently Updated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget5.Label,Your TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget5.Label,In Progress TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget5.Label,Kids TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget5.Label,Action &amp; Adventure TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget5.Label,Comedy TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget5.Label,Sci-Fi TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget5.Label,Top Rated TV Shows))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31176])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget5.Label,$LOCALIZE[31176]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31177])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget5.Label,$LOCALIZE[31177]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31178])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget5.Label,$LOCALIZE[31178]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31179])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget5.Label,$LOCALIZE[31179]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31180])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget5.Label,$LOCALIZE[31180]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31181])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget5.Label,$LOCALIZE[31181]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31182])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget5.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget5.Label,$LOCALIZE[31182]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget5.List,,special://videoplaylists/)||Skin.SetString(TVWidget5.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget5.List,special://videoplaylists/)||Skin.SetString(TVWidget5.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget5))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -438,22 +438,22 @@
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget6.Label,Recently Updated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget6.Label,Your TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget6.Label,In Progress TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget6.Label,Kids TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget6.Label,Action &amp; Adventure TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget6.Label,Comedy TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget6.Label,Sci-Fi TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget6.Label,Top Rated TV Shows))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31176])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget6.Label,$LOCALIZE[31176]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31177])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget6.Label,$LOCALIZE[31177]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31178])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget6.Label,$LOCALIZE[31178]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31179])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget6.Label,$LOCALIZE[31179]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31180])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget6.Label,$LOCALIZE[31180]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31181])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget6.Label,$LOCALIZE[31181]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31182])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget6.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget6.Label,$LOCALIZE[31182]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget6.List,,special://videoplaylists/)||Skin.SetString(TVWidget6.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget6.List,special://videoplaylists/)||Skin.SetString(TVWidget6.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget6))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -465,22 +465,22 @@
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget7.Label,Recently Updated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget7.Label,Your TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget7.Label,In Progress TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget7.Label,Kids TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget7.Label,Action &amp; Adventure TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget7.Label,Comedy TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget7.Label,Sci-Fi TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget7.Label,Top Rated TV Shows))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31176])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget7.Label,$LOCALIZE[31176]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31177])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget7.Label,$LOCALIZE[31177]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31178])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget7.Label,$LOCALIZE[31178]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31179])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget7.Label,$LOCALIZE[31179]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31180])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget7.Label,$LOCALIZE[31180]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31181])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget7.Label,$LOCALIZE[31181]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31182])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget7.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget7.Label,$LOCALIZE[31182]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget7.List,,special://videoplaylists/)||Skin.SetString(TVWidget7.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget7.List,special://videoplaylists/)||Skin.SetString(TVWidget7.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget7))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -492,22 +492,22 @@
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
 				<onclick>SetProperty(Dialog.1.Label,Recently Updated TV Shows)</onclick>
 				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)||Skin.SetString(TVWidget8.Label,Recently Updated TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget8.Label,Your TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,In Progress TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget8.Label,In Progress TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Kids TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget8.Label,Kids TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Action &amp; Adventure TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget8.Label,Action &amp; Adventure TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Comedy TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget8.Label,Comedy TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Sci-Fi TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget8.Label,Sci-Fi TV Shows))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Top Rated TV Shows)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget8.Label,Top Rated TV Shows))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31176])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/YourTVShows.xsp)||Skin.SetString(TVWidget8.Label,$LOCALIZE[31176]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31177])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/InProgressTVShows.xsp)||Skin.SetString(TVWidget8.Label,$LOCALIZE[31177]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31178])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/KidsTVShows.xsp)||Skin.SetString(TVWidget8.Label,$LOCALIZE[31178]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31179])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/ActionAdventureTVShows.xsp)||Skin.SetString(TVWidget8.Label,$LOCALIZE[31179]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31180])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/ComedyTVShows.xsp)||Skin.SetString(TVWidget8.Label,$LOCALIZE[31180]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31181])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/SciFiTVShows.xsp)||Skin.SetString(TVWidget8.Label,$LOCALIZE[31181]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31182])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(TVWidget8.List,special://skin/extras/video/TopRatedTVShows.xsp)||Skin.SetString(TVWidget8.Label,$LOCALIZE[31182]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget8.List,,special://videoplaylists/)||Skin.SetString(TVWidget8.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(TVWidget8.List,special://videoplaylists/)||Skin.SetString(TVWidget8.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=TVWidget8))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -596,24 +596,24 @@
 			<item>
 				<label>$LOCALIZE[31081] 1</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget1.Label,Recently Played Albums))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://albums/)||Skin.SetString(MusicWidget1.Label,Your Albums))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,Recently Added Albums)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget1.Label,Recently Added Albums))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Your Artists)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://artists/)||Skin.SetString(MusicWidget1.Label,Your Artists))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Your Genres)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://genres/)||Skin.SetString(MusicWidget1.Label,Your Genres))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Top Rated Albums)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget1.Label,Top Rated Albums))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Top Rated Songs)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget1.Label,Top Rated Songs))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://songs/)||Skin.SetString(MusicWidget1.Label,Your Songs))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31183])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget1.Label,$LOCALIZE[31183]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31184])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://albums/)||Skin.SetString(MusicWidget1.Label,$LOCALIZE[31184]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31185])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget1.Label,$LOCALIZE[31185]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31186])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://artists/)||Skin.SetString(MusicWidget1.Label,$LOCALIZE[31186]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31187])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://genres/)||Skin.SetString(MusicWidget1.Label,$LOCALIZE[31187]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31188])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget1.Label,$LOCALIZE[31188]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31189])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget1.Label,$LOCALIZE[31189]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31190])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget1.List,musicdb://songs/)||Skin.SetString(MusicWidget1.Label,$LOCALIZE[31190]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget1.List,,special://musicplaylists/)||Skin.SetString(MusicWidget1.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget1.List,special://musicplaylists/)||Skin.SetString(MusicWidget1.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget1))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -623,24 +623,24 @@
 			<item>
 				<label>$LOCALIZE[31081] 2</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget2.Label,Recently Played Albums))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://albums/)||Skin.SetString(MusicWidget2.Label,Your Albums))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,Recently Added Albums)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget2.Label,Recently Added Albums))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Your Artists)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://artists/)||Skin.SetString(MusicWidget2.Label,Your Artists))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Your Genres)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://genres/)||Skin.SetString(MusicWidget2.Label,Your Genres))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Top Rated Albums)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget2.Label,Top Rated Albums))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Top Rated Songs)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget2.Label,Top Rated Songs))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://songs/)||Skin.SetString(MusicWidget2.Label,Your Songs))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31183])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget2.Label,$LOCALIZE[31183]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31184])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://albums/)||Skin.SetString(MusicWidget2.Label,$LOCALIZE[31184]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31185])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget2.Label,$LOCALIZE[31185]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31186])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://artists/)||Skin.SetString(MusicWidget2.Label,$LOCALIZE[31186]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31187])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://genres/)||Skin.SetString(MusicWidget2.Label,$LOCALIZE[31187]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31188])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget2.Label,$LOCALIZE[31188]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31189])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget2.Label,$LOCALIZE[31189]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31190])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget2.List,musicdb://songs/)||Skin.SetString(MusicWidget2.Label,$LOCALIZE[31190]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget2.List,,special://musicplaylists/)||Skin.SetString(MusicWidget2.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget2.List,special://musicplaylists/)||Skin.SetString(MusicWidget2.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget2))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -650,24 +650,24 @@
 			<item>
 				<label>$LOCALIZE[31081] 3</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget3.Label,Recently Played Albums))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://albums/)||Skin.SetString(MusicWidget3.Label,Your Albums))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,Recently Added Albums)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget3.Label,Recently Added Albums))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Your Artists)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://artists/)||Skin.SetString(MusicWidget3.Label,Your Artists))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Your Genres)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://genres/)||Skin.SetString(MusicWidget3.Label,Your Genres))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Top Rated Albums)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget3.Label,Top Rated Albums))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Top Rated Songs)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget3.Label,Top Rated Songs))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://songs/)||Skin.SetString(MusicWidget3.Label,Your Songs))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31183])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget3.Label,$LOCALIZE[31183]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31184])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://albums/)||Skin.SetString(MusicWidget3.Label,$LOCALIZE[31184]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31185])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget3.Label,$LOCALIZE[31185]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31186])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://artists/)||Skin.SetString(MusicWidget3.Label,$LOCALIZE[31186]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31187])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://genres/)||Skin.SetString(MusicWidget3.Label,$LOCALIZE[31187]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31188])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget3.Label,$LOCALIZE[31188]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31189])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget3.Label,$LOCALIZE[31189]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31190])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget3.List,musicdb://songs/)||Skin.SetString(MusicWidget3.Label,$LOCALIZE[31190]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget3.List,,special://musicplaylists/)||Skin.SetString(MusicWidget3.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget3.List,special://musicplaylists/)||Skin.SetString(MusicWidget3.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget3))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -677,24 +677,24 @@
 			<item>
 				<label>$LOCALIZE[31081] 4</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget4.Label,Recently Played Albums))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://albums/)||Skin.SetString(MusicWidget4.Label,Your Albums))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,Recently Added Albums)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget4.Label,Recently Added Albums))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Your Artists)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://artists/)||Skin.SetString(MusicWidget4.Label,Your Artists))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Your Genres)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://genres/)||Skin.SetString(MusicWidget4.Label,Your Genres))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Top Rated Albums)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget4.Label,Top Rated Albums))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Top Rated Songs)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget4.Label,Top Rated Songs))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://songs/)||Skin.SetString(MusicWidget4.Label,Your Songs))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31183])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget4.Label,$LOCALIZE[31183]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31184])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://albums/)||Skin.SetString(MusicWidget4.Label,$LOCALIZE[31184]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31185])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget4.Label,$LOCALIZE[31185]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31186])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://artists/)||Skin.SetString(MusicWidget4.Label,$LOCALIZE[31186]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31187])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://genres/)||Skin.SetString(MusicWidget4.Label,$LOCALIZE[31187]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31188])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget4.Label,$LOCALIZE[31188]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31189])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget4.Label,$LOCALIZE[31189]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31190])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget4.List,musicdb://songs/)||Skin.SetString(MusicWidget4.Label,$LOCALIZE[31190]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget4.List,,special://musicplaylists/)||Skin.SetString(MusicWidget4.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget4.List,special://musicplaylists/)||Skin.SetString(MusicWidget4.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget4))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -704,24 +704,24 @@
 			<item>
 				<label>$LOCALIZE[31081] 5</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget5.Label,Recently Played Albums))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://albums/)||Skin.SetString(MusicWidget5.Label,Your Albums))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,Recently Added Albums)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget5.Label,Recently Added Albums))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Your Artists)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://artists/)||Skin.SetString(MusicWidget5.Label,Your Artists))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Your Genres)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://genres/)||Skin.SetString(MusicWidget5.Label,Your Genres))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Top Rated Albums)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget5.Label,Top Rated Albums))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Top Rated Songs)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget5.Label,Top Rated Songs))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://songs/)||Skin.SetString(MusicWidget5.Label,Your Songs))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31183])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget5.Label,$LOCALIZE[31183]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31184])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://albums/)||Skin.SetString(MusicWidget5.Label,$LOCALIZE[31184]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31185])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget5.Label,$LOCALIZE[31185]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31186])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://artists/)||Skin.SetString(MusicWidget5.Label,$LOCALIZE[31186]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31187])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://genres/)||Skin.SetString(MusicWidget5.Label,$LOCALIZE[31187]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31188])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget5.Label,$LOCALIZE[31188]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31189])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget5.Label,$LOCALIZE[31189]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31190])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget5.List,musicdb://songs/)||Skin.SetString(MusicWidget5.Label,$LOCALIZE[31190]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget5.List,,special://musicplaylists/)||Skin.SetString(MusicWidget5.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget5.List,special://musicplaylists/)||Skin.SetString(MusicWidget5.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget5))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -731,24 +731,24 @@
 			<item>
 				<label>$LOCALIZE[31081] 6</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget6.Label,Recently Played Albums))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://albums/)||Skin.SetString(MusicWidget6.Label,Your Albums))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,Recently Added Albums)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget6.Label,Recently Added Albums))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Your Artists)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://artists/)||Skin.SetString(MusicWidget6.Label,Your Artists))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Your Genres)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://genres/)||Skin.SetString(MusicWidget6.Label,Your Genres))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Top Rated Albums)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget6.Label,Top Rated Albums))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Top Rated Songs)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget6.Label,Top Rated Songs))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://songs/)||Skin.SetString(MusicWidget6.Label,Your Songs))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31183])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget6.Label,$LOCALIZE[31183]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31184])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://albums/)||Skin.SetString(MusicWidget6.Label,$LOCALIZE[31184]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31185])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget6.Label,$LOCALIZE[31185]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31186])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://artists/)||Skin.SetString(MusicWidget6.Label,$LOCALIZE[31186]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31187])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://genres/)||Skin.SetString(MusicWidget6.Label,$LOCALIZE[31187]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31188])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget6.Label,$LOCALIZE[31188]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31189])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget6.Label,$LOCALIZE[31189]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31190])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget6.List,musicdb://songs/)||Skin.SetString(MusicWidget6.Label,$LOCALIZE[31190]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget6.List,,special://musicplaylists/)||Skin.SetString(MusicWidget6.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget6.List,special://musicplaylists/)||Skin.SetString(MusicWidget6.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget6))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -758,24 +758,24 @@
 			<item>
 				<label>$LOCALIZE[31081] 7</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget7.Label,Recently Played Albums))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://albums/)||Skin.SetString(MusicWidget7.Label,Your Albums))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,Recently Added Albums)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget7.Label,Recently Added Albums))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Your Artists)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://artists/)||Skin.SetString(MusicWidget7.Label,Your Artists))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Your Genres)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://genres/)||Skin.SetString(MusicWidget7.Label,Your Genres))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Top Rated Albums)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget7.Label,Top Rated Albums))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Top Rated Songs)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget7.Label,Top Rated Songs))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://songs/)||Skin.SetString(MusicWidget7.Label,Your Songs))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31183])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget7.Label,$LOCALIZE[31183]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31184])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://albums/)||Skin.SetString(MusicWidget7.Label,$LOCALIZE[31184]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31185])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget7.Label,$LOCALIZE[31185]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31186])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://artists/)||Skin.SetString(MusicWidget7.Label,$LOCALIZE[31186]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31187])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://genres/)||Skin.SetString(MusicWidget7.Label,$LOCALIZE[31187]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31188])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget7.Label,$LOCALIZE[31188]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31189])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget7.Label,$LOCALIZE[31189]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31190])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget7.List,musicdb://songs/)||Skin.SetString(MusicWidget7.Label,$LOCALIZE[31190]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget7.List,,special://musicplaylists/)||Skin.SetString(MusicWidget7.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget7.List,special://musicplaylists/)||Skin.SetString(MusicWidget7.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget7))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -785,24 +785,24 @@
 			<item>
 				<label>$LOCALIZE[31081] 8</label>
 				<onclick>SetProperty(Dialog.NumItems,11)</onclick>
-				<onclick>SetProperty(Dialog.1.Label,Recently Played Albums)</onclick>
-				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget8.Label,Recently Played Albums))</onclick>
-				<onclick>SetProperty(Dialog.2.Label,Your Albums)</onclick>
-				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://albums/)||Skin.SetString(MusicWidget8.Label,Your Albums))</onclick>
-				<onclick>SetProperty(Dialog.3.Label,Recently Added Albums)</onclick>
-				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget8.Label,Recently Added Albums))</onclick>
-				<onclick>SetProperty(Dialog.4.Label,Your Artists)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://artists/)||Skin.SetString(MusicWidget8.Label,Your Artists))</onclick>
-				<onclick>SetProperty(Dialog.5.Label,Your Genres)</onclick>
-				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://genres/)||Skin.SetString(MusicWidget8.Label,Your Genres))</onclick>
-				<onclick>SetProperty(Dialog.6.Label,Top Rated Albums)</onclick>
-				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget8.Label,Top Rated Albums))</onclick>
-				<onclick>SetProperty(Dialog.7.Label,Top Rated Songs)</onclick>
-				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget8.Label,Top Rated Songs))</onclick>
-				<onclick>SetProperty(Dialog.8.Label,Your Songs)</onclick>
-				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://songs/)||Skin.SetString(MusicWidget8.Label,Your Songs))</onclick>
+				<onclick>SetProperty(Dialog.1.Label,$LOCALIZE[31183])</onclick>
+				<onclick>SetProperty(Dialog.1.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://recentlyplayedalbums/)||Skin.SetString(MusicWidget8.Label,$LOCALIZE[31183]))</onclick>
+				<onclick>SetProperty(Dialog.2.Label,$LOCALIZE[31184])</onclick>
+				<onclick>SetProperty(Dialog.2.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://albums/)||Skin.SetString(MusicWidget8.Label,$LOCALIZE[31184]))</onclick>
+				<onclick>SetProperty(Dialog.3.Label,$LOCALIZE[31185])</onclick>
+				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://recentlyaddedalbums/)||Skin.SetString(MusicWidget8.Label,$LOCALIZE[31185]))</onclick>
+				<onclick>SetProperty(Dialog.4.Label,$LOCALIZE[31186])</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://artists/)||Skin.SetString(MusicWidget8.Label,$LOCALIZE[31186]))</onclick>
+				<onclick>SetProperty(Dialog.5.Label,$LOCALIZE[31187])</onclick>
+				<onclick>SetProperty(Dialog.5.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://genres/)||Skin.SetString(MusicWidget8.Label,$LOCALIZE[31187]))</onclick>
+				<onclick>SetProperty(Dialog.6.Label,$LOCALIZE[31188])</onclick>
+				<onclick>SetProperty(Dialog.6.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://top100/albums/)||Skin.SetString(MusicWidget8.Label,$LOCALIZE[31188]))</onclick>
+				<onclick>SetProperty(Dialog.7.Label,$LOCALIZE[31189])</onclick>
+				<onclick>SetProperty(Dialog.7.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://top100/songs/)||Skin.SetString(MusicWidget8.Label,$LOCALIZE[31189]))</onclick>
+				<onclick>SetProperty(Dialog.8.Label,$LOCALIZE[31190])</onclick>
+				<onclick>SetProperty(Dialog.8.BuiltIn,Skin.SetString(MusicWidget8.List,musicdb://songs/)||Skin.SetString(MusicWidget8.Label,$LOCALIZE[31190]))</onclick>
 				<onclick>SetProperty(Dialog.9.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget8.List,,special://musicplaylists/)||Skin.SetString(MusicWidget8.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.9.BuiltIn,Skin.SetFile(MusicWidget8.List,special://musicplaylists/)||Skin.SetString(MusicWidget8.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.10.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.10.BuiltIn,RunScript(script.favourites,property=MusicWidget8))</onclick>
 				<onclick>SetProperty(Dialog.11.Label,Clear)</onclick>
@@ -898,7 +898,7 @@
 				<onclick>SetProperty(Dialog.3.Label,Your Video Add-ons)</onclick>
 				<onclick>SetProperty(Dialog.3.BuiltIn,Skin.SetString(VideosWidget.List,addons://sources/video/)||Skin.SetString(VideosWidget.Label,Your Video Add-ons))</onclick>
 				<onclick>SetProperty(Dialog.4.Label,Video Playlist)</onclick>
-				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetFile(VideosWidget.List,,special://videoplaylists/)||Skin.SetString(VideosWidget.Label,Video Playlist))</onclick>
+				<onclick>SetProperty(Dialog.4.BuiltIn,Skin.SetFile(VideosWidget.List,special://videoplaylists/)||Skin.SetString(VideosWidget.Label,Video Playlist))</onclick>
 				<onclick>SetProperty(Dialog.5.Label,Favourite)</onclick>
 				<onclick>SetProperty(Dialog.5.BuiltIn,RunScript(script.favourites,property=VideosWidget))</onclick>
 				<onclick>SetProperty(Dialog.6.Label,Clear)</onclick>

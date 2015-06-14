@@ -150,8 +150,7 @@
 					<texturefocus>-</texturefocus>
 					<texturenofocus>-</texturenofocus>
 					<onfocus>SetProperty(MainMenuFocus,1,home)</onfocus>
-					<onfocus condition="!StringCompare(Container(9000).ListItem.Property(defaultID),Window(home).Property(MainFocus))">ClearProperty(MainFocus)</onfocus>
-					<onfocus condition="!StringCompare(Container(9000).ListItem.Property(defaultID),Window(home).Property(MainFocus))">ClearProperty(FocusRow)</onfocus>
+					<onfocus>ClearProperty(FocusRow)</onfocus>
 					<onfocus condition="!Control.IsVisible(100) + StringCompare(Container(100).CurrentItem,2)">Control.Move(100,-1)</onfocus>
 					<onfocus condition="!Control.IsVisible(100) + StringCompare(Container(100).CurrentItem,3)">Control.Move(100,-2)</onfocus>
 					<onfocus condition="!Control.IsVisible(100) + StringCompare(Container(100).CurrentItem,4)">Control.Move(100,-3)</onfocus>

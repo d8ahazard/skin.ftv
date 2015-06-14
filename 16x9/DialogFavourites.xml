@@ -4,6 +4,7 @@
 	<defaultcontrol always="true">450</defaultcontrol>
 	<onload>Control.Move(450,$INFO[Container(450).CurrentItem,-])</onload>
 	<onload>Control.Move(450,1)</onload>
+					<onload>SetProperty(MainMenuFocus,1,home)</onload>
 	<controls>
 		<!-- Heading / Current item / Total items -->
 		<control type="grouplist">

@@ -540,11 +540,14 @@
 		<value condition="Window.IsVisible(servicesettings)">$NUMBER[8]</value>
 	</variable>
 	<variable name="ContainerID">
+		<value condition="Control.IsVisible(50)">50</value>
 		<value condition="Control.IsVisible(51)">51</value>
 		<value condition="Control.IsVisible(52)">52</value>
 		<value condition="Control.IsVisible(53)">53</value>
 		<value condition="Control.IsVisible(54)">54</value>
 		<value condition="Control.IsVisible(55)">55</value>
+		<value condition="Control.IsVisible(56)">56</value>
+		<value condition="Control.IsVisible(57)">57</value>
 		<value>50</value>
 	</variable>
 	<variable name="WideImage">

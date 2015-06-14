@@ -700,3 +700,103 @@ msgstr ""
 msgctxt "#31165"
 msgid "Choose[CR]Art"
 msgstr ""
+
+msgctxt "#31166"
+msgid "Open[CR]Visualiser"
+msgstr ""
+
+msgctxt "#31167"
+msgid "Recently Added Movies"
+msgstr ""
+
+msgctxt "#31168"
+msgid "Your Movies"
+msgstr ""
+
+msgctxt "#31169"
+msgid "In Progress Movies"
+msgstr ""
+
+msgctxt "#31170"
+msgid "Kids Movies"
+msgstr ""
+
+msgctxt "#31171"
+msgid "Action and Adventure Movies"
+msgstr ""
+
+msgctxt "#31172"
+msgid "Comedy Movies"
+msgstr ""
+
+msgctxt "#31173"
+msgid "Sci-Fi Movies"
+msgstr ""
+
+msgctxt "#31174"
+msgid "Top Rated Movies"
+msgstr ""
+
+msgctxt "#31175"
+msgid "Recently Updated TV Shows"
+msgstr ""
+
+msgctxt "#31176"
+msgid "Your TV Shows"
+msgstr ""
+
+msgctxt "#31177"
+msgid "In Progress TV Shows"
+msgstr ""
+
+msgctxt "#31178"
+msgid "Kids TV Shows"
+msgstr ""
+
+msgctxt "#31179"
+msgid "Action and Adventure TV Shows"
+msgstr ""
+
+msgctxt "#31180"
+msgid "Comedy TV Shows"
+msgstr ""
+
+msgctxt "#31181"
+msgid "Sci-Fi TV Shows"
+msgstr ""
+
+msgctxt "#31182"
+msgid "Top Rated TV Shows"
+msgstr ""
+
+msgctxt "#31183"
+msgid "Recently Played Albums"
+msgstr ""
+
+msgctxt "#31184"
+msgid "Your Albums"
+msgstr ""
+
+msgctxt "#31185"
+msgid "Recently Added Albums"
+msgstr ""
+
+msgctxt "#31186"
+msgid "Your Artists"
+msgstr ""
+
+msgctxt "#31187"
+msgid "Your Genres"
+msgstr ""
+
+msgctxt "#31188"
+msgid "Top Rated Albums"
+msgstr ""
+
+msgctxt "#31189"
+msgid "Top Rated Songs"
+msgstr ""
+
+msgctxt "#31190"
+msgid "Your Songs"
+msgstr ""

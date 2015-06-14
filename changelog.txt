@@ -1,3 +1,11 @@
+1.0.0
+
+Added 'Open 'Visualiser' button to music
+Added start up widgets
+Fixed Music button focus problem
+Fixed initial focus for new view types
+More localisation
+
 0.1.0
 
 Added more views for music addons
