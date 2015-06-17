@@ -1,3 +1,7 @@
+1.0.2
+
+More localisation
+
 1.0.1
 
 Fixed album/artist info dialog description
