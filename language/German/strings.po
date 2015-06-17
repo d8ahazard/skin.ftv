@@ -280,7 +280,7 @@ msgstr "Wiedergabeliste-Optionen"
 
 msgctxt "#31049"
 msgid "Customise Home Menu"
-msgstr "Home Menü anpassen"
+msgstr "Home-Menü anpassen"
 
 msgctxt "#31051"
 msgid "Settings can be accessed from the Shutdown menu or by rebooting XBMC!"
@@ -352,7 +352,7 @@ msgstr "Musik Widget"
 
 msgctxt "#31082"
 msgid "Videos Widget"
-msgstr "Videos Widget"
+msgstr "Video Widget"
 
 msgctxt "#31083"
 msgid "Programs Widget"
@@ -700,3 +700,127 @@ msgstr "Es folgt"
 msgctxt "#31165"
 msgid "Choose[CR]Art"
 msgstr "Grafik[CR]wählen"
+
+msgctxt "#31166"
+msgid "Open[CR]Visualiser"
+msgstr "Öffne[CR]Visualisierung"
+
+msgctxt "#31167"
+msgid "Recently Added Movies"
+msgstr "Kürzlich hinzugefügte Filme"
+
+msgctxt "#31168"
+msgid "Your Movies"
+msgstr "Filme"
+
+msgctxt "#31169"
+msgid "In Progress Movies"
+msgstr "Begonnen Filme"
+
+msgctxt "#31170"
+msgid "Kids Movies"
+msgstr "Kinderfilme"
+
+msgctxt "#31171"
+msgid "Action and Adventure Movies"
+msgstr "Action- und Abenteuerfilme"
+
+msgctxt "#31172"
+msgid "Comedy Movies"
+msgstr "Komödien"
+
+msgctxt "#31173"
+msgid "Sci-Fi Movies"
+msgstr "Science-Fiction Filme"
+
+msgctxt "#31174"
+msgid "Top Rated Movies"
+msgstr "Filme mit Top-Bewertungen"
+
+msgctxt "#31175"
+msgid "Recently Updated TV Shows"
+msgstr "Kürzlich aktualisiere Serien"
+
+msgctxt "#31176"
+msgid "Your TV Shows"
+msgstr "Serien"
+
+msgctxt "#31177"
+msgid "In Progress TV Shows"
+msgstr "Begonnene Serien"
+
+msgctxt "#31178"
+msgid "Kids TV Shows"
+msgstr "Kinderserien"
+
+msgctxt "#31179"
+msgid "Action and Adventure TV Shows"
+msgstr "Action- und Abenteuerserien"
+
+msgctxt "#31180"
+msgid "Comedy TV Shows"
+msgstr "Comedy-Serie"
+
+msgctxt "#31181"
+msgid "Sci-Fi TV Shows"
+msgstr "Science-Fiction-Serie"
+
+msgctxt "#31182"
+msgid "Top Rated TV Shows"
+msgstr "Serien mit Top-Bewertung"
+
+msgctxt "#31183"
+msgid "Recently Played Albums"
+msgstr "Kürzlich wiedergegebene Alben"
+
+msgctxt "#31184"
+msgid "Your Albums"
+msgstr "Alben"
+
+msgctxt "#31185"
+msgid "Recently Added Albums"
+msgstr "Kürzlich hinzugefügte Alben"
+
+msgctxt "#31186"
+msgid "Your Artists"
+msgstr "Künstler"
+
+msgctxt "#31187"
+msgid "Your Genres"
+msgstr "Genre"
+
+msgctxt "#31188"
+msgid "Top Rated Albums"
+msgstr "Alben mit Top-Bewertungen"
+
+msgctxt "#31189"
+msgid "Top Rated Songs"
+msgstr "Songs mit Top-Bewertungen"
+
+msgctxt "#31190"
+msgid "Your Songs"
+msgstr "Musik"
+
+msgctxt "#31191"
+msgid "Video root"
+msgstr "Video Hauptverzeichnis"
+
+msgctxt "#31192"
+msgid "Your Music Videos"
+msgstr "Musikvideos"
+
+msgctxt "#31193"
+msgid "Your Video Add-ons"
+msgstr "Video Addons"
+
+msgctxt "#31194"
+msgid ""
+msgstr ""
+
+msgctxt "#31195"
+msgid "Your Add-ons"
+msgstr "Addons"
+
+msgctxt "#31196"
+msgid "Your Android Apps"
+msgstr "Android Apps"
