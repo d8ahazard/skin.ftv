@@ -1,3 +1,8 @@
+1.0.3
+
+Updated German strings
+Fixed My Songs view type button
+
 1.0.2
 
 More localisation

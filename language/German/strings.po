@@ -715,7 +715,7 @@ msgstr "Filme"
 
 msgctxt "#31169"
 msgid "In Progress Movies"
-msgstr "Begonnen Filme"
+msgstr "Begonnene Filme"
 
 msgctxt "#31170"
 msgid "Kids Movies"
@@ -739,7 +739,7 @@ msgstr "Filme mit Top-Bewertungen"
 
 msgctxt "#31175"
 msgid "Recently Updated TV Shows"
-msgstr "Kürzlich aktualisiere Serien"
+msgstr "Kürzlich aktualisierte Serien"
 
 msgctxt "#31176"
 msgid "Your TV Shows"
@@ -759,11 +759,11 @@ msgstr "Action- und Abenteuerserien"
 
 msgctxt "#31180"
 msgid "Comedy TV Shows"
-msgstr "Comedy-Serie"
+msgstr "Comedy-Serien"
 
 msgctxt "#31181"
 msgid "Sci-Fi TV Shows"
-msgstr "Science-Fiction-Serie"
+msgstr "Science-Fiction-Serien"
 
 msgctxt "#31182"
 msgid "Top Rated TV Shows"
@@ -814,8 +814,8 @@ msgid "Your Video Add-ons"
 msgstr "Video Addons"
 
 msgctxt "#31194"
-msgid ""
-msgstr ""
+msgid "Videos Widget"
+msgstr "Video Widget"
 
 msgctxt "#31195"
 msgid "Your Add-ons"

@@ -2,11 +2,11 @@
 <window>
 	<!-- musicfiles -->
 	<backgroundcolor>0xff12161b</backgroundcolor>
-	<defaultcontrol always="true">50</defaultcontrol>
+	<defaultcontrol always="true">55</defaultcontrol>
 	<onload condition="Window.Previous(home) + system.getbool(filelists.showparentdiritems)">Control.Move($VAR[ContainerID],1)</onload>
 	<onunload condition="Window.Next(home)">Control.Move($VAR[ContainerID],$INFO[Container.CurrentItem,-])</onunload>
 	<onunload condition="Window.Next(home) + !system.getbool(filelists.showparentdiritems)">Control.Move($VAR[ContainerID],1)</onunload>
-	<views>50,56,55,57</views>
+	<views>56,55,57</views>
 	<controls>
 		<control id="2" type="button">
 			<include>HiddenControl</include>
@@ -16,7 +16,6 @@
 			<include>HiddenControl</include>
 		</control>
 		<!-- Views -->
-		<include>Viewtype50</include>
 		<include>Viewtype55</include>
 		<include>Viewtype56</include>
 		<include>Viewtype57</include>
@@ -108,8 +107,8 @@
 				<control id="1000" type="grouplist">
 					<height>100</height>
 					<itemgap>10</itemgap>
-					<onleft>SetFocus(50)</onleft>
-					<onright>SetFocus(50)</onright>
+					<onleft>SetFocus(55)</onleft>
+					<onright>SetFocus(55)</onright>
 					<orientation>horizontal</orientation>
 					<usecontrolcoords>true</usecontrolcoords>
 					<defaultcontrol always="true">1001</defaultcontrol>
@@ -126,7 +125,7 @@
 						<include condition="SubString(System.Language,English)">Width134</include>
 						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
-						<onup>50</onup>
+						<onup>55</onup>
 						<ondown>3000</ondown>
 						<onclick>ReplaceWindow(MusicLibrary)</onclick>
 						<font>Med24</font>
@@ -141,7 +140,7 @@
 						<include condition="SubString(System.Language,English)">Width154</include>
 						<include condition="!SubString(System.Language,English)">WidthDefault</include>
 						<height>100</height>
-						<onup>50</onup>
+						<onup>55</onup>
 						<ondown>3000</ondown>
 						<onclick>SetFocus(5001)</onclick>
 						<font>Med24</font>
@@ -189,8 +188,8 @@
 					<height>23</height>
 					<onup>1000</onup>
 					<ondown>noop</ondown>
-					<onleft>50</onleft>
-					<onright>50</onright>
+					<onleft>55</onleft>
+					<onright>55</onright>
 					<onclick>RunScript(script.toolbox,info=textviewer,header=$INFO[ListItem.Label],text='"$INFO[ListItem.Label2]"')</onclick>
 					<visible>Control.IsVisible(96)</visible>
 					<texturefocus>views/more_fo.png</texturefocus>
@@ -234,8 +233,8 @@
 				<height>810</height>
 				<onup>noop</onup>
 				<ondown>noop</ondown>
-				<onleft>50</onleft>
-				<onright>50</onright>
+				<onleft>55</onleft>
+				<onright>55</onright>
 				<itemgap>0</itemgap>
 				<align>center</align>
 				<orientation>vertical</orientation>
@@ -277,7 +276,7 @@
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
 					<label>$INFO[Container.Viewmode]</label>
-					<onback>50</onback>
+					<onback>55</onback>
 					<onclick>Container.NextViewMode</onclick>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -309,7 +308,7 @@
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
 					<label>$INFO[Container.SortMethod]</label>
-					<onback>50</onback>
+					<onback>55</onback>
 					<onclick>Container.NextSortMethod</onclick>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -342,7 +341,7 @@
 					<font>Light30Spaced</font>
 					<label>584</label>
 					<altlabel>585</altlabel>
-					<onback>50</onback>
+					<onback>55</onback>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
@@ -375,7 +374,7 @@
 					<textwidth>560</textwidth>
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
-					<onback>50</onback>
+					<onback>55</onback>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
@@ -406,8 +405,8 @@
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
 					<label>$VAR[FilterButton]</label>
-					<onback>50</onback>
-					<onclick>SetFocus(50)</onclick>
+					<onback>55</onback>
+					<onclick>SetFocus(55)</onclick>
 					<onclick>Filter</onclick>
 					<textcolor>ff505153</textcolor>
 					<focusedcolor>ffffaf37</focusedcolor>
@@ -432,8 +431,8 @@
 					<height>84</height>
 					<align>center</align>
 					<aligny>top</aligny>
-					<onback>50</onback>
-					<onclick>SetFocus(50)</onclick>
+					<onback>55</onback>
+					<onclick>SetFocus(55)</onclick>
 					<font>Med24</font>
 					<label>20177</label>
 					<textoffsety>27</textoffsety>
