@@ -175,7 +175,7 @@
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/fsk/6.png</texture>
-			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,6,right)</visible>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,6,right) + !SubString(ListItem.Mpaa,16,right)</visible>
 		</control>
 		<control type="image">
 			<top>3</top>
