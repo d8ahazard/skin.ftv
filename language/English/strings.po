@@ -824,3 +824,31 @@ msgstr ""
 msgctxt "#31196"
 msgid "Your Android Apps"
 msgstr ""
+
+msgctxt "#31197"
+msgid "Widget"
+msgstr ""
+
+msgctxt "#31198"
+msgid "View Type"
+msgstr ""
+
+msgctxt "#31199"
+msgid "Label Overlay"
+msgstr ""
+
+msgctxt "#31200"
+msgid "Enter Name"
+msgstr ""
+
+msgctxt "#31201"
+msgid "Choose Shortcut"
+msgstr ""
+
+msgctxt "#31202"
+msgid "Widget Action"
+msgstr ""
+
+msgctxt "#31203"
+msgid "Square Info"
+msgstr ""

@@ -53,7 +53,7 @@
 				<font>Bold30</font>
 				<label>$LOCALIZE[31114]</label>
 				<textcolor>ffdadada</textcolor>
-				<visible>!StringCompare(Window.Property(groupname), mainmenu)</visible>
+				<visible>StringCompare(Window.Property(groupname), shutdown)</visible>
 			</control>
 			<!-- Left list -->
 			<control type="list" id="211">
@@ -78,6 +78,15 @@
 						<font>Light32</font>
 						<textcolor>ff505153</textcolor>
 						<label>$INFO[ListItem.Label]</label>
+					</control>
+					<control type="label">
+						<left>40</left>
+						<width>590</width>
+						<height>84</height>
+						<font>Light32</font>
+						<align>right</align>
+						<textcolor>ff505153</textcolor>
+						<label>$INFO[Container(211).ListItem.Property(list)]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="84" width="670">
@@ -193,23 +202,18 @@
 					<label>$ADDON[script.skinshortcuts 32027]</label>
 					<label2>$INFO[Container(211).ListItem.Property(displaypath)]</label2>
 				</control>
-				<!-- Manage widgets -->
-				<control id="996" type="image">
-					<width>870</width>
-					<height>84</height>
-					<texture border="3">settings/button_no_focus.png</texture>
-					<visible>!StringCompare(Container(211).ListItem.Property(defaultID),movies) + !StringCompare(Container(211).ListItem.Property(defaultID),tvshows) + !StringCompare(Container(211).ListItem.Property(defaultID),music) + !StringCompare(Container(211).ListItem.Property(defaultID),videos) + !StringCompare(Container(211).ListItem.Property(defaultID),programs) + !StringCompare(Container(211).ListItem.Property(defaultID),pictures)</visible>
-				</control>
-				<!-- Manage widgets -->
-				<control id="997" type="label">
-					<top>-84</top>
+				<control id="997" type="button">
 					<width>870</width>
 					<height>84</height>
 					<font>Light32</font>
+					<textwidth>790</textwidth>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>DisabledColor</textcolor>
-					<label>$ADDON[script.skinshortcuts 32044]</label>
-					<visible>!StringCompare(Container(211).ListItem.Property(defaultID),movies) + !StringCompare(Container(211).ListItem.Property(defaultID),tvshows) + !StringCompare(Container(211).ListItem.Property(defaultID),music) + !StringCompare(Container(211).ListItem.Property(defaultID),videos) + !StringCompare(Container(211).ListItem.Property(defaultID),programs) + !StringCompare(Container(211).ListItem.Property(defaultID),pictures)</visible>
+					<focusedcolor>DisabledColor</focusedcolor>
+					<texturefocus border="3">settings/button_focus.png</texturefocus>
+					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
+					<label>$ADDON[script.skinshortcuts 32072] #$INFO[Container(211).CurrentItem]</label>
+					<visible>IntegerGreaterThan(Container(211).CurrentItem,8) | StringCompare(Container(211).ListItem.Property(defaultID),settings) | StringCompare(Container(211).ListItem.Property(defaultID),weather) | StringCompare(Container(211).ListItem.Property(defaultID),favourites)</visible>
 				</control>
 				<!-- Manage widgets -->
 				<control id="998" type="button">
@@ -222,16 +226,17 @@
 					<focusedcolor>ffffaf37</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
-					<label>$ADDON[script.skinshortcuts 32044]</label>
-					<label2>$INFO[Container(211).ListItem.Property(defaultID)]</label2>
-					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),movies)">SetProperty(WidgetType,movies,home)</onclick>
-					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),tvshows)">SetProperty(WidgetType,tvshows,home)</onclick>
-					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),music)">SetProperty(WidgetType,music,home)</onclick>
-					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),videos)">SetProperty(WidgetType,videos,home)</onclick>
-					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),programs)">SetProperty(WidgetType,programs,home)</onclick>
-					<onclick condition="StringCompare(Container(211).ListItem.Property(defaultID),pictures)">SetProperty(WidgetType,pictures,home)</onclick>
+					<label>$ADDON[script.skinshortcuts 32072] #$INFO[Container(211).CurrentItem]</label>
+					<onclick condition="StringCompare(Container(211).CurrentItem,1)">SetProperty(SubMenu,1,home)</onclick>
+					<onclick condition="StringCompare(Container(211).CurrentItem,2)">SetProperty(SubMenu,2,home)</onclick>
+					<onclick condition="StringCompare(Container(211).CurrentItem,3)">SetProperty(SubMenu,3,home)</onclick>
+					<onclick condition="StringCompare(Container(211).CurrentItem,4)">SetProperty(SubMenu,4,home)</onclick>
+					<onclick condition="StringCompare(Container(211).CurrentItem,5)">SetProperty(SubMenu,5,home)</onclick>
+					<onclick condition="StringCompare(Container(211).CurrentItem,6)">SetProperty(SubMenu,6,home)</onclick>
+					<onclick condition="StringCompare(Container(211).CurrentItem,7)">SetProperty(SubMenu,7,home)</onclick>
+					<onclick condition="StringCompare(Container(211).CurrentItem,8)">SetProperty(SubMenu,8,home)</onclick>
+					<visible>!IntegerGreaterThan(Container(211).CurrentItem,8) + !StringCompare(Container(211).ListItem.Property(defaultID),settings) + !StringCompare(Container(211).ListItem.Property(defaultID),weather) + !StringCompare(Container(211).ListItem.Property(defaultID),favourites)</visible>
 					<onclick>ActivateWindow(1105)</onclick>
-					<visible>StringCompare(Container(211).ListItem.Property(defaultID),movies) | StringCompare(Container(211).ListItem.Property(defaultID),tvshows) | StringCompare(Container(211).ListItem.Property(defaultID),music) | StringCompare(Container(211).ListItem.Property(defaultID),videos) | StringCompare(Container(211).ListItem.Property(defaultID),programs) | StringCompare(Container(211).ListItem.Property(defaultID),pictures)</visible>
 				</control>
 				<!-- Remove -->
 				<control type="button" id="302">
@@ -285,67 +290,6 @@
 					<textoffsety>27</textoffsety>
 					<label>$ADDON[script.skinshortcuts 32028]</label>
 				</control>
-				<!-- Reset all -->
-				<control type="button" id="999">
-					<width>320</width>
-					<height>76</height>
-					<align>center</align>
-					<aligny>top</aligny>
-					<font>Med24</font>
-					<onup>303</onup>
-					<textoffsetx>23</textoffsetx>
-					<textoffsety>27</textoffsety>
-					<onclick>RunScript(script.skinshortcuts,type=resetall)</onclick>
-					<onclick>Skin.SetString(MovieWidget1.List,special://skin/extras/video/RecentlyAddedMovies.xsp)</onclick>
-					<onclick>Skin.SetString(MovieWidget2.List,special://skin/extras/video/YourMovies.xsp)</onclick>
-					<onclick>Skin.SetString(MovieWidget3.List,special://skin/extras/video/InProgressMovies.xsp)</onclick>
-					<onclick>Skin.SetString(MovieWidget4.List,special://skin/extras/video/KidsMovies.xsp)</onclick>
-					<onclick>Skin.SetString(MovieWidget5.List,special://skin/extras/video/ActionAdventureMovies.xsp)</onclick>
-					<onclick>Skin.SetString(MovieWidget6.List,special://skin/extras/video/ComedyMovies.xsp)</onclick>
-					<onclick>Skin.SetString(MovieWidget7.List,special://skin/extras/video/SciFiMovies.xsp)</onclick>
-					<onclick>Skin.SetString(MovieWidget8.List,special://skin/extras/video/TopRatedMovies.xsp)</onclick>
-					<onclick>Skin.SetString(TVWidget1.List,special://skin/extras/video/RecentlyUpdatedTVShows.xsp)</onclick>
-					<onclick>Skin.SetString(TVWidget2.List,special://skin/extras/video/YourTVShows.xsp)</onclick>
-					<onclick>Skin.SetString(TVWidget3.List,special://skin/extras/video/InProgressTVShows.xsp)</onclick>
-					<onclick>Skin.SetString(TVWidget4.List,special://skin/extras/video/KidsTVShows.xsp)</onclick>
-					<onclick>Skin.SetString(TVWidget5.List,special://skin/extras/video/ActionAdventureTVShows.xsp)</onclick>
-					<onclick>Skin.SetString(TVWidget6.List,special://skin/extras/video/ComedyTVShows.xsp)</onclick>
-					<onclick>Skin.SetString(TVWidget7.List,special://skin/extras/video/SciFiTVShows.xsp)</onclick>
-					<onclick>Skin.SetString(TVWidget8.List,special://skin/extras/video/TopRatedTVShows.xsp)</onclick>
-					<onclick>Skin.SetString(MusicWidget1.List,musicdb://recentlyplayedalbums/)</onclick>
-					<onclick>Skin.SetString(MusicWidget2.List,musicdb://albums/)</onclick>
-					<onclick>Skin.SetString(MusicWidget3.List,musicdb://recentlyaddedalbums/)</onclick>
-					<onclick>Skin.SetString(MusicWidget4.List,musicdb://artists/)</onclick>
-					<onclick>Skin.SetString(MusicWidget5.List,musicdb://genres/)</onclick>
-					<onclick>Skin.SetString(MusicWidget6.List,musicdb://top100/albums/)</onclick>
-					<onclick>Skin.SetString(MusicWidget7.List,musicdb://top100/songs/)</onclick>
-					<onclick>Skin.SetString(MusicWidget8.List,musicdb://songs/)</onclick>
-					<onclick>Skin.SetString(MovieWidget1.Label,$LOCALIZE[31167])</onclick>
-					<onclick>Skin.SetString(MovieWidget2.Label,$LOCALIZE[31168])</onclick>
-					<onclick>Skin.SetString(MovieWidget3.Label,$LOCALIZE[31169])</onclick>
-					<onclick>Skin.SetString(MovieWidget4.Label,$LOCALIZE[31170])</onclick>
-					<onclick>Skin.SetString(MovieWidget5.Label,$LOCALIZE[31171])</onclick>
-					<onclick>Skin.SetString(MovieWidget6.Label,$LOCALIZE[31172])</onclick>
-					<onclick>Skin.SetString(MovieWidget7.Label,$LOCALIZE[31173])</onclick>
-					<onclick>Skin.SetString(MovieWidget8.Label,$LOCALIZE[31174])</onclick>
-					<onclick>Skin.SetString(TVWidget1.Label,$LOCALIZE[31175])</onclick>
-					<onclick>Skin.SetString(TVWidget2.Label,$LOCALIZE[31176])</onclick>
-					<onclick>Skin.SetString(TVWidget3.Label,$LOCALIZE[31177])</onclick>
-					<onclick>Skin.SetString(TVWidget4.Label,$LOCALIZE[31178])</onclick>
-					<onclick>Skin.SetString(TVWidget5.Label,$LOCALIZE[31179])</onclick>
-					<onclick>Skin.SetString(TVWidget6.Label,$LOCALIZE[31180])</onclick>
-					<onclick>Skin.SetString(TVWidget7.Label,$LOCALIZE[31181])</onclick>
-					<onclick>Skin.SetString(TVWidget8.Label,$LOCALIZE[31182])</onclick>
-					<onclick>Skin.SetString(MusicWidget1.Label,$LOCALIZE[31183])</onclick>
-					<onclick>Skin.SetString(MusicWidget2.Label,$LOCALIZE[31184])</onclick>
-					<onclick>Skin.SetString(MusicWidget3.Label,$LOCALIZE[31185])</onclick>
-					<onclick>Skin.SetString(MusicWidget4.Label,$LOCALIZE[31186])</onclick>
-					<onclick>Skin.SetString(MusicWidget5.Label,$LOCALIZE[31187])</onclick>
-					<onclick>Skin.SetString(MusicWidget6.Label,$LOCALIZE[31188])</onclick>
-					<onclick>Skin.SetString(MusicWidget7.Label,$LOCALIZE[31189])</onclick>
-					<onclick>Skin.SetString(MusicWidget8.Label,$LOCALIZE[31190])</onclick>
-					<label>$ADDON[script.skinshortcuts 32037]</label>
-				</control>
 				<!-- Cancel Button -->
 				<control type="button" id="21">
 					<width>320</width>
@@ -368,7 +312,7 @@
 					<textoffsetx>23</textoffsetx>
 					<textoffsety>27</textoffsety>
 					<label>186</label>
-					<onback>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=9000&amp;levels=0&amp;group=mainmenu|shutdown)</onback>
+					<onback>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=9000&amp;levels=5&amp;group=mainmenu|shutdown)</onback>
 					<onclick>RunScript(script.skinshortcuts,type=buildxml&amp;mainmenuID=9000&amp;levels=0&amp;group=mainmenu|shutdown)</onclick>
 					<onclick>Close</onclick>
 				</control>

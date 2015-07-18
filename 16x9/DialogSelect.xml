@@ -218,7 +218,7 @@
 						<top>17</top>
 						<width>146</width>
 						<height>106</height>
-						<texture>$INFO[Listitem.Icon]</texture>
+						<texture fallback="views/square_fallback.png">$INFO[Listitem.Icon]</texture>
 						<aspectratio aligny="center">keep</aspectratio>
 					</control>
 					<control type="label">
@@ -241,7 +241,7 @@
 						<top>17</top>
 						<width>146</width>
 						<height>106</height>
-						<texture>$INFO[Listitem.Icon]</texture>
+						<texture fallback="views/square_fallback.png">$INFO[Listitem.Icon]</texture>
 						<aspectratio aligny="center">keep</aspectratio>
 					</control>
 					<control type="label">
@@ -270,7 +270,7 @@
 				<width>499</width>
 				<height>298</height>
 				<aspectratio>keep</aspectratio>
-				<texture colordiffuse="00ffffff">$INFO[Container(6).ListItem.Icon]</texture>
+				<texture fallback="views/square_fallback.png" colordiffuse="00ffffff">$INFO[Container(6).ListItem.Icon]</texture>
 				<bordertexture>common/default_empty.png</bordertexture>
 				<visible>Control.IsVisible(5)</visible>
 			</control>
@@ -281,7 +281,7 @@
 				<height>315</height>
 				<aspectratio>keep</aspectratio>
 				<bordersize>0,0,13,17</bordersize>
-				<texture>$INFO[Container(6).ListItem.Icon]</texture>
+				<texture fallback="views/square_fallback.png">$INFO[Container(6).ListItem.Icon]</texture>
 				<bordertexture border="14,18,14,18">dialogs/shadow.png</bordertexture>
 				<visible>Control.IsVisible(5)</visible>
 			</control>
@@ -291,7 +291,7 @@
 				<width>499</width>
 				<height>400</height>
 				<aspectratio>keep</aspectratio>
-				<texture colordiffuse="00ffffff">$INFO[Container(6).ListItem.Icon]</texture>
+				<texture fallback="views/square_fallback.png" colordiffuse="00ffffff">$INFO[Container(6).ListItem.Icon]</texture>
 				<bordertexture>common/default_empty.png</bordertexture>
 				<visible>!Control.IsVisible(5)</visible>
 			</control>
@@ -302,7 +302,7 @@
 				<height>417</height>
 				<aspectratio>keep</aspectratio>
 				<bordersize>0,0,13,17</bordersize>
-				<texture>$INFO[Container(6).ListItem.Icon]</texture>
+				<texture fallback="views/square_fallback.png">$INFO[Container(6).ListItem.Icon]</texture>
 				<bordertexture border="14,18,14,18">dialogs/shadow.png</bordertexture>
 				<visible>!Control.IsVisible(5)</visible>
 			</control>

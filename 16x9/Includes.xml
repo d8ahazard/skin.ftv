@@ -2,7 +2,6 @@
 <includes>
 	<include file="Animations.xml" />
 	<include file="Defaults.xml" />
-	<include file="Includes_Home_TV_Show_Lists.xml" />
 	<include file="Includes_Home_Widgets_Setup.xml" />
 	<include file="script-skinshortcuts-includes.xml" />
 	<include file="Viewtype50.xml" />

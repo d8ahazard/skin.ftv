@@ -5,7 +5,7 @@
 	<visible>VideoPlayer.IsFullscreen + [Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
 	<controls>
 		<control type="group">
-			<visible>!Window.IsActive(videoosd) + !Window.IsActive(musicosd) + !Window.IsActive(subtitlesearch)</visible>
+			<visible>!Window.IsActive(videoosd) + !Window.IsActive(musicosd) + !Window.IsActive(subtitlesearch) + !Window.IsVisible(script-nextup-notification-NextUpInfo.xml)</visible>
 			<control type="group">
 				<visible>Player.Paused + !Player.Forwarding + !Player.Rewinding</visible>
 				<animation condition="System.IdleTime(4) + !Player.Caching" reversible="true" type="Conditional">
@@ -180,7 +180,7 @@
 				</control>
 			</control>
 			<control type="group">
-				<visible>!Player.Paused + [Player.Forwarding | Player.Rewinding]</visible>
+				<visible>!Player.Paused + [Player.Seeking | Player.DisplayAfterSeek]</visible>
 				<control type="image">
 					<width>1980</width>
 					<height>210</height>
@@ -291,7 +291,7 @@
 				<visible>!Player.Paused + !Player.Forwarding + !Player.Rewinding + [Player.Seeking | Player.DisplayAfterSeek]</visible>
 				<control type="image">
 					<left>104</left>
-					<bottom>88</bottom>
+					<bottom>128</bottom>
 					<width>65</width>
 					<height>71</height>
 					<texture>osd/step_forward.png</texture>
@@ -299,7 +299,7 @@
 				</control>
 				<control type="image">
 					<left>104</left>
-					<bottom>88</bottom>
+					<bottom>128</bottom>
 					<width>65</width>
 					<height>71</height>
 					<texture>osd/step_back.png</texture>
@@ -307,13 +307,24 @@
 				</control>
 				<control type="label">
 					<centerleft>136</centerleft>
-					<bottom>101</bottom>
+					<bottom>141</bottom>
 					<width>50</width>
 					<height>40</height>
 					<align>center</align>
 					<font>Reg20</font>
 					<textcolor>ffe5e4e5</textcolor>
 					<label>$VAR[SeekOffset]</label>
+				</control>
+				<control type="slider" id="401">
+					<left>92</left>
+					<bottom>105</bottom>
+					<width>1735</width>
+					<height>11</height>
+					<texturesliderbar border="4" colordiffuse="00ffffff">osd/progress_back.png</texturesliderbar>
+					<textureslidernib>osd/osd_seek_bar.png</textureslidernib>
+					<textureslidernibfocus>osd/osd_seek_bar.png</textureslidernibfocus>
+					<info>Player.SeekTime</info>
+					<visible>!Player.Paused + !Player.Forwarding + !Player.Rewinding + Player.Seeking</visible>
 				</control>
 			</control>
 		</control>

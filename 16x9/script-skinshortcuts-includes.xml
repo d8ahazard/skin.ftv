@@ -85,16 +85,16 @@
 			<thumb />
 			<property name="labelID">music</property>
 			<property name="defaultID">music</property>
-			<onclick>ActivateWindow(Music)</onclick>
-			<property name="path">ActivateWindow(Music)</property>
-			<property name="list">Music</property>
+			<onclick>ActivateWindow(Music,root)</onclick>
+			<property name="path">ActivateWindow(Music,root)</property>
+			<property name="list">root</property>
 			<visible>StringCompare(System.ProfileName,Master user)</visible>
 			<property name="submenuVisibility">music</property>
 			<property name="group">mainmenu</property>
 			<property name="hasSubmenu">True</property>
 		</item>
 		<item id="7">
-			<label>Apps</label>
+			<label>$LOCALIZE[31101]</label>
 			<label2>Custom shortcut</label2>
 			<icon>DefaultProgram.png</icon>
 			<thumb />
@@ -109,7 +109,7 @@
 			<property name="hasSubmenu">False</property>
 		</item>
 		<item id="8">
-			<label>Photos</label>
+			<label>$LOCALIZE[31100]</label>
 			<label2>Common Shortcut</label2>
 			<icon>DefaultPicture.png</icon>
 			<thumb />

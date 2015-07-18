@@ -1,3 +1,10 @@
+1.2.0
+
+Re-designed home customisation
+Added progress bar to seek dialog
+Added fallback icon for select dialog
+Fixed 'Save playlist' button in video playlists
+
 1.1.0
 
 Fixed select dialog heading
