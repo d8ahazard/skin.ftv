@@ -116,12 +116,12 @@
 		<value condition="Control.HasFocus(221)">$INFO[Container(221).NumItems]</value>
 	</variable>
 	<variable name="SearchStarRating">
-		<value condition="Window.IsVisible(script-globalsearch-infodialog.xml)">rating/$INFO[Container(100).ListItem.Property(StarRating)]</value>
-		<value condition="Control.HasFocus(111)">rating/$INFO[Container(111).ListItem.Property(StarRating)]</value>
-		<value condition="Control.HasFocus(121)">rating/$INFO[Container(121).ListItem.Property(StarRating)]</value>
-		<value condition="Control.HasFocus(141)">rating/$INFO[Container(141).ListItem.Property(StarRating)]</value>
-		<value condition="Control.HasFocus(171)">rating/$INFO[Container(171).ListItem.Property(StarRating)]</value>
-		<value condition="Control.HasFocus(181)">rating/$INFO[Container(181).ListItem.Property(StarRating)]</value>
+		<value condition="Window.IsVisible(script-globalsearch-infodialog.xml)">$INFO[Container(100).ListItem.Property(StarRating)]</value>
+		<value condition="Control.HasFocus(111)">$INFO[Container(111).ListItem.Property(StarRating)]</value>
+		<value condition="Control.HasFocus(121)">$INFO[Container(121).ListItem.Property(StarRating)]</value>
+		<value condition="Control.HasFocus(141)">$INFO[Container(141).ListItem.Property(StarRating)]</value>
+		<value condition="Control.HasFocus(171)">$INFO[Container(171).ListItem.Property(StarRating)]</value>
+		<value condition="Control.HasFocus(181)">$INFO[Container(181).ListItem.Property(StarRating)]</value>
 	</variable>
 	<variable name="SearchDuration">
 		<value condition="StringCompare(Container(100).ListItem.Property(Duration),1)">1 $LOCALIZE[31004]</value>

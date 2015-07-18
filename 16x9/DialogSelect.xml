@@ -4,6 +4,9 @@
 	<defaultcontrol always="true">3</defaultcontrol>
 	<zorder>2</zorder>
 	<controls>
+		<control id="1" type="label">
+			<visible>false</visible>
+		</control>
 		<include>DialogBackgroundImage</include>
 		<control type="group">
 			<left>241</left>
@@ -44,7 +47,7 @@
 				<texture>settings/category_back_list_3_no_button.png</texture>
 				<visible>!Control.IsVisible(5)</visible>
 			</control>
-			<control id="1" type="label">
+			<control type="label">
 				<left>40</left>
 				<top>14</top>
 				<height>30</height>
@@ -52,6 +55,7 @@
 				<aligny>center</aligny>
 				<font>Bold30</font>
 				<textcolor>ffdadada</textcolor>
+				<label>$INFO[Control.GetLabel(1)]</label>
 			</control>
 			<control type="label">
 				<right>520</right>
@@ -169,7 +173,7 @@
 				<height>480</height>
 				<texture>settings/category_back_list_6.png</texture>
 			</control>
-			<control id="1" type="label">
+			<control type="label">
 				<left>40</left>
 				<top>14</top>
 				<height>30</height>
@@ -177,7 +181,7 @@
 				<aligny>center</aligny>
 				<font>Bold30</font>
 				<textcolor>ffdadada</textcolor>
-				<label>13406</label>
+				<label>$INFO[Control.GetLabel(1)]</label>
 			</control>
 			<control type="label">
 				<left>40</left>

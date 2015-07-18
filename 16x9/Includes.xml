@@ -233,6 +233,14 @@
 			<width>35</width>
 			<height>23</height>
 			<colordiffuse>ffdadada</colordiffuse>
+			<texture>rating/mpaa/r.png</texture>
+			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,r,right) + !SubString(ListItem.Mpaa,nr,right)</visible>
+		</control>
+		<control type="image">
+			<top>3</top>
+			<width>35</width>
+			<height>23</height>
+			<colordiffuse>ffdadada</colordiffuse>
 			<texture>rating/mpaa/pg.png</texture>
 			<visible>Container.Content(movies) + !IsEmpty(ListItem.Mpaa) + SubString(ListItem.Mpaa,pg,right)</visible>
 		</control>
