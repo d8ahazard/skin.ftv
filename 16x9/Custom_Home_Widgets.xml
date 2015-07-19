@@ -33,9 +33,9 @@
 			<onup condition="!StringCompare(Container(100).CurrentItem,1)">Control.Move(300,-1)</onup>
 			<onup condition="!StringCompare(Container(100).CurrentItem,1)">SetFocus(31)</onup>
 			<ondown condition="StringCompare(Container(100).CurrentItem,8)">SetFocus(9001)</ondown>
-			<ondown condition="!StringCompare(Container(100).CurrentItem,8)">Control.Move(300,1)</ondown>
 			<ondown condition="!StringCompare(Container(100).CurrentItem,8)">Control.Move(100,1)</ondown>
 			<ondown condition="!StringCompare(Container(100).CurrentItem,8)">Control.Move(200,1)</ondown>
+			<ondown condition="!StringCompare(Container(100).CurrentItem,8)">Control.Move(300,1)</ondown>
 			<ondown condition="!StringCompare(Container(100).CurrentItem,8)">SetFocus(31)</ondown>
 			<onclick>SetFocus(300)</onclick>
 			<onclick>Select</onclick>
@@ -261,37 +261,37 @@
 						<item>
 							<label>$VAR[WidgetLabel-2]</label>
 							<label2>31200</label2>
-							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-2)</onclick>
+							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-2])</onclick>
 						</item>
 						<item>
 							<label>$VAR[WidgetLabel-3]</label>
 							<label2>31200</label2>
-							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-3)</onclick>
+							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-3])</onclick>
 						</item>
 						<item>
 							<label>$VAR[WidgetLabel-4]</label>
 							<label2>31200</label2>
-							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-4)</onclick>
+							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-4])</onclick>
 						</item>
 						<item>
 							<label>$VAR[WidgetLabel-5]</label>
 							<label2>31200</label2>
-							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-5)</onclick>
+							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-5])</onclick>
 						</item>
 						<item>
 							<label>$VAR[WidgetLabel-6]</label>
 							<label2>31200</label2>
-							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-6)</onclick>
+							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-6])</onclick>
 						</item>
 						<item>
 							<label>$VAR[WidgetLabel-7]</label>
 							<label2>31200</label2>
-							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-7)</onclick>
+							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-7])</onclick>
 						</item>
 						<item>
 							<label>$VAR[WidgetLabel-8]</label>
 							<label2>31200</label2>
-							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-8)</onclick>
+							<onclick>Skin.SetString($INFO[Window(home).Property(SubMenu),,-WidgetLabel-8])</onclick>
 						</item>
 					</content>
 				</control>

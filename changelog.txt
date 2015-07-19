@@ -1,3 +1,7 @@
+1.2.1
+
+Fixed renaming of custom items
+
 1.2.0
 
 Re-designed home customisation
