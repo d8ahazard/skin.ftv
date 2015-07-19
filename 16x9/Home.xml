@@ -499,8 +499,8 @@
 				</control>
 				<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31160])">HomePosterItemlayout</include>
 				<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31159])">HomeWideItemlayout</include>
-				<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31203])">HomeSquareItemlayout</include>
-				<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(1-WidgetView))">HomeSquareInfoItemlayout</include>
+				<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31161])">HomeSquareItemlayout</include>
+				<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(1-WidgetView))">HomeSquareInfoItemlayout</include>
 			</itemlayout>
 			<focusedlayout height="370" width="2000">
 				<control type="button">
@@ -560,8 +560,8 @@
 					</control>
 					<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31160])">HomePosterFocusedlayout</include>
 					<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31159])">HomeWideFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31203])">HomeSquareFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(1-WidgetView))">HomeSquareInfoFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31161])">HomeSquareFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(1-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(1-WidgetView))">HomeSquareInfoFocusedlayout</include>
 				</control>
 			</focusedlayout>
 			<include>ListItem1Content</include>
@@ -614,8 +614,8 @@
 				</control>
 				<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31160])">HomePosterItemlayout</include>
 				<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31159])">HomeWideItemlayout</include>
-				<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31203])">HomeSquareItemlayout</include>
-				<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(2-WidgetView))">HomeSquareInfoItemlayout</include>
+				<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31161])">HomeSquareItemlayout</include>
+				<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(2-WidgetView))">HomeSquareInfoItemlayout</include>
 			</itemlayout>
 			<focusedlayout height="370" width="2000">
 				<control type="button">
@@ -675,8 +675,8 @@
 					</control>
 					<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31160])">HomePosterFocusedlayout</include>
 					<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31159])">HomeWideFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31203])">HomeSquareFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(2-WidgetView))">HomeSquareInfoFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31161])">HomeSquareFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(2-WidgetView))">HomeSquareInfoFocusedlayout</include>
 				</control>
 			</focusedlayout>
 			<include>ListItem2Content</include>
@@ -729,8 +729,8 @@
 				</control>
 				<include condition="StringCompare(Skin.String(3-WidgetView),$LOCALIZE[31160])">HomePosterItemlayout</include>
 				<include condition="StringCompare(Skin.String(3-WidgetView),$LOCALIZE[31159])">HomeWideItemlayout</include>
-				<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31203])">HomeSquareItemlayout</include>
-				<include condition="StringCompare(Skin.String(3-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(3-WidgetView))">HomeSquareInfoItemlayout</include>
+				<include condition="StringCompare(Skin.String(2-WidgetView),$LOCALIZE[31161])">HomeSquareItemlayout</include>
+				<include condition="StringCompare(Skin.String(3-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(3-WidgetView))">HomeSquareInfoItemlayout</include>
 			</itemlayout>
 			<focusedlayout height="370" width="2000">
 				<control type="button">
@@ -790,8 +790,8 @@
 					</control>
 					<include condition="StringCompare(Skin.String(3-WidgetView),$LOCALIZE[31160])">HomePosterFocusedlayout</include>
 					<include condition="StringCompare(Skin.String(3-WidgetView),$LOCALIZE[31159])">HomeWideFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(3-WidgetView),$LOCALIZE[31203])">HomeSquareFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(3-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(3-WidgetView))">HomeSquareInfoFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(3-WidgetView),$LOCALIZE[31161])">HomeSquareFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(3-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(3-WidgetView))">HomeSquareInfoFocusedlayout</include>
 				</control>
 			</focusedlayout>
 			<include>ListItem3Content</include>
@@ -844,8 +844,8 @@
 				</control>
 				<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31160])">HomePosterItemlayout</include>
 				<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31159])">HomeWideItemlayout</include>
-				<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31203])">HomeSquareItemlayout</include>
-				<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(4-WidgetView))">HomeSquareInfoItemlayout</include>
+				<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31161])">HomeSquareItemlayout</include>
+				<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(4-WidgetView))">HomeSquareInfoItemlayout</include>
 			</itemlayout>
 			<focusedlayout height="370" width="2000">
 				<control type="button">
@@ -905,8 +905,8 @@
 					</control>
 					<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31160])">HomePosterFocusedlayout</include>
 					<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31159])">HomeWideFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31203])">HomeSquareFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(4-WidgetView))">HomeSquareInfoFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31161])">HomeSquareFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(4-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(4-WidgetView))">HomeSquareInfoFocusedlayout</include>
 				</control>
 			</focusedlayout>
 			<include>ListItem4Content</include>
@@ -959,8 +959,8 @@
 				</control>
 				<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31160])">HomePosterItemlayout</include>
 				<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31159])">HomeWideItemlayout</include>
-				<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31203])">HomeSquareItemlayout</include>
-				<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(5-WidgetView))">HomeSquareInfoItemlayout</include>
+				<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31161])">HomeSquareItemlayout</include>
+				<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(5-WidgetView))">HomeSquareInfoItemlayout</include>
 			</itemlayout>
 			<focusedlayout height="370" width="2000">
 				<control type="button">
@@ -1020,8 +1020,8 @@
 					</control>
 					<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31160])">HomePosterFocusedlayout</include>
 					<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31159])">HomeWideFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31203])">HomeSquareFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(5-WidgetView))">HomeSquareInfoFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31161])">HomeSquareFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(5-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(5-WidgetView))">HomeSquareInfoFocusedlayout</include>
 				</control>
 			</focusedlayout>
 			<include>ListItem5Content</include>
@@ -1074,8 +1074,8 @@
 				</control>
 				<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31160])">HomePosterItemlayout</include>
 				<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31159])">HomeWideItemlayout</include>
-				<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31203])">HomeSquareItemlayout</include>
-				<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(6-WidgetView))">HomeSquareInfoItemlayout</include>
+				<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31161])">HomeSquareItemlayout</include>
+				<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(6-WidgetView))">HomeSquareInfoItemlayout</include>
 			</itemlayout>
 			<focusedlayout height="370" width="2000">
 				<control type="button">
@@ -1135,8 +1135,8 @@
 					</control>
 					<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31160])">HomePosterFocusedlayout</include>
 					<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31159])">HomeWideFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31203])">HomeSquareFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(6-WidgetView))">HomeSquareInfoFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31161])">HomeSquareFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(6-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(6-WidgetView))">HomeSquareInfoFocusedlayout</include>
 				</control>
 			</focusedlayout>
 			<include>ListItem6Content</include>
@@ -1189,8 +1189,8 @@
 				</control>
 				<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31160])">HomePosterItemlayout</include>
 				<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31159])">HomeWideItemlayout</include>
-				<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31203])">HomeSquareItemlayout</include>
-				<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(7-WidgetView))">HomeSquareInfoItemlayout</include>
+				<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31161])">HomeSquareItemlayout</include>
+				<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(7-WidgetView))">HomeSquareInfoItemlayout</include>
 			</itemlayout>
 			<focusedlayout height="370" width="2000">
 				<control type="button">
@@ -1250,8 +1250,8 @@
 					</control>
 					<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31160])">HomePosterFocusedlayout</include>
 					<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31159])">HomeWideFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31203])">HomeSquareFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(7-WidgetView))">HomeSquareInfoFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31161])">HomeSquareFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(7-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(7-WidgetView))">HomeSquareInfoFocusedlayout</include>
 				</control>
 			</focusedlayout>
 			<include>ListItem7Content</include>
@@ -1304,8 +1304,8 @@
 				</control>
 				<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31160])">HomePosterItemlayout</include>
 				<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31159])">HomeWideItemlayout</include>
-				<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31203])">HomeSquareItemlayout</include>
-				<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(8-WidgetView))">HomeSquareInfoItemlayout</include>
+				<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31161])">HomeSquareItemlayout</include>
+				<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(8-WidgetView))">HomeSquareInfoItemlayout</include>
 			</itemlayout>
 			<focusedlayout height="370" width="2000">
 				<control type="button">
@@ -1365,8 +1365,8 @@
 					</control>
 					<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31160])">HomePosterFocusedlayout</include>
 					<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31159])">HomeWideFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31203])">HomeSquareFocusedlayout</include>
-					<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31161]) | IsEmpty(Skin.String(8-WidgetView))">HomeSquareInfoFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31161])">HomeSquareFocusedlayout</include>
+					<include condition="StringCompare(Skin.String(8-WidgetView),$LOCALIZE[31203]) | IsEmpty(Skin.String(8-WidgetView))">HomeSquareInfoFocusedlayout</include>
 				</control>
 			</focusedlayout>
 			<include>ListItem8Content</include>

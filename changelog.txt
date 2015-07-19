@@ -1,3 +1,7 @@
+1.2.2
+
+Fixed home square and square info lists
+
 1.2.1
 
 Fixed renaming of custom items

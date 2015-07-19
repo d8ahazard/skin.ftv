@@ -159,14 +159,14 @@
 		<value condition="StringCompare(Window(home).Property(SubMenu),6) + !IsEmpty(Skin.String(6-WidgetView))">$INFO[Skin.String(6-WidgetView)]</value>
 		<value condition="StringCompare(Window(home).Property(SubMenu),7) + !IsEmpty(Skin.String(7-WidgetView))">$INFO[Skin.String(7-WidgetView)]</value>
 		<value condition="StringCompare(Window(home).Property(SubMenu),8) + !IsEmpty(Skin.String(8-WidgetView))">$INFO[Skin.String(8-WidgetView)]</value>
-		<value condition="StringCompare(Window(home).Property(SubMenu),1) + IsEmpty(Skin.String(1-WidgetView))">$LOCALIZE[31161]</value>
-		<value condition="StringCompare(Window(home).Property(SubMenu),2) + IsEmpty(Skin.String(2-WidgetView))">$LOCALIZE[31161]</value>
-		<value condition="StringCompare(Window(home).Property(SubMenu),3) + IsEmpty(Skin.String(3-WidgetView))">$LOCALIZE[31161]</value>
-		<value condition="StringCompare(Window(home).Property(SubMenu),4) + IsEmpty(Skin.String(4-WidgetView))">$LOCALIZE[31161]</value>
-		<value condition="StringCompare(Window(home).Property(SubMenu),5) + IsEmpty(Skin.String(5-WidgetView))">$LOCALIZE[31161]</value>
-		<value condition="StringCompare(Window(home).Property(SubMenu),6) + IsEmpty(Skin.String(6-WidgetView))">$LOCALIZE[31161]</value>
-		<value condition="StringCompare(Window(home).Property(SubMenu),7) + IsEmpty(Skin.String(7-WidgetView))">$LOCALIZE[31161]</value>
-		<value condition="StringCompare(Window(home).Property(SubMenu),8) + IsEmpty(Skin.String(8-WidgetView))">$LOCALIZE[31161]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),1) + IsEmpty(Skin.String(1-WidgetView))">$LOCALIZE[31203]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),2) + IsEmpty(Skin.String(2-WidgetView))">$LOCALIZE[31203]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),3) + IsEmpty(Skin.String(3-WidgetView))">$LOCALIZE[31203]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),4) + IsEmpty(Skin.String(4-WidgetView))">$LOCALIZE[31203]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),5) + IsEmpty(Skin.String(5-WidgetView))">$LOCALIZE[31203]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),6) + IsEmpty(Skin.String(6-WidgetView))">$LOCALIZE[31203]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),7) + IsEmpty(Skin.String(7-WidgetView))">$LOCALIZE[31203]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),8) + IsEmpty(Skin.String(8-WidgetView))">$LOCALIZE[31203]</value>
 	</variable>
 	<variable name="NextEpisodeCountdown">
 		<value condition="IntegerGreaterThan(Player.TimeRemaining(ss),29)">osd/countdown/30.png</value>
