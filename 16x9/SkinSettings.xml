@@ -27,7 +27,7 @@
 					<top>15</top>
 					<width>auto</width>
 					<height>60</height>
-					<font>Bold34</font>
+					<font>Med32</font>
 					<aligny>bottom</aligny>
 					<textcolor>ffdadada</textcolor>
 					<label>$NUMBER[1]</label>

@@ -1064,6 +1064,7 @@
 							<width>290</width>
 							<height>42</height>
 							<font>Bold42</font>
+							<scroll>false</scroll>
 							<textcolor>ffffffff</textcolor>
 							<shadowcolor>80000000</shadowcolor>
 							<label>$INFO[ListItem.Label]</label>
