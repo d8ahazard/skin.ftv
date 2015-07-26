@@ -150,6 +150,16 @@
 		<value condition="StringCompare(Window(home).Property(SubMenu),7)">$INFO[Skin.String(7-WidgetAction-7)]</value>
 		<value condition="StringCompare(Window(home).Property(SubMenu),8)">$INFO[Skin.String(8-WidgetAction-7)]</value>
 	</variable>
+	<variable name="WidgetAction-8">
+		<value condition="StringCompare(Window(home).Property(SubMenu),1)">$INFO[Skin.String(1-WidgetAction-8)]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),2)">$INFO[Skin.String(2-WidgetAction-8)]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),3)">$INFO[Skin.String(3-WidgetAction-8)]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),4)">$INFO[Skin.String(4-WidgetAction-8)]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),5)">$INFO[Skin.String(5-WidgetAction-8)]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),6)">$INFO[Skin.String(6-WidgetAction-8)]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),7)">$INFO[Skin.String(7-WidgetAction-8)]</value>
+		<value condition="StringCompare(Window(home).Property(SubMenu),8)">$INFO[Skin.String(8-WidgetAction-8)]</value>
+	</variable>
 	<variable name="WidgetView">
 		<value condition="StringCompare(Window(home).Property(SubMenu),1) + !IsEmpty(Skin.String(1-WidgetView))">$INFO[Skin.String(1-WidgetView)]</value>
 		<value condition="StringCompare(Window(home).Property(SubMenu),2) + !IsEmpty(Skin.String(2-WidgetView))">$INFO[Skin.String(2-WidgetView)]</value>
