@@ -303,7 +303,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 						<visible>!StringCompare(ListItem.Label,..) + !SubString(Container.FolderName,$LOCALIZE[20434]) + !SubString(ListItem.Path,videodb://movies/sets,left)</visible>
 					</control>
@@ -321,7 +321,7 @@
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>!IsEmpty(ListItem.Trailer)</visible>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="1004" type="button">
@@ -337,7 +337,7 @@
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>!StringCompare(Playlist.Length(video),0)</visible>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="1005" type="button">
@@ -352,7 +352,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="20" type="togglebutton">
@@ -370,9 +370,9 @@
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>Control.IsEnabled(20)</visible>
 						<usealttexture>Library.IsScanningVideo</usealttexture>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
-						<alttexturefocus border="3,5,6,8">views/button_fo.png</alttexturefocus>
+						<alttexturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</alttexturefocus>
 						<alttexturenofocus border="3,3,6,6">views/button_nf.png</alttexturenofocus>
 					</control>
 				</control>
@@ -491,7 +491,7 @@
 						<onclick>SetProperty(OpenTextViewer,1,home)</onclick>
 						<onclick>RunScript(script.toolbox,info=textviewer,header=$INFO[ListItem.Label],text='"$VAR[Plot]"')</onclick>
 						<visible>Control.IsVisible(96)</visible>
-						<texturefocus>views/more_fo.png</texturefocus>
+						<texturefocus colordiffuse="PrimaryColor">views/more_fo.png</texturefocus>
 						<texturenofocus>views/more_nf.png</texturenofocus>
 						<visible>!Window.IsVisible(textviewer)</visible>
 					</control>
@@ -548,7 +548,7 @@
 						<onclick>SetProperty(OpenTextViewer,1,home)</onclick>
 						<onclick>RunScript(script.toolbox,info=textviewer,header=$INFO[ListItem.TVShowTitle] - $VAR[SeasonValue],text='"$VAR[Plot]"')</onclick>
 						<visible>Control.IsVisible(97)</visible>
-						<texturefocus>views/more_fo.png</texturefocus>
+						<texturefocus colordiffuse="PrimaryColor">views/more_fo.png</texturefocus>
 						<texturenofocus>views/more_nf.png</texturenofocus>
 						<visible>!Window.IsVisible(textviewer)</visible>
 					</control>
@@ -632,7 +632,7 @@
 						<onclick>SetProperty(OpenTextViewer,1,home)</onclick>
 						<onclick>RunScript(script.toolbox,info=textviewer,header=$INFO[ListItem.Title],text='"$VAR[Plot]"')</onclick>
 						<visible>Control.IsVisible(98)</visible>
-						<texturefocus>views/more_fo.png</texturefocus>
+						<texturefocus colordiffuse="PrimaryColor">views/more_fo.png</texturefocus>
 						<texturenofocus>views/more_nf.png</texturenofocus>
 						<visible>!Window.IsVisible(textviewer)</visible>
 					</control>
@@ -685,7 +685,7 @@
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>!IsEmpty(ListItem.Trailer)</visible>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="1004" type="button">
@@ -701,7 +701,7 @@
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>!StringCompare(Playlist.Length(video),0)</visible>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="1005" type="button">
@@ -716,7 +716,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="16" type="button">
@@ -730,7 +730,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 						<visible>Container.Content(musicvideos)</visible>
 					</control>
@@ -749,9 +749,9 @@
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>Control.IsEnabled(20) + IsEmpty(Container.PluginName)</visible>
 						<usealttexture>Library.IsScanningVideo</usealttexture>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
-						<alttexturefocus border="3,5,6,8">views/button_fo.png</alttexturefocus>
+						<alttexturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</alttexturefocus>
 						<alttexturenofocus border="3,3,6,6">views/button_nf.png</alttexturenofocus>
 					</control>
 				</control>
@@ -796,7 +796,7 @@
 					<onclick>SetProperty(OpenTextViewer,1,home)</onclick>
 					<onclick>RunScript(script.toolbox,info=textviewer,header=$INFO[ListItem.Label],text='"$VAR[Plot]"')</onclick>
 					<visible>Control.IsVisible(99)</visible>
-					<texturefocus>views/more_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryColor">views/more_fo.png</texturefocus>
 					<texturenofocus>views/more_nf.png</texturenofocus>
 					<visible>!Window.IsVisible(textviewer)</visible>
 				</control>
@@ -884,7 +884,7 @@
 					<onback>50</onback>
 					<onclick>Container.NextViewMode</onclick>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<visible>!IsEmpty(Container.PluginName)</visible>
@@ -916,7 +916,7 @@
 					<onback>50</onback>
 					<onclick>Container.NextSortMethod</onclick>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<visible>Control.IsEnabled(3)</visible>
@@ -948,7 +948,7 @@
 					<altlabel>16101</altlabel>
 					<onback>50</onback>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<alttexturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</alttexturefocus>
@@ -983,7 +983,7 @@
 					<altlabel>585</altlabel>
 					<onback>50</onback>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<alttexturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</alttexturefocus>
@@ -1016,7 +1016,7 @@
 					<font>Light30Spaced</font>
 					<onback>50</onback>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
@@ -1049,7 +1049,7 @@
 					<onclick>SetFocus(50)</onclick>
 					<onclick>Filter</onclick>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<textureradioonfocus>-</textureradioonfocus>

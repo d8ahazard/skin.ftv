@@ -46,7 +46,7 @@
 					<font>Light32</font>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 				</control>
@@ -65,7 +65,7 @@
 						<font>Light32</font>
 						<textoffsetx>40</textoffsetx>
 						<textcolor>ff505153</textcolor>
-						<focusedcolor>ffffaf37</focusedcolor>
+						<focusedcolor>PrimaryColor</focusedcolor>
 						<texturefocus border="3">settings/button_focus.png</texturefocus>
 						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					</control>
@@ -82,7 +82,7 @@
 						<font>Light32</font>
 						<textoffsetx>40</textoffsetx>
 						<textcolor>ff505153</textcolor>
-						<focusedcolor>ffffaf37</focusedcolor>
+						<focusedcolor>PrimaryColor</focusedcolor>
 						<texturefocus border="3">settings/button_focus.png</texturefocus>
 						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					</control>
@@ -96,7 +96,7 @@
 					<font>Light32</font>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 				</control>
@@ -109,7 +109,7 @@
 					<font>Light32</font>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 				</control>
@@ -122,7 +122,7 @@
 					<font>Light32</font>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 				</control>
@@ -135,7 +135,7 @@
 					<font>Light32</font>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 				</control>

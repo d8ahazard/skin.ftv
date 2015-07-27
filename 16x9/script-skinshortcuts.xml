@@ -100,7 +100,7 @@
 						<width>590</width>
 						<height>84</height>
 						<font>Light32</font>
-						<textcolor>ffffaf37</textcolor>
+						<textcolor>PrimaryColor</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>Control.HasFocus(303) | Control.HasFocus(304)</visible>
 					</control>
@@ -134,7 +134,7 @@
 						<left>566</left>
 						<width>32</width>
 						<height>21</height>
-						<texture>dialogs/SpinDownFO.png</texture>
+						<texture colordiffuse="PrimaryColor">dialogs/SpinDownFO.png</texture>
 						<visible>Control.HasFocus(304)</visible>
 					</control>
 					<control type="image">
@@ -142,7 +142,7 @@
 						<left>598</left>
 						<width>32</width>
 						<height>21</height>
-						<texture>dialogs/SpinUpFO.png</texture>
+						<texture colordiffuse="PrimaryColor">dialogs/SpinUpFO.png</texture>
 						<visible>Control.HasFocus(303)</visible>
 					</control>
 				</focusedlayout>
@@ -169,7 +169,7 @@
 					<textwidth>790</textwidth>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>$ADDON[script.skinshortcuts 32048]</label>
@@ -182,7 +182,7 @@
 					<textwidth>790</textwidth>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>$ADDON[script.skinshortcuts 32025]</label>
@@ -196,7 +196,7 @@
 					<textwidth>790</textwidth>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>$ADDON[script.skinshortcuts 32027]</label>
@@ -223,7 +223,7 @@
 					<textwidth>790</textwidth>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>$ADDON[script.skinshortcuts 32072] #$INFO[Container(211).CurrentItem]</label>
@@ -246,7 +246,7 @@
 					<textwidth>790</textwidth>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>-</label>
@@ -259,7 +259,7 @@
 					<textwidth>790</textwidth>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>$ADDON[script.skinshortcuts 32000]</label>

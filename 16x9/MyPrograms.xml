@@ -129,7 +129,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="1003" type="button">
@@ -144,7 +144,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 				</control>
@@ -188,7 +188,7 @@
 					<onright>55</onright>
 					<onclick>RunScript(script.toolbox,info=textviewer,header=$INFO[ListItem.Label],text='"$INFO[ListItem.Label2]"')</onclick>
 					<visible>Control.IsVisible(96)</visible>
-					<texturefocus>views/more_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryColor">views/more_fo.png</texturefocus>
 					<texturenofocus>views/more_nf.png</texturenofocus>
 					<visible>!Window.IsVisible(textviewer)</visible>
 				</control>
@@ -275,7 +275,7 @@
 					<onback>55</onback>
 					<onclick>Container.NextViewMode</onclick>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<visible>!IsEmpty(Container.PluginName)</visible>
@@ -307,7 +307,7 @@
 					<onback>55</onback>
 					<onclick>Container.NextSortMethod</onclick>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<visible>Control.IsEnabled(3)</visible>
@@ -339,7 +339,7 @@
 					<altlabel>585</altlabel>
 					<onback>55</onback>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<alttexturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</alttexturefocus>
@@ -372,7 +372,7 @@
 					<font>Light30Spaced</font>
 					<onback>55</onback>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
@@ -405,7 +405,7 @@
 					<onclick>SetFocus(55)</onclick>
 					<onclick>Filter</onclick>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">dialogs/OptionsBackgroundButtonFO.png</texturefocus>
 					<texturenofocus border="3">dialogs/OptionsBackgroundButtonNF.png</texturenofocus>
 					<textureradioonfocus>-</textureradioonfocus>

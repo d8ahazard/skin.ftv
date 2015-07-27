@@ -108,7 +108,7 @@
 						<width>878</width>
 						<height>84</height>
 						<font>Light32</font>
-						<textcolor>ffffaf37</textcolor>
+						<textcolor>PrimaryColor</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</focusedlayout>
@@ -249,7 +249,7 @@
 						<width>626</width>
 						<height>140</height>
 						<font>Light32</font>
-						<textcolor>ffffaf37</textcolor>
+						<textcolor>PrimaryColor</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>Control.HasFocus(6)</visible>
 					</control>

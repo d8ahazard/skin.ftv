@@ -227,7 +227,7 @@
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>Control.IsEnabled(2)</visible>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 						<visible>!StringCompare(ListItem.Label,..) + !SubString(Container.FolderName,$LOCALIZE[20434]) + !SubString(ListItem.Path,videodb://movies/sets,left)</visible>
 					</control>
@@ -242,7 +242,7 @@
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>Control.IsEnabled(4)</visible>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="3" type="button">
@@ -256,7 +256,7 @@
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>Control.IsEnabled(3)</visible>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 				</control>

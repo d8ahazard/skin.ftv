@@ -401,7 +401,7 @@
 					<align>right</align>
 					<label>$INFO[ListItem.Label]</label>
 					<font>LightCap48</font>
-					<textcolor>ffffc24b</textcolor>
+					<textcolor>PrimaryColor</textcolor>
 					<animation reversible="false" type="UnFocus">
 						<effect end="0" start="100" time="0" type="fade" />
 					</animation>
@@ -538,7 +538,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(100)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -549,7 +549,7 @@
 							<height>200</height>
 							<font>Bold34</font>
 							<align>left</align>
-							<textcolor>ff453a18</textcolor>
+							<textcolor>CategoryColor</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 							<visible>Control.HasFocus(100)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
@@ -653,7 +653,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(200)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -664,7 +664,7 @@
 							<height>200</height>
 							<font>Bold34</font>
 							<align>left</align>
-							<textcolor>ff453a18</textcolor>
+							<textcolor>CategoryColor</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 							<visible>Control.HasFocus(200)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
@@ -768,7 +768,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(300)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -779,7 +779,7 @@
 							<height>200</height>
 							<font>Bold34</font>
 							<align>left</align>
-							<textcolor>ff453a18</textcolor>
+							<textcolor>CategoryColor</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 							<visible>Control.HasFocus(300)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
@@ -883,7 +883,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(400)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -894,7 +894,7 @@
 							<height>200</height>
 							<font>Bold34</font>
 							<align>left</align>
-							<textcolor>ff453a18</textcolor>
+							<textcolor>CategoryColor</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 							<visible>Control.HasFocus(400)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
@@ -998,7 +998,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(500)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -1009,7 +1009,7 @@
 							<height>200</height>
 							<font>Bold34</font>
 							<align>left</align>
-							<textcolor>ff453a18</textcolor>
+							<textcolor>CategoryColor</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 							<visible>Control.HasFocus(500)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
@@ -1113,7 +1113,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(600)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -1124,7 +1124,7 @@
 							<height>200</height>
 							<font>Bold34</font>
 							<align>left</align>
-							<textcolor>ff453a18</textcolor>
+							<textcolor>CategoryColor</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 							<visible>Control.HasFocus(600)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
@@ -1228,7 +1228,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(700)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -1239,7 +1239,7 @@
 							<height>200</height>
 							<font>Bold34</font>
 							<align>left</align>
-							<textcolor>ff453a18</textcolor>
+							<textcolor>CategoryColor</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 							<visible>Control.HasFocus(700)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
@@ -1343,7 +1343,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(800)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -1354,7 +1354,7 @@
 							<height>200</height>
 							<font>Bold34</font>
 							<align>left</align>
-							<textcolor>ff453a18</textcolor>
+							<textcolor>CategoryColor</textcolor>
 							<label>$INFO[ListItem.Label]</label>
 							<visible>Control.HasFocus(800)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>

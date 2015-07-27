@@ -105,7 +105,7 @@
 								<width>825</width>
 								<height>84</height>
 								<font>Light32</font>
-								<textcolor>ffffaf37</textcolor>
+								<textcolor>PrimaryColor</textcolor>
 								<label>$INFO[ListItem.Label]</label>
 							</control>
 							<control type="label">
@@ -241,7 +241,7 @@
 								<width>825</width>
 								<height>84</height>
 								<font>Light32</font>
-								<textcolor>ffffaf37</textcolor>
+								<textcolor>PrimaryColor</textcolor>
 								<label>$INFO[ListItem.Label]</label>
 							</control>
 							<control type="label">

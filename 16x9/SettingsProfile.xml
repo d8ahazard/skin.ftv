@@ -146,7 +146,7 @@
 					<aligny>center</aligny>
 					<font>Light30Spaced</font>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
@@ -172,7 +172,7 @@
 						<font>Light30Spaced</font>
 						<label>7</label>
 						<textcolor>ff505153</textcolor>
-						<focusedcolor>ffffaf37</focusedcolor>
+						<focusedcolor>PrimaryColor</focusedcolor>
 						<texturefocus border="3">settings/button_focus.png</texturefocus>
 						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					</control>
@@ -184,8 +184,8 @@
 						<aligny>center</aligny>
 						<font>Light30Spaced</font>
 						<label>13200</label>
-						<textcolor>ffffaf37</textcolor>
-						<focusedcolor>ffffaf37</focusedcolor>
+						<textcolor>PrimaryColor</textcolor>
+						<focusedcolor>PrimaryColor</focusedcolor>
 						<texturefocus border="3">settings/button_focus.png</texturefocus>
 						<texturenofocus border="3">settings/button_focus.png</texturenofocus>
 					</control>
@@ -198,7 +198,7 @@
 						<font>Light30Spaced</font>
 						<label>138</label>
 						<textcolor>ff505153</textcolor>
-						<focusedcolor>ffffaf37</focusedcolor>
+						<focusedcolor>PrimaryColor</focusedcolor>
 						<texturefocus border="3">settings/button_focus.png</texturefocus>
 						<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					</control>
@@ -303,7 +303,7 @@
 					<onclick>SetFocus(200)</onclick>
 					<label>$LOCALIZE[31125]</label>
 					<textcolor>$VAR[ProfileSettingsLoginButton]</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
@@ -320,7 +320,7 @@
 					<onclick>SetFocus(2)</onclick>
 					<label>13200</label>
 					<textcolor>$VAR[ProfileSettingsProfileButton]</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
@@ -348,16 +348,16 @@
 					<textwidth>738</textwidth>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<radioposx>447</radioposx>
 					<radioposy>13</radioposy>
 					<radiowidth>100</radiowidth>
 					<radioheight>58</radioheight>
-					<textureradioonfocus>dialogs/RadioOnFO.png</textureradioonfocus>
+					<textureradioonfocus colordiffuse="PrimaryColor">dialogs/RadioOnFO.png</textureradioonfocus>
 					<textureradioonnofocus>dialogs/RadioOnNFDark.png</textureradioonnofocus>
-					<textureradioofffocus>dialogs/RadioOffFO.png</textureradioofffocus>
+					<textureradioofffocus colordiffuse="PrimaryColor">dialogs/RadioOffFO.png</textureradioofffocus>
 					<textureradiooffnofocus>dialogs/RadioOffNFDark.png</textureradiooffnofocus>
 					<label>20096</label>
 				</control>
@@ -369,7 +369,7 @@
 					<textwidth>738</textwidth>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<label>33084</label>
@@ -426,7 +426,7 @@
 						<width>878</width>
 						<height>84</height>
 						<font>Light32</font>
-						<textcolor>ffffaf37</textcolor>
+						<textcolor>PrimaryColor</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>Control.HasFocus(2)</visible>
 					</control>

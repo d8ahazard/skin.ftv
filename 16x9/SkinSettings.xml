@@ -263,7 +263,7 @@
 					<label>$LOCALIZE[31049]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<onclick>RunScript(script.skinshortcuts,type=manage&amp;group=mainmenu)</onclick>
@@ -275,7 +275,7 @@
 					<label>$LOCALIZE[31114]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<onclick>RunScript(script.skinshortcuts,type=manage&amp;group=shutdown)</onclick>
@@ -287,7 +287,7 @@
 					<label>$LOCALIZE[31130]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<radiowidth>125</radiowidth>
 					<radioheight>53</radioheight>
 					<radioposx>813</radioposx>
@@ -307,7 +307,7 @@
 					<label>$LOCALIZE[31131]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<radiowidth>125</radiowidth>
 					<radioheight>53</radioheight>
 					<radioposx>813</radioposx>
@@ -327,7 +327,7 @@
 					<label>$LOCALIZE[31132]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<onclick>XBMC.runscript(script.artwork.downloader, mode=custom, mediatype=tvshow, silent=true, clearlogo)</onclick>
@@ -340,7 +340,7 @@
 					<label>$LOCALIZE[31133]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<radiowidth>125</radiowidth>
 					<radioheight>53</radioheight>
 					<radioposx>813</radioposx>
@@ -360,7 +360,7 @@
 					<label>$LOCALIZE[31134]</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<radiowidth>125</radiowidth>
 					<radioheight>53</radioheight>
 					<radioposx>813</radioposx>
@@ -381,7 +381,7 @@
 					<label2>$VAR[RatingCountry]</label2>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<texturefocus border="3">settings/button_focus.png</texturefocus>
 					<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 					<onclick>SetProperty(Dialog.NumItems,3)</onclick>
@@ -400,7 +400,7 @@
 					<label>31149</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<radiowidth>125</radiowidth>
 					<radioheight>53</radioheight>
 					<radioposx>813</radioposx>
@@ -420,7 +420,7 @@
 					<label>31041</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<radiowidth>125</radiowidth>
 					<radioheight>53</radioheight>
 					<radioposx>813</radioposx>
@@ -440,7 +440,7 @@
 					<label>31042</label>
 					<textoffsetx>40</textoffsetx>
 					<textcolor>ff505153</textcolor>
-					<focusedcolor>ffffaf37</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<radiowidth>125</radiowidth>
 					<radioheight>53</radioheight>
 					<radioposx>813</radioposx>

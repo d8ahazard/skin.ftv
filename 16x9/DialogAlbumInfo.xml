@@ -61,7 +61,7 @@
 				<onfocus>ClearProperty(AlbumDetails,home)</onfocus>
 				<font>Light35</font>
 				<textcolor>ffdadada</textcolor>
-				<focusedcolor>ffffc24b</focusedcolor>
+				<focusedcolor>PrimaryColor</focusedcolor>
 				<label>$LOCALIZE[31026]</label>
 				<include>NoTextures</include>
 				<animation condition="!IsEmpty(Window(home).Property(AlbumDetails))" effect="fade" end="50" start="100" time="0">Conditional</animation>
@@ -78,7 +78,7 @@
 				<onfocus>SetProperty(AlbumDetails,1,home)</onfocus>
 				<font>Light35</font>
 				<textcolor>ffdadada</textcolor>
-				<focusedcolor>ffffc24b</focusedcolor>
+				<focusedcolor>PrimaryColor</focusedcolor>
 				<label>$LOCALIZE[33029]</label>
 				<include>NoTextures</include>
 				<animation condition="IsEmpty(Window(home).Property(AlbumDetails))" effect="fade" end="50" start="100" time="0">Conditional</animation>
@@ -280,7 +280,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 						<visible>Control.IsEnabled(6)</visible>
 					</control>
@@ -295,7 +295,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 						<visible>Control.IsEnabled(10)</visible>
 					</control>
@@ -310,7 +310,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 						<visible>Control.IsEnabled(12)</visible>
 					</control>
@@ -368,7 +368,7 @@
 					<onleft>7001</onleft>
 					<onright>50</onright>
 					<onclick>SetFocus(4000)</onclick>
-					<texturefocus>views/more_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryColor">views/more_fo.png</texturefocus>
 					<texturenofocus>views/more_nf.png</texturenofocus>
 					<visible>Control.IsVisible(96)</visible>
 				</control>

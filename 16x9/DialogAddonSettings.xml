@@ -74,7 +74,7 @@
 				<textwidth>738</textwidth>
 				<textoffsetx>40</textoffsetx>
 				<textcolor>ff505153</textcolor>
-				<focusedcolor>ffffaf37</focusedcolor>
+				<focusedcolor>PrimaryColor</focusedcolor>
 				<texturefocus border="3">settings/button_focus.png</texturefocus>
 				<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 			</control>
@@ -86,7 +86,7 @@
 				<textwidth>738</textwidth>
 				<textoffsetx>40</textoffsetx>
 				<textcolor>ff505153</textcolor>
-				<focusedcolor>ffffaf37</focusedcolor>
+				<focusedcolor>PrimaryColor</focusedcolor>
 				<radiowidth>125</radiowidth>
 				<radioheight>53</radioheight>
 				<radioposx>813</radioposx>
@@ -105,7 +105,7 @@
 				<textwidth>738</textwidth>
 				<textoffsetx>40</textoffsetx>
 				<textcolor>ff505153</textcolor>
-				<focusedcolor>ffffaf37</focusedcolor>
+				<focusedcolor>PrimaryColor</focusedcolor>
 				<selectedcolor2>ffffffff</selectedcolor2>
 				<texturefocus border="3">settings/button_focus.png</texturefocus>
 				<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
@@ -135,7 +135,7 @@
 				<textwidth>738</textwidth>
 				<textoffsetx>40</textoffsetx>
 				<textcolor>ff505153</textcolor>
-				<focusedcolor>ffffaf37</focusedcolor>
+				<focusedcolor>PrimaryColor</focusedcolor>
 				<texturefocus border="3">settings/button_focus.png</texturefocus>
 				<texturenofocus border="3">settings/button_no_focus.png</texturenofocus>
 				<sliderwidth>200</sliderwidth>

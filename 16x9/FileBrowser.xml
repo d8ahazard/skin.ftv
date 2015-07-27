@@ -126,7 +126,7 @@
 						<width>857</width>
 						<height>84</height>
 						<font>Light32</font>
-						<textcolor>ffffaf37</textcolor>
+						<textcolor>PrimaryColor</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>Control.HasFocus(450)</visible>
 					</control>
@@ -212,7 +212,7 @@
 						<width>246</width>
 						<height>140</height>
 						<font>Light32</font>
-						<textcolor>ffffaf37</textcolor>
+						<textcolor>PrimaryColor</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>Control.HasFocus(451)</visible>
 					</control>
@@ -335,7 +335,7 @@
 					<radioheight>40</radioheight>
 					<radioposx>235</radioposx>
 					<label>749</label>
-					<texturefocus border="8">dialogs/DialogButtonFO.png</texturefocus>
+					<texturefocus border="8" colordiffuse="PrimaryColor">dialogs/DialogButtonFO.png</texturefocus>
 					<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
 					<textureradioonfocus>-</textureradioonfocus>
 					<textureradioonnofocus>-</textureradioonnofocus>

@@ -171,7 +171,7 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus>osd/osd_prev_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryColor">osd/osd_prev_fo.png</texturefocus>
 					<texturenofocus>osd/osd_prev_nf.png</texturenofocus>
 					<onclick>PlayerControl(Previous)</onclick>
 				</control>
@@ -180,7 +180,7 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus>osd/osd_rw_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryColor">osd/osd_rw_fo.png</texturefocus>
 					<texturenofocus>osd/osd_rw_nf.png</texturenofocus>
 					<onclick>PlayerControl(Rewind)</onclick>
 				</control>
@@ -189,7 +189,7 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus>osd/osd_stop_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryColor">osd/osd_stop_fo.png</texturefocus>
 					<texturenofocus>osd/osd_stop_nf.png</texturenofocus>
 					<onclick>PlayerControl(Stop)</onclick>
 				</control>
@@ -198,10 +198,10 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus>osd/osd_pause_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryColor">osd/osd_pause_fo.png</texturefocus>
 					<texturenofocus>osd/osd_pause_nf.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-					<alttexturefocus>osd/osd_play_fo.png</alttexturefocus>
+					<alttexturefocus colordiffuse="PrimaryColor">osd/osd_play_fo.png</alttexturefocus>
 					<alttexturenofocus>osd/osd_play_nf.png</alttexturenofocus>
 					<onclick>PlayerControl(Play)</onclick>
 				</control>
@@ -210,7 +210,7 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus>osd/osd_ff_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryColor">osd/osd_ff_fo.png</texturefocus>
 					<texturenofocus>osd/osd_ff_nf.png</texturenofocus>
 					<onclick>PlayerControl(Forward)</onclick>
 				</control>
@@ -219,7 +219,7 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus>osd/osd_next_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryColor">osd/osd_next_fo.png</texturefocus>
 					<texturenofocus>osd/osd_next_nf.png</texturenofocus>
 					<onclick>PlayerControl(Next)</onclick>
 				</control>
@@ -374,7 +374,7 @@
 					<height>58</height>
 					<font>Reg22</font>
 					<textoffsetx>34</textoffsetx>
-					<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+					<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,5,6,8">views/button_nf.png</texturenofocus>
 					<label>$LOCALIZE[248] ($INFO[VideoPlayer.SubtitlesLanguage])</label>
 					<onclick>CycleSubtitle</onclick>
@@ -388,9 +388,9 @@
 					<label>$LOCALIZE[31138]</label>
 					<altlabel>$LOCALIZE[31139]</altlabel>
 					<textoffsetx>34</textoffsetx>
-					<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+					<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,5,6,8">views/button_nf.png</texturenofocus>
-					<alttexturefocus border="3,5,6,8">views/button_fo.png</alttexturefocus>
+					<alttexturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</alttexturefocus>
 					<alttexturenofocus border="3,5,6,8">views/button_nf.png</alttexturenofocus>
 					<usealttexture>VideoPlayer.SubtitlesEnabled</usealttexture>
 					<onclick>ShowSubtitles</onclick>
@@ -403,7 +403,7 @@
 					<font>Reg22</font>
 					<label>$LOCALIZE[31140]</label>
 					<textoffsetx>34</textoffsetx>
-					<texturefocus border="3,5,6,8">views/button_fo.png</texturefocus>
+					<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,5,6,8">views/button_nf.png</texturenofocus>
 					<onclick>Close</onclick>
 					<onclick>Dialog.Close(VideoOSD)</onclick>

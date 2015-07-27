@@ -65,7 +65,7 @@
 					<onfocus>ClearProperty(StarredInTV,home)</onfocus>
 					<font>Light35</font>
 					<textcolor>ffdadada</textcolor>
-					<focusedcolor>ffffc24b</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<label>$LOCALIZE[31026]</label>
 					<include>NoTextures</include>
 					<animation condition="!IsEmpty(Window(home).Property(StarredInTV))" effect="fade" end="50" start="100" time="0">Conditional</animation>
@@ -81,7 +81,7 @@
 					<onfocus>SetProperty(StarredInTV,1,home)</onfocus>
 					<font>Light35</font>
 					<textcolor>ffdadada</textcolor>
-					<focusedcolor>ffffc24b</focusedcolor>
+					<focusedcolor>PrimaryColor</focusedcolor>
 					<label>$LOCALIZE[31107]</label>
 					<include>NoTextures</include>
 					<visible>!IsEmpty(Container(250).ListItem.Label)</visible>
@@ -174,7 +174,7 @@
 						<onright>8</onright>
 						<visible>Control.IsVisible(96)</visible>
 						<include>DialogVideoInfoAnimation</include>
-						<texturefocus>views/more_fo.png</texturefocus>
+						<texturefocus colordiffuse="PrimaryColor">views/more_fo.png</texturefocus>
 						<texturenofocus>views/more_nf.png</texturenofocus>
 					</control>
 				</control>

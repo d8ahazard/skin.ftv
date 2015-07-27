@@ -97,7 +97,7 @@
 						<height>40</height>
 						<font>Light32</font>
 						<scroll>true</scroll>
-						<textcolor>ffffaf37</textcolor>
+						<textcolor>PrimaryColor</textcolor>
 						<label>$INFO[ListItem.Label]$INFO[ListItem.Property(Version), V: ]</label>
 						<visible>Control.HasFocus(20)</visible>
 					</control>
