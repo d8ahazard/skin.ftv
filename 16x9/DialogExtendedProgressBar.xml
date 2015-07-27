@@ -53,7 +53,7 @@
 				<font>Light26</font>
 				<scroll>true</scroll>
 				<haspath>true</haspath>
-				<textcolor>fffbbb45</textcolor>
+				<textcolor>PrimaryColor</textcolor>
 			</control>
 		</control>
 	</controls>
