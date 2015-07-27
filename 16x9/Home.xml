@@ -538,7 +538,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryTexture">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(100)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -653,7 +653,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryTexture">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(200)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -768,7 +768,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryTexture">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(300)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -883,7 +883,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryTexture">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(400)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -998,7 +998,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryTexture">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(500)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -1113,7 +1113,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryTexture">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(600)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -1228,7 +1228,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryTexture">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(700)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>
@@ -1343,7 +1343,7 @@
 						<control type="image">
 							<width>227</width>
 							<height>334</height>
-							<texture border="0,14,11,14" colordiffuse="PrimaryColor">home/home_button_fo.png</texture>
+							<texture border="0,14,11,14" colordiffuse="PrimaryTexture">home/home_button_fo.png</texture>
 							<visible>Control.HasFocus(800)</visible>
 							<animation effect="fade" end="100" start="0" time="0">Focus</animation>
 							<animation effect="fade" end="0" start="100" time="0">UnFocus</animation>

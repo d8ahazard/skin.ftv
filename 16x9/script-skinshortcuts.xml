@@ -134,7 +134,7 @@
 						<left>566</left>
 						<width>32</width>
 						<height>21</height>
-						<texture colordiffuse="PrimaryColor">dialogs/SpinDownFO.png</texture>
+						<texture colordiffuse="PrimaryTexture">dialogs/SpinDownFO.png</texture>
 						<visible>Control.HasFocus(304)</visible>
 					</control>
 					<control type="image">
@@ -142,7 +142,7 @@
 						<left>598</left>
 						<width>32</width>
 						<height>21</height>
-						<texture colordiffuse="PrimaryColor">dialogs/SpinUpFO.png</texture>
+						<texture colordiffuse="PrimaryTexture">dialogs/SpinUpFO.png</texture>
 						<visible>Control.HasFocus(303)</visible>
 					</control>
 				</focusedlayout>

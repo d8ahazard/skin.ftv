@@ -118,7 +118,7 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus colordiffuse="PrimaryColor">osd/osd_prev_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryTexture">osd/osd_prev_fo.png</texturefocus>
 					<texturenofocus>osd/osd_prev_nf.png</texturenofocus>
 					<onclick>PlayerControl(Previous)</onclick>
 				</control>
@@ -127,7 +127,7 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus colordiffuse="PrimaryColor">osd/osd_rw_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryTexture">osd/osd_rw_fo.png</texturefocus>
 					<texturenofocus>osd/osd_rw_nf.png</texturenofocus>
 					<onclick>PlayerControl(Rewind)</onclick>
 				</control>
@@ -136,7 +136,7 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus colordiffuse="PrimaryColor">osd/osd_stop_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryTexture">osd/osd_stop_fo.png</texturefocus>
 					<texturenofocus>osd/osd_stop_nf.png</texturenofocus>
 					<onclick>PlayerControl(Stop)</onclick>
 				</control>
@@ -145,10 +145,10 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus colordiffuse="PrimaryColor">osd/osd_pause_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryTexture">osd/osd_pause_fo.png</texturefocus>
 					<texturenofocus>osd/osd_pause_nf.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-					<alttexturefocus colordiffuse="PrimaryColor">osd/osd_play_fo.png</alttexturefocus>
+					<alttexturefocus colordiffuse="PrimaryTexture">osd/osd_play_fo.png</alttexturefocus>
 					<alttexturenofocus>osd/osd_play_nf.png</alttexturenofocus>
 					<onclick>PlayerControl(Play)</onclick>
 				</control>
@@ -157,7 +157,7 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus colordiffuse="PrimaryColor">osd/osd_ff_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryTexture">osd/osd_ff_fo.png</texturefocus>
 					<texturenofocus>osd/osd_ff_nf.png</texturenofocus>
 					<onclick>PlayerControl(Forward)</onclick>
 				</control>
@@ -166,7 +166,7 @@
 					<width>64</width>
 					<height>64</height>
 					<font>-</font>
-					<texturefocus colordiffuse="PrimaryColor">osd/osd_next_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryTexture">osd/osd_next_fo.png</texturefocus>
 					<texturenofocus>osd/osd_next_nf.png</texturenofocus>
 					<onclick>PlayerControl(Next)</onclick>
 				</control>

@@ -100,7 +100,7 @@
 					<control type="image">
 						<width>311</width>
 						<height>76</height>
-						<texture border="8" colordiffuse="PrimaryColor">dialogs/DialogButtonFO.png</texture>
+						<texture border="8" colordiffuse="PrimaryTexture">dialogs/DialogButtonFO.png</texture>
 						<visible>Control.HasFocus(100) | Control.HasFocus(101)</visible>
 					</control>
 					<control type="image">

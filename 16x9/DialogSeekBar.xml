@@ -321,8 +321,8 @@
 					<width>1735</width>
 					<height>11</height>
 					<texturesliderbar border="4" colordiffuse="00ffffff">osd/progress_back.png</texturesliderbar>
-					<textureslidernib colordiffuse="PrimaryColor">osd/osd_seek_bar.png</textureslidernib>
-					<textureslidernibfocus colordiffuse="PrimaryColor">osd/osd_seek_bar.png</textureslidernibfocus>
+					<textureslidernib colordiffuse="PrimaryTexture">osd/osd_seek_bar.png</textureslidernib>
+					<textureslidernibfocus colordiffuse="PrimaryTexture">osd/osd_seek_bar.png</textureslidernibfocus>
 					<info>Player.SeekTime</info>
 					<visible>!Player.Paused + !Player.Forwarding + !Player.Rewinding + Player.Seeking</visible>
 				</control>

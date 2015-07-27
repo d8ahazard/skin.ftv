@@ -270,7 +270,7 @@
 						<onleft>Back</onleft>
 						<onright>noop</onright>
 						<onclick>Weather.LocationNext</onclick>
-						<texturefocus border="3" colordiffuse="PrimaryColor">common/button_fo.png</texturefocus>
+						<texturefocus border="3" colordiffuse="PrimaryTexture">common/button_fo.png</texturefocus>
 						<texturenofocus border="3">common/button_nf.png</texturenofocus>
 					</control>
 					<control id="101" type="button">
@@ -284,7 +284,7 @@
 						<onleft>Back</onleft>
 						<onright>noop</onright>
 						<onclick>ActivateWindow(MyWeatherSettings)</onclick>
-						<texturefocus border="3" colordiffuse="PrimaryColor">common/button_fo.png</texturefocus>
+						<texturefocus border="3" colordiffuse="PrimaryTexture">common/button_fo.png</texturefocus>
 						<texturenofocus border="3">common/button_nf.png</texturenofocus>
 					</control>
 				</control>

@@ -293,7 +293,7 @@
 					<onright>8</onright>
 					<onclick>SetFocus(4000)</onclick>
 					<include>DialogVideoInfoAnimation</include>
-					<texturefocus colordiffuse="PrimaryColor">views/more_fo.png</texturefocus>
+					<texturefocus colordiffuse="PrimaryTexture">views/more_fo.png</texturefocus>
 					<texturenofocus>views/more_nf.png</texturenofocus>
 					<visible>Control.IsVisible(96)</visible>
 				</control>
@@ -425,9 +425,9 @@
 					<textoffsetx>20</textoffsetx>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
-					<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+					<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
-					<alttexturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</alttexturefocus>
+					<alttexturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</alttexturefocus>
 					<alttexturenofocus border="3,3,6,6">views/button_nf.png</alttexturenofocus>
 				</control>
 				<control id="1003" type="button">
@@ -446,7 +446,7 @@
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
 					<visible>!IsEmpty(ListItem.Trailer)</visible>
-					<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+					<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 				</control>
 				<!-- Refresh Button -->
@@ -464,7 +464,7 @@
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
 					<visible>Control.IsEnabled(6)</visible>
-					<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+					<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 				</control>
 				<!-- Get Thumb Button -->
@@ -482,7 +482,7 @@
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
 					<visible>Control.IsEnabled(10)</visible>
-					<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+					<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 				</control>
 				<!-- Artwork Downloader Button -->
@@ -501,7 +501,7 @@
 					<textoffsetx>20</textoffsetx>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
-					<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+					<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					<visible>System.HasAddon(script.artwork.downloader) + [Container.Content(movies) | Container.Content(tvshows)]</visible>
 				</control>
@@ -521,7 +521,7 @@
 					<textoffsetx>20</textoffsetx>
 					<textcolor>ffdadada</textcolor>
 					<focusedcolor>ff222222</focusedcolor>
-					<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+					<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 					<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					<visible>System.HasAddon(script.cinema.experience) + Container.Content(movies)</visible>
 				</control>

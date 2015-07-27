@@ -60,9 +60,9 @@
 				<radioposx>708</radioposx>
 				<radiowidth>100</radiowidth>
 				<radioheight>58</radioheight>
-				<textureradioonfocus colordiffuse="PrimaryColor">dialogs/RadioOnFO.png</textureradioonfocus>
+				<textureradioonfocus colordiffuse="PrimaryTexture">dialogs/RadioOnFO.png</textureradioonfocus>
 				<textureradioonnofocus>dialogs/RadioOnNF.png</textureradioonnofocus>
-				<textureradioofffocus colordiffuse="PrimaryColor">dialogs/RadioOffFO.png</textureradioofffocus>
+				<textureradioofffocus colordiffuse="PrimaryTexture">dialogs/RadioOffFO.png</textureradioofffocus>
 				<textureradiooffnofocus>dialogs/RadioOffNF.png</textureradiooffnofocus>
 			</control>
 			<!-- Default spincontrolex -->

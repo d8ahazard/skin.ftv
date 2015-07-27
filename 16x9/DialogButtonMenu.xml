@@ -11,7 +11,7 @@
 		<!-- Background -->
 		<control type="image">
 			<include>FullscreenDimensions</include>
-			<texture colordiffuse="PrimaryColor">special://skin/extras/backgrounds/shutdown.png</texture>
+			<texture colordiffuse="PrimaryTexture">special://skin/extras/backgrounds/shutdown.png</texture>
 		</control>
 		<!-- Time -->
 		<control type="grouplist">
@@ -135,7 +135,7 @@
 					<left>20</left>
 					<width>188</width>
 					<height>188</height>
-					<texture border="3" colordiffuse="PrimaryColor">common/button_fo.png</texture>
+					<texture border="3" colordiffuse="PrimaryTexture">common/button_fo.png</texture>
 				</control>
 				<control type="image">
 					<left>70</left>

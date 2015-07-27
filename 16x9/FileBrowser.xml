@@ -335,7 +335,7 @@
 					<radioheight>40</radioheight>
 					<radioposx>235</radioposx>
 					<label>749</label>
-					<texturefocus border="8" colordiffuse="PrimaryColor">dialogs/DialogButtonFO.png</texturefocus>
+					<texturefocus border="8" colordiffuse="PrimaryTexture">dialogs/DialogButtonFO.png</texturefocus>
 					<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
 					<textureradioonfocus>-</textureradioonfocus>
 					<textureradioonnofocus>-</textureradioonnofocus>

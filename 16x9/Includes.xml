@@ -379,7 +379,7 @@
 		<aligny>center</aligny>
 		<textcolor>ffdadada</textcolor>
 		<focusedcolor>ff0c0c0c</focusedcolor>
-		<texturefocus border="2" colordiffuse="PrimaryColor">dialogs/KeyboardButtonFO.png</texturefocus>
+		<texturefocus border="2" colordiffuse="PrimaryTexture">dialogs/KeyboardButtonFO.png</texturefocus>
 		<texturenofocus border="2">dialogs/KeyboardButtonNF.png</texturenofocus>
 	</include>
 	<!-- Numeric buttons -->
@@ -391,7 +391,7 @@
 		<aligny>center</aligny>
 		<textcolor>ffdadada</textcolor>
 		<focusedcolor>ff0c0c0c</focusedcolor>
-		<texturefocus border="2" colordiffuse="PrimaryColor">dialogs/KeyboardButtonFO.png</texturefocus>
+		<texturefocus border="2" colordiffuse="PrimaryTexture">dialogs/KeyboardButtonFO.png</texturefocus>
 		<texturenofocus border="2">dialogs/KeyboardButtonNF.png</texturenofocus>
 	</include>
 	<!-- English button widths -->

@@ -28,7 +28,7 @@
 		<selectedcolor>ffffffff</selectedcolor>
 		<invalidcolor>DisabledColor</invalidcolor>
 		<disabledcolor>DisabledColor</disabledcolor>
-		<texturefocus border="8" colordiffuse="PrimaryColor">dialogs/DialogButtonFO.png</texturefocus>
+		<texturefocus border="8" colordiffuse="PrimaryTexture">dialogs/DialogButtonFO.png</texturefocus>
 		<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</default>
@@ -64,9 +64,9 @@
 		<radioheight>58</radioheight>
 		<texturenofocus>-</texturenofocus>
 		<texturefocus>-</texturefocus>
-		<textureradioonfocus colordiffuse="PrimaryColor">dialogs/RadioOnFO.png</textureradioonfocus>
+		<textureradioonfocus colordiffuse="PrimaryTexture">dialogs/RadioOnFO.png</textureradioonfocus>
 		<textureradioonnofocus>dialogs/RadioOnNF.png</textureradioonnofocus>
-		<textureradioofffocus colordiffuse="PrimaryColor">dialogs/RadioOffFO.png</textureradioofffocus>
+		<textureradioofffocus colordiffuse="PrimaryTexture">dialogs/RadioOffFO.png</textureradioofffocus>
 		<textureradiooffnofocus>dialogs/RadioOffNF.png</textureradiooffnofocus>
 		<pulseonselect>false</pulseonselect>
 	</default>
@@ -87,8 +87,8 @@
 		<texturefocus>-</texturefocus>
 		<textureup>dialogs/SpinUpNF.png</textureup>
 		<texturedown>dialogs/SpinDownNF.png</texturedown>
-		<textureupfocus colordiffuse="PrimaryColor">dialogs/SpinUpFO.png</textureupfocus>
-		<texturedownfocus colordiffuse="PrimaryColor">dialogs/SpinDownFO.png</texturedownfocus>
+		<textureupfocus colordiffuse="PrimaryTexture">dialogs/SpinUpFO.png</textureupfocus>
+		<texturedownfocus colordiffuse="PrimaryTexture">dialogs/SpinDownFO.png</texturedownfocus>
 		<reverse>yes</reverse>
 		<pulseonselect>false</pulseonselect>
 	</default>
@@ -106,8 +106,8 @@
 		<spinheight>21</spinheight>
 		<textureup>dialogs/SpinUpNF.png</textureup>
 		<texturedown>dialogs/SpinDownNF.png</texturedown>
-		<textureupfocus colordiffuse="PrimaryColor">dialogs/SpinUpFO.png</textureupfocus>
-		<texturedownfocus colordiffuse="PrimaryColor">dialogs/SpinDownFO.png</texturedownfocus>
+		<textureupfocus colordiffuse="PrimaryTexture">dialogs/SpinUpFO.png</textureupfocus>
+		<texturedownfocus colordiffuse="PrimaryTexture">dialogs/SpinDownFO.png</texturedownfocus>
 		<reverse>yes</reverse>
 		<pulseonselect>false</pulseonselect>
 	</default>

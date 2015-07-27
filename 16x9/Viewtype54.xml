@@ -190,7 +190,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 						<visible>!StringCompare(ListItem.Label,..)</visible>
 					</control>
@@ -208,7 +208,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="2004" type="button">
@@ -226,7 +226,7 @@
 						<textoffsetx>20</textoffsetx>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
-						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="2005" type="button">
@@ -244,7 +244,7 @@
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>!StringCompare(Playlist.Length(music),0)</visible>
-						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
 					</control>
 					<control id="20" type="togglebutton">
@@ -264,9 +264,9 @@
 						<focusedcolor>ff222222</focusedcolor>
 						<visible>Control.IsEnabled(20)</visible>
 						<usealttexture>Library.IsScanningMusic</usealttexture>
-						<texturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</texturefocus>
+						<texturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</texturefocus>
 						<texturenofocus border="3,3,6,6">views/button_nf.png</texturenofocus>
-						<alttexturefocus border="3,5,6,8" colordiffuse="PrimaryColor">views/button_fo.png</alttexturefocus>
+						<alttexturefocus border="3,5,6,8" colordiffuse="PrimaryTexture">views/button_fo.png</alttexturefocus>
 						<alttexturenofocus border="3,3,6,6">views/button_nf.png</alttexturenofocus>
 					</control>
 				</control>
@@ -312,7 +312,7 @@
 						<onright>50</onright>
 						<onclick>RunScript(script.toolbox,info=textviewer,header=$INFO[ListItem.Label],text='"$INFO[ListItem.Label2]"')</onclick>
 						<visible>Control.IsVisible(98)</visible>
-						<texturefocus colordiffuse="PrimaryColor">views/more_fo.png</texturefocus>
+						<texturefocus colordiffuse="PrimaryTexture">views/more_fo.png</texturefocus>
 						<texturenofocus>views/more_nf.png</texturenofocus>
 						<visible>!Window.IsVisible(textviewer)</visible>
 					</control>

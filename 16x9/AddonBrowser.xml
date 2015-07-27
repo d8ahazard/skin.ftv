@@ -537,7 +537,7 @@
 						<onright>9000</onright>
 						<onclick>SetFocus(4000)</onclick>
 						<include>DialogVideoInfoAnimation</include>
-						<texturefocus colordiffuse="PrimaryColor">views/more_fo.png</texturefocus>
+						<texturefocus colordiffuse="PrimaryTexture">views/more_fo.png</texturefocus>
 						<texturenofocus>views/more_nf.png</texturenofocus>
 						<visible>Control.IsVisible(96)</visible>
 					</control>
@@ -594,7 +594,7 @@
 						<radioheight>40</radioheight>
 						<radioposx>235</radioposx>
 						<label>25000</label>
-						<texturefocus border="8" colordiffuse="PrimaryColor">dialogs/DialogButtonFO.png</texturefocus>
+						<texturefocus border="8" colordiffuse="PrimaryTexture">dialogs/DialogButtonFO.png</texturefocus>
 						<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
 						<textureradioonfocus>-</textureradioonfocus>
 						<textureradioonnofocus>-</textureradioonnofocus>
@@ -617,7 +617,7 @@
 						<radioheight>40</radioheight>
 						<radioposx>235</radioposx>
 						<label>25001</label>
-						<texturefocus border="8" colordiffuse="PrimaryColor">dialogs/DialogButtonFO.png</texturefocus>
+						<texturefocus border="8" colordiffuse="PrimaryTexture">dialogs/DialogButtonFO.png</texturefocus>
 						<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
 						<textureradioonfocus>-</textureradioonfocus>
 						<textureradioonnofocus>-</textureradioonnofocus>
@@ -640,7 +640,7 @@
 						<radioheight>40</radioheight>
 						<radioposx>235</radioposx>
 						<label>24999</label>
-						<texturefocus border="8" colordiffuse="PrimaryColor">dialogs/DialogButtonFO.png</texturefocus>
+						<texturefocus border="8" colordiffuse="PrimaryTexture">dialogs/DialogButtonFO.png</texturefocus>
 						<texturenofocus border="8">dialogs/DialogButtonNF.png</texturenofocus>
 						<textureradioonfocus>-</textureradioonfocus>
 						<textureradioonnofocus>-</textureradioonnofocus>

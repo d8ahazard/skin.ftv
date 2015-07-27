@@ -4,6 +4,7 @@
 	<color name="DisabledColor">ff000000</color>
 	<color name="InvalidColor">ffa10000</color>
 	<color name="PrimaryColor">ff4ba0ff</color>
-	<color name="CategoryColor">ff173558</color>
+	<color name="CategoryColor">ff2c323e</color>
+	<color name="PrimaryTexture">ff366fff</color>
 
 </colors>

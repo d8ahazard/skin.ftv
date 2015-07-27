@@ -355,9 +355,9 @@
 					<radioposy>13</radioposy>
 					<radiowidth>100</radiowidth>
 					<radioheight>58</radioheight>
-					<textureradioonfocus colordiffuse="PrimaryColor">dialogs/RadioOnFO.png</textureradioonfocus>
+					<textureradioonfocus colordiffuse="PrimaryTexture">dialogs/RadioOnFO.png</textureradioonfocus>
 					<textureradioonnofocus>dialogs/RadioOnNFDark.png</textureradioonnofocus>
-					<textureradioofffocus colordiffuse="PrimaryColor">dialogs/RadioOffFO.png</textureradioofffocus>
+					<textureradioofffocus colordiffuse="PrimaryTexture">dialogs/RadioOffFO.png</textureradioofffocus>
 					<textureradiooffnofocus>dialogs/RadioOffNFDark.png</textureradiooffnofocus>
 					<label>20096</label>
 				</control>
