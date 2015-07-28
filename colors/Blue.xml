@@ -6,5 +6,6 @@
 	<color name="PrimaryColor">ff4ba0ff</color>
 	<color name="CategoryColor">ff2c323e</color>
 	<color name="PrimaryTexture">ff366fff</color>
+	<color name="SecondaryTexture">ff0078ff</color>
 
 </colors>
